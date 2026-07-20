@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /logo.html
+
+Sitemap: https://daisysource.vip/sitemap.xml
