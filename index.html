@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daisy Source — Premium Lash Supply Chain Partner</title>
+<link rel="icon" type="image/svg+xml" href="assets/logo-a-icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --cream: #faf6f0;
+    --cream-2: #f3ece2;
+    --ink: #231c15;
+    --ink-soft: #5c5248;
+    --bronze: #b0824f;
+    --bronze-deep: #8f6534;
+    --blush: #e9d5c3;
+    --line: #e2d8ca;
+    --white: #fffdf9;
+    --radius: 20px;
+    --serif: "Fraunces", Georgia, serif;
+    --sans: "Inter", -apple-system, sans-serif;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: var(--sans);
+    background: var(--cream);
+    color: var(--ink);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  img { max-width: 100%; display: block; }
+  a { color: inherit; text-decoration: none; }
+  .wrap { max-width: 1200px; margin: 0 auto; padding: 0 32px; }
+
+  /* ---------- announcement ---------- */
+  .announce {
+    background: var(--ink);
+    color: var(--cream);
+    text-align: center;
+    font-size: 12.5px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    padding: 9px 16px;
+  }
+  .announce b { color: var(--blush); font-weight: 600; }
+  .announce svg { vertical-align: -1px; margin: 0 10px; opacity: .8; }
+
+  /* ---------- nav ---------- */
+  header {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(250,246,240,.97);
+    border-bottom: 1px solid var(--line);
+  }
+  .nav {
+    display: flex; align-items: center; justify-content: space-between;
+    height: 72px;
+  }
+  .logo {
+    font-family: var(--serif);
+    font-size: 24px; font-weight: 600; letter-spacing: .02em;
+    display: inline-flex; align-items: center; gap: 10px;
+  }
+  .logo em { color: var(--bronze); font-style: italic; }
+  .logo .logo-mark { color: var(--ink); flex: none; }
+  .wm { position: absolute; pointer-events: none; }
+  .nav-links { display: flex; gap: 34px; font-size: 14px; font-weight: 500; color: var(--ink-soft); }
+  .nav-links a:hover { color: var(--ink); }
+  .btn {
+    display: inline-block;
+    background: var(--ink); color: var(--cream);
+    font-size: 14px; font-weight: 600;
+    padding: 13px 28px; border-radius: 999px;
+    transition: background .2s, transform .2s;
+  }
+  .btn:hover { background: var(--bronze-deep); transform: translateY(-1px); }
+  .btn.light { background: var(--cream); color: var(--ink); }
+  .btn.light:hover { background: var(--blush); }
+  .btn.outline {
+    background: transparent; color: var(--ink);
+    border: 1.5px solid var(--ink);
+  }
+  .btn.outline:hover { background: var(--ink); color: var(--cream); }
+
+  /* ---------- hero ---------- */
+  .hero { padding: 88px 0 72px; overflow: hidden; position: relative; }
+  .hero-grid {
+    display: grid; grid-template-columns: 1.05fr .95fr;
+    gap: 64px; align-items: center;
+  }
+  .eyebrow {
+    font-size: 12px; font-weight: 600;
+    letter-spacing: .22em; text-transform: uppercase;
+    color: var(--bronze);
+    margin-bottom: 20px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .eyebrow::before { content: ""; width: 36px; height: 1px; background: var(--bronze); }
+  h1 {
+    font-family: var(--serif);
+    font-size: clamp(44px, 5.2vw, 68px);
+    font-weight: 330; line-height: 1.06;
+    letter-spacing: -.01em;
+    margin-bottom: 26px;
+  }
+  h1 em { font-style: italic; color: var(--bronze-deep); }
+  .hero p.lede {
+    font-size: 17px; color: var(--ink-soft);
+    max-width: 480px; margin-bottom: 36px;
+  }
+  .hero-ctas { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+  .hero-note { font-size: 13px; color: var(--ink-soft); margin-top: 18px; }
+  .hero-note b { color: var(--ink); }
+
+  .hero-visual { position: relative; }
+  .hero-img {
+    aspect-ratio: 4/4.6;
+    border-radius: 200px 200px var(--radius) var(--radius);
+    background:
+      radial-gradient(120% 90% at 70% 20%, #f0dfcc 0%, #ddbf9d 45%, #b98d5e 100%);
+    position: relative; overflow: hidden;
+    box-shadow: 0 30px 60px -30px rgba(80,55,25,.45);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .hero-img svg { width: 78%; opacity: .9; }
+  .hero-img .photo {
+    position: absolute; inset: 0; width: 100%; height: 100%;
+    object-fit: cover; object-position: 60% 42%;
+  }
+  .hero-img .photo ~ .lash-ph, .hero-img .photo ~ .img-tag { display: none; }
+  .img-tag {
+    position: absolute; bottom: 16px; left: 50%; transform: translateX(-50%);
+    background: rgba(35,28,21,.55); color: var(--cream);
+    font-size: 11px; letter-spacing: .1em; text-transform: uppercase;
+    padding: 6px 14px; border-radius: 999px; white-space: nowrap;
+    backdrop-filter: blur(4px);
+  }
+  .float-card {
+    position: absolute;
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 16px 20px;
+    box-shadow: 0 16px 40px -18px rgba(80,55,25,.35);
+  }
+  .float-card .num { font-family: var(--serif); font-size: 26px; font-weight: 600; }
+  .float-card .lbl { font-size: 11.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); }
+  .fc1 { top: 8%; left: -48px; }
+  .fc2 { bottom: 12%; right: -36px; }
+
+  /* ---------- marquee stats ---------- */
+  .stats {
+    background: var(--ink); color: var(--cream); padding: 64px 0;
+    position: relative; overflow: hidden;
+    border-top: 1px solid rgba(176,130,79,.5);
+    border-bottom: 1px solid rgba(176,130,79,.5);
+  }
+  .stats-grid {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px;
+  }
+  .stat { text-align: center; position: relative; }
+  .stat + .stat::before {
+    content: ""; position: absolute; left: -20px; top: 12%;
+    height: 76%; width: 1px; background: rgba(250,246,240,.15);
+  }
+  .stat .num {
+    font-family: var(--serif); font-weight: 500;
+    font-size: clamp(38px, 4vw, 54px); line-height: 1.1;
+    color: var(--blush);
+  }
+  .stat .num sup { font-size: .45em; color: var(--bronze); top: -.9em; }
+  .stat .lbl {
+    margin-top: 10px; font-size: 12.5px; letter-spacing: .14em;
+    text-transform: uppercase; color: rgba(250,246,240,.65);
+  }
+
+  /* ---------- section scaffolding ---------- */
+  section { padding: 96px 0; }
+  .sec-head { max-width: 640px; margin-bottom: 56px; }
+  .sec-head.center { margin-left: auto; margin-right: auto; text-align: center; }
+  .sec-head.center .eyebrow { justify-content: center; }
+  .sec-head.center .eyebrow::before { display: none; }
+  h2 {
+    font-family: var(--serif);
+    font-size: clamp(32px, 3.6vw, 46px);
+    font-weight: 370; line-height: 1.12; letter-spacing: -.01em;
+  }
+  h2 em { font-style: italic; color: var(--bronze-deep); }
+  .sec-head p { margin-top: 16px; color: var(--ink-soft); font-size: 16px; }
+
+  /* ---------- advantages ---------- */
+  .adv-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .adv-card {
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 36px 30px;
+    transition: transform .25s, box-shadow .25s;
+  }
+  .adv-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 24px 48px -24px rgba(80,55,25,.28);
+  }
+  .adv-icon {
+    width: 52px; height: 52px; border-radius: 14px;
+    background: var(--cream-2);
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 22px;
+  }
+  .adv-icon svg { width: 26px; height: 26px; stroke: var(--bronze-deep); }
+  .adv-card h3 { font-family: var(--serif); font-size: 21px; font-weight: 600; margin-bottom: 10px; }
+  .adv-card p { font-size: 14.5px; color: var(--ink-soft); }
+  .adv-card .metric {
+    margin-top: 18px; padding-top: 16px; border-top: 1px dashed var(--line);
+    font-size: 13px; color: var(--bronze-deep); font-weight: 600;
+    letter-spacing: .04em;
+  }
+
+  /* ---------- services (OEM / ODM) ---------- */
+  .services { padding-top: 0; }
+  .svc-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  .svc-card {
+    background: var(--white); border: 1px solid var(--line);
+    border-radius: var(--radius); padding: 46px 42px;
+    position: relative; overflow: hidden;
+    display: flex; flex-direction: column; align-items: flex-start;
+  }
+  .svc-card.dark { background: var(--ink); border-color: var(--ink); color: var(--cream); }
+  .svc-tag {
+    display: inline-block; font-size: 12px; font-weight: 600;
+    letter-spacing: .22em; text-transform: uppercase;
+    color: var(--bronze-deep); border: 1px solid var(--bronze);
+    border-radius: 999px; padding: 7px 16px; margin-bottom: 24px;
+  }
+  .svc-card.dark .svc-tag { color: var(--blush); }
+  .svc-card h3 { font-family: var(--serif); font-size: 27px; font-weight: 500; margin-bottom: 8px; }
+  .svc-tagline {
+    font-family: var(--serif); font-style: italic; font-size: 16.5px;
+    color: var(--bronze-deep); margin-bottom: 26px;
+  }
+  .svc-card.dark .svc-tagline { color: var(--blush); }
+  .svc-list { list-style: none; margin-bottom: 26px; width: 100%; }
+  .svc-list li {
+    display: flex; gap: 12px; align-items: flex-start;
+    padding: 11px 0; font-size: 14.5px; color: var(--ink-soft);
+    border-bottom: 1px dashed var(--line);
+  }
+  .svc-card.dark .svc-list li { color: rgba(250,246,240,.75); border-color: rgba(250,246,240,.16); }
+  .svc-list svg { flex: none; margin-top: 4px; }
+  .svc-list b { color: var(--ink); font-weight: 600; }
+  .svc-card.dark .svc-list b { color: var(--cream); }
+  .svc-best { font-size: 13px; color: var(--ink-soft); margin-bottom: 30px; }
+  .svc-best b { color: var(--bronze-deep); font-weight: 600; letter-spacing: .04em; }
+  .svc-card.dark .svc-best { color: rgba(250,246,240,.6); }
+  .svc-card.dark .svc-best b { color: var(--blush); }
+  .svc-card .btn { margin-top: auto; }
+  .svc-card.dark .btn { background: var(--bronze); }
+  .svc-card.dark .btn:hover { background: var(--bronze-deep); }
+
+  /* ---------- hero product ---------- */
+  .product { background: var(--cream-2); }
+  .prod-grid {
+    display: grid; grid-template-columns: .95fr 1.05fr;
+    gap: 72px; align-items: center;
+  }
+  .prod-visual { position: relative; }
+  .prod-img {
+    aspect-ratio: 1/1.08;
+    border-radius: var(--radius);
+    background:
+      radial-gradient(100% 100% at 30% 20%, #3a3129 0%, #231c15 70%);
+    display: flex; align-items: center; justify-content: center;
+    position: relative; overflow: hidden;
+    box-shadow: 0 30px 60px -28px rgba(35,28,21,.5);
+  }
+  .prod-img svg { width: 70%; }
+  .price-badge {
+    position: absolute; top: -22px; right: -22px;
+    width: 118px; height: 118px; border-radius: 50%;
+    background: var(--bronze); color: var(--white);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    text-align: center; transform: rotate(8deg);
+    box-shadow: 0 14px 30px -12px rgba(143,101,52,.6);
+  }
+  .price-badge .from { font-size: 10px; letter-spacing: .14em; text-transform: uppercase; opacity: .85; }
+  .price-badge .price { font-family: var(--serif); font-size: 30px; font-weight: 600; line-height: 1.1; }
+  .price-badge .unit { font-size: 10.5px; opacity: .85; }
+
+  .prod-copy .pill {
+    display: inline-block; background: var(--ink); color: var(--cream);
+    font-size: 11.5px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase;
+    padding: 7px 16px; border-radius: 999px; margin-bottom: 22px;
+  }
+  .prod-copy h2 { margin-bottom: 18px; }
+  .prod-copy > p { color: var(--ink-soft); margin-bottom: 28px; max-width: 480px; }
+  .prod-list { list-style: none; margin-bottom: 34px; }
+  .prod-list li {
+    display: flex; gap: 14px; align-items: flex-start;
+    padding: 13px 0; border-bottom: 1px solid var(--line);
+    font-size: 15px;
+  }
+  .prod-list li:first-child { border-top: 1px solid var(--line); }
+  .check {
+    flex: none; width: 22px; height: 22px; border-radius: 50%;
+    background: var(--bronze); color: var(--white);
+    font-size: 12px; display: flex; align-items: center; justify-content: center;
+    margin-top: 2px;
+  }
+  .prod-list b { font-weight: 600; }
+  .prod-list span.sub { color: var(--ink-soft); }
+
+  /* ---------- collections ---------- */
+  .col-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+  .col-card {
+    border-radius: var(--radius); overflow: hidden;
+    position: relative; aspect-ratio: 3/3.8;
+    display: flex; align-items: flex-end;
+    transition: transform .25s;
+  }
+  .col-card:hover { transform: translateY(-6px); }
+  .col-card .bg { position: absolute; inset: 0; }
+  .c1 .bg { background: linear-gradient(160deg, #e9d5c3, #c9a071); }
+  .c2 .bg { background: linear-gradient(160deg, #ded6ce, #9a8d80); }
+  .c3 .bg { background: linear-gradient(160deg, #d9c6bb, #8f6f61); }
+  .c4 .bg { background: linear-gradient(160deg, #4a4038, #231c15); }
+  .col-card .info {
+    position: relative; width: 100%;
+    padding: 22px; color: var(--white);
+    background: linear-gradient(transparent, rgba(20,15,10,.55));
+  }
+  .col-card h3 { font-family: var(--serif); font-size: 20px; font-weight: 600; }
+  .col-card p { font-size: 12.5px; opacity: .85; letter-spacing: .06em; text-transform: uppercase; margin-top: 4px; }
+  .col-card .lash-mark {
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -70%); width: 62%;
+    opacity: .85;
+  }
+
+  /* ---------- process ---------- */
+  .process { background: var(--white); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .step-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; }
+  .step { position: relative; padding-top: 26px; }
+  .step .no {
+    font-family: var(--serif); font-style: italic;
+    font-size: 52px; color: var(--blush);
+    position: absolute; top: -14px; left: 0; line-height: 1;
+  }
+  .step h3 { font-family: var(--serif); font-size: 19px; font-weight: 600; margin-bottom: 8px; position: relative; }
+  .step p { font-size: 14px; color: var(--ink-soft); position: relative; }
+  .step::after {
+    content: "→"; position: absolute; right: -22px; top: 34px;
+    color: var(--bronze); font-size: 18px;
+  }
+  .step:last-child::after { display: none; }
+
+  /* ---------- brands ---------- */
+  .brands { text-align: center; }
+  .brand-row {
+    display: flex; justify-content: center; align-items: center;
+    gap: 56px; flex-wrap: wrap; margin-top: 44px;
+  }
+  .brand-logo {
+    font-family: var(--serif); font-size: 21px; color: var(--ink-soft);
+    opacity: .55; letter-spacing: .04em;
+    transition: opacity .2s;
+    font-style: italic;
+  }
+  .brand-logo:hover { opacity: 1; }
+
+  /* ---------- quote ---------- */
+  .quote { background: var(--cream-2); text-align: center; }
+  .quote blockquote {
+    font-family: var(--serif); font-size: clamp(24px, 2.8vw, 34px);
+    font-weight: 400; line-height: 1.35; font-style: italic;
+    max-width: 820px; margin: 0 auto 28px;
+  }
+  .quote blockquote::before { content: "“"; color: var(--bronze); }
+  .quote blockquote::after { content: "”"; color: var(--bronze); }
+  .quote cite {
+    font-style: normal; font-size: 13px; letter-spacing: .14em;
+    text-transform: uppercase; color: var(--ink-soft);
+  }
+  .quote cite b { color: var(--ink); display: block; font-size: 14px; letter-spacing: .1em; }
+
+  /* ---------- CTA ---------- */
+  .cta-band { padding: 0 0 96px; }
+  .cta-inner {
+    background: var(--ink); color: var(--cream);
+    border-radius: 28px;
+    padding: 72px 64px;
+    display: grid; grid-template-columns: 1.2fr .8fr; gap: 48px; align-items: center;
+    position: relative; overflow: hidden;
+  }
+  .cta-inner::after {
+    content: ""; position: absolute; right: -80px; top: -80px;
+    width: 320px; height: 320px; border-radius: 50%;
+    background: radial-gradient(circle, rgba(176,130,79,.35), transparent 70%);
+  }
+  .cta-inner h2 { color: var(--cream); }
+  .cta-inner p { color: rgba(250,246,240,.7); margin-top: 14px; max-width: 460px; }
+  .cta-form { display: flex; flex-direction: column; gap: 12px; position: relative; }
+  .cta-form input {
+    background: rgba(250,246,240,.08);
+    border: 1px solid rgba(250,246,240,.25);
+    border-radius: 12px; padding: 15px 18px;
+    color: var(--cream); font-size: 14px; font-family: var(--sans);
+    outline: none;
+  }
+  .cta-form input::placeholder { color: rgba(250,246,240,.45); }
+  .cta-form input:focus { border-color: var(--bronze); }
+  .cta-form .btn { border: none; cursor: pointer; margin-top: 6px; background: var(--bronze); }
+  .cta-form .btn:hover { background: var(--bronze-deep); }
+  .cta-form small { color: rgba(250,246,240,.5); font-size: 11.5px; text-align: center; }
+
+  /* ---------- footer ---------- */
+  footer { background: var(--cream); border-top: 1px solid var(--line); padding: 64px 0 32px; overflow: hidden; }
+  .mega {
+    font-family: var(--serif); font-weight: 300;
+    font-size: clamp(52px, 8.6vw, 124px);
+    letter-spacing: .05em; line-height: 1; text-align: center;
+    color: var(--blush); white-space: nowrap;
+    margin: 16px 0 56px;
+  }
+  .mega em { font-style: italic; color: var(--bronze); opacity: .55; }
+  .foot-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 48px; }
+  .foot-grid .logo { margin-bottom: 14px; }
+  .foot-grid p { font-size: 13.5px; color: var(--ink-soft); max-width: 280px; }
+  .foot-col h4 {
+    font-size: 12px; letter-spacing: .16em; text-transform: uppercase;
+    color: var(--bronze-deep); margin-bottom: 16px;
+  }
+  .foot-col a { display: block; font-size: 14px; color: var(--ink-soft); padding: 5px 0; }
+  .foot-col a:hover { color: var(--ink); }
+  .foot-bottom {
+    border-top: 1px solid var(--line); padding-top: 24px;
+    display: flex; justify-content: space-between; font-size: 12.5px; color: var(--ink-soft);
+  }
+
+  /* ---------- responsive ---------- */
+  @media (max-width: 960px) {
+    .hero-grid, .prod-grid, .cta-inner { grid-template-columns: 1fr; }
+    .stats-grid, .step-grid, .col-grid { grid-template-columns: repeat(2, 1fr); }
+    .svc-grid { grid-template-columns: 1fr; }
+    .adv-grid { grid-template-columns: 1fr; }
+    .stat + .stat::before { display: none; }
+    .step::after { display: none; }
+    .fc1 { left: 8px; } .fc2 { right: 8px; }
+    .nav-links { display: none; }
+    .foot-grid { grid-template-columns: 1fr 1fr; }
+    .cta-inner { padding: 48px 32px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- brand mark: shared shapes -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <path id="petal" d="M0,-11 C4.5,-16 5.5,-30 0.5,-41 C-5,-31 -4.5,-16 0,-11 Z"/>
+    <g id="daisy">
+      <use href="#petal"/>
+      <use href="#petal" transform="rotate(30)"/>
+      <use href="#petal" transform="rotate(60)"/>
+      <use href="#petal" transform="rotate(90)"/>
+      <use href="#petal" transform="rotate(120)"/>
+      <use href="#petal" transform="rotate(150)"/>
+      <use href="#petal" transform="rotate(180)"/>
+      <use href="#petal" transform="rotate(210)"/>
+      <use href="#petal" transform="rotate(240)"/>
+      <use href="#petal" transform="rotate(270)"/>
+      <use href="#petal" transform="rotate(300)"/>
+      <use href="#petal" transform="rotate(330)"/>
+    </g>
+  </defs>
+</svg>
+
+<div class="announce">
+  Trusted lash supply chain since 2014<svg width="9" height="9" viewBox="-46 -46 92 92"><use href="#daisy" fill="#e9d5c3"/></svg><b>Start your brand from $500</b><svg width="9" height="9" viewBox="-46 -46 92 92"><use href="#daisy" fill="#e9d5c3"/></svg>Ships worldwide
+</div>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#"><svg class="logo-mark" width="30" height="30" viewBox="-46 -46 92 92"><use href="#daisy" fill="currentColor"/><circle r="8" fill="#b0824f"/></svg><span>Daisy <em>Source</em></span></a>
+    <nav class="nav-links">
+      <a href="#why">Why Us</a>
+      <a href="#services">OEM / ODM</a>
+      <a href="#starter">Starter Kit</a>
+      <a href="#collections">Collections</a>
+      <a href="#process">How It Works</a>
+      <a href="#brands">Partners</a>
+    </nav>
+    <a class="btn" href="#contact">Get a Quote</a>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <svg class="wm" style="top:-70px; left:-90px; width:340px; opacity:.09" viewBox="-50 -50 100 100"><use href="#daisy" fill="none" stroke="#8f6534" stroke-width="1"/></svg>
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">Lash Manufacturing · OEM / ODM</div>
+      <h1>The supply chain behind the world's <em>favorite lashes</em></h1>
+      <p class="lede">From daily new-style R&amp;D to global fulfillment, Daisy Source powers beauty brands with factory-direct pricing, boutique-level quality and speed no trading company can match.</p>
+      <div class="hero-ctas">
+        <a class="btn" href="#starter">Launch Your Brand — $500</a>
+        <a class="btn outline" href="#why">Explore Our Factory</a>
+      </div>
+      <p class="hero-note"><b>Free sample pack</b> for qualified brands · Reply within 12 hours</p>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-img">
+        <img class="photo" src="assets/hero-eye.jpg" alt="Close-up of an eye wearing dramatic handcrafted lashes" onerror="this.remove()">
+        <svg class="wm" style="top:-46px; right:-56px; width:230px; opacity:.3; z-index:2" viewBox="-50 -50 100 100"><use href="#daisy" fill="none" stroke="#fffdf9" stroke-width="1"/></svg>
+        <!-- fallback lash illustration (hidden when photo loads) -->
+        <svg class="lash-ph" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M30 140 Q150 60 270 140" stroke="#231c15" stroke-width="7" stroke-linecap="round"/>
+          <g stroke="#231c15" stroke-width="4.5" stroke-linecap="round">
+            <path d="M45 132 Q40 100 28 82"/>
+            <path d="M70 118 Q68 84 58 62"/>
+            <path d="M100 108 Q100 70 94 46"/>
+            <path d="M130 102 Q133 62 130 36"/>
+            <path d="M160 100 Q166 60 168 34"/>
+            <path d="M190 104 Q199 66 206 44"/>
+            <path d="M220 112 Q232 78 244 58"/>
+            <path d="M248 126 Q262 96 274 80"/>
+          </g>
+        </svg>
+        <div class="img-tag">Hero image placeholder</div>
+      </div>
+      <div class="float-card fc1">
+        <div class="num">10M+</div>
+        <div class="lbl">Boxes / Year</div>
+      </div>
+      <div class="float-card fc2">
+        <div class="num">1<span style="font-size:.5em">/day</span></div>
+        <div class="lbl">New Style Developed</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATS ============ -->
+<section class="stats" id="stats" style="padding:64px 0;">
+  <svg class="wm" style="top:-60px; right:-70px; width:280px; opacity:.13; transform:rotate(15deg)" viewBox="-50 -50 100 100"><use href="#daisy" fill="none" stroke="#e9d5c3" stroke-width="1"/></svg>
+  <div class="wrap stats-grid">
+    <div class="stat">
+      <div class="num">10M<sup>+</sup></div>
+      <div class="lbl">Boxes shipped annually</div>
+    </div>
+    <div class="stat">
+      <div class="num">800<sup>+</sup></div>
+      <div class="lbl">Brand partners worldwide</div>
+    </div>
+    <div class="stat">
+      <div class="num">365<sup>+</sup></div>
+      <div class="lbl">New styles developed / year</div>
+    </div>
+    <div class="stat">
+      <div class="num">48<sup>h</sup></div>
+      <div class="lbl">Sample turnaround</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ADVANTAGES ============ -->
+<section id="why">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">Why Daisy Source</div>
+      <h2>Not a vendor. <em>Your supply chain department.</em></h2>
+      <p>Twelve years of lash-only manufacturing, vertically integrated from raw fiber to retail-ready packaging.</p>
+    </div>
+    <div class="adv-grid">
+      <div class="adv-card">
+        <div class="adv-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round"><path d="M12 3v3M5.6 5.6l2.1 2.1M3 12h3M5.6 18.4l2.1-2.1M12 21v-3M18.4 18.4l-2.1-2.1M21 12h-3M18.4 5.6l-2.1 2.1"/><circle cx="12" cy="12" r="3.2"/></svg>
+        </div>
+        <h3>A New Style Every Day</h3>
+        <p>Our in-house design lab releases fresh lash styles daily — you get first access before they hit the open market.</p>
+        <div class="metric">365+ new SKUs per year</div>
+      </div>
+      <div class="adv-card">
+        <div class="adv-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-6 9 6v11a1 1 0 01-1 1H4a1 1 0 01-1-1V9z"/><path d="M9 21V12h6v9"/></svg>
+        </div>
+        <h3>Factory-Direct Scale</h3>
+        <p>Two owned factories, 600+ trained artisans, and QC on every single pair. No middlemen, no markup, no surprises.</p>
+        <div class="metric">10M+ boxes shipped / year</div>
+      </div>
+      <div class="adv-card">
+        <div class="adv-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3.6 9h16.8M3.6 15h16.8M12 3a15 15 0 010 18M12 3a15 15 0 000 18"/></svg>
+        </div>
+        <h3>Global Brand Experience</h3>
+        <p>We already produce for 800+ brands across the US, EU, Middle East and Latin America — we know your market's compliance and taste.</p>
+        <div class="metric">Exported to 60+ countries</div>
+      </div>
+      <div class="adv-card">
+        <div class="adv-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L4.5 13.5H11L9.5 22 19 10h-6.5L13 2z"/></svg>
+        </div>
+        <h3>Speed as a Service</h3>
+        <p>Samples in 48 hours, bulk orders in 15 days, private label in 20. Your launch calendar is our production deadline.</p>
+        <div class="metric">15-day bulk lead time</div>
+      </div>
+      <div class="adv-card">
+        <div class="adv-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.6-9.5-9A5.5 5.5 0 0112 6.5 5.5 5.5 0 0121.5 12c-2.5 4.4-9.5 9-9.5 9z"/></svg>
+        </div>
+        <h3>Cruelty-Free Materials</h3>
+        <p>Premium Korean PBT silk, vegan faux mink and certified cruelty-free processes. Documentation ready for your retail channels.</p>
+        <div class="metric">100% vegan-option catalog</div>
+      </div>
+      <div class="adv-card">
+        <div class="adv-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a4 4 0 018 0v2"/></svg>
+        </div>
+        <h3>One-Box Brand Building</h3>
+        <p>Custom trays, magnetic boxes, logo printing, barcode &amp; compliance labels — everything retail-ready out of one door.</p>
+        <div class="metric">Full private-label service</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES: OEM / ODM ============ -->
+<section class="services" id="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">What We Do</div>
+      <h2>OEM / <em>ODM</em></h2>
+      <p>Bring us a finished design or just an idea — either path ends with a retail-ready, luxury-grade lash line that belongs to you.</p>
+    </div>
+    <div class="svc-grid">
+
+      <div class="svc-card">
+        <span class="svc-tag">OEM</span>
+        <h3>Private-Label Manufacturing</h3>
+        <p class="svc-tagline">You own the design — we build it to spec.</p>
+        <ul class="svc-list">
+          <li><svg width="12" height="12" viewBox="-46 -46 92 92"><use href="#daisy" fill="#b0824f"/></svg><div><b>Made to your exact specs</b> — fiber, curl, band, length and density matched pair-for-pair</div></li>
+          <li><svg width="12" height="12" viewBox="-46 -46 92 92"><use href="#daisy" fill="#b0824f"/></svg><div><b>Your packaging, executed</b> — logo printing, custom trays, barcodes &amp; compliance labels</div></li>
+          <li><svg width="12" height="12" viewBox="-46 -46 92 92"><use href="#daisy" fill="#b0824f"/></svg><div><b>Consistent at scale</b> — pair-by-pair QC and a 15-day bulk lead time, order after order</div></li>
+        </ul>
+        <p class="svc-best"><b>BEST FOR</b> — established brands scaling production without losing quality.</p>
+        <a class="btn" href="#contact">Start an OEM Project</a>
+      </div>
+
+      <div class="svc-card dark">
+        <svg class="wm" style="right:-54px; top:-54px; width:210px; opacity:.13" viewBox="-50 -50 100 100"><use href="#daisy" fill="none" stroke="#e9d5c3" stroke-width="1"/></svg>
+        <span class="svc-tag">ODM</span>
+        <h3>Design &amp; Development</h3>
+        <p class="svc-tagline">An idea is enough — our lab does the rest.</p>
+        <ul class="svc-list">
+          <li><svg width="12" height="12" viewBox="-46 -46 92 92"><use href="#daisy" fill="#b0824f"/></svg><div><b>In-house R&amp;D, daily</b> — first access to 365+ new styles a year before the open market</div></li>
+          <li><svg width="12" height="12" viewBox="-46 -46 92 92"><use href="#daisy" fill="#b0824f"/></svg><div><b>Exclusive to your brand</b> — signature styles and custom molds reserved under your name</div></li>
+          <li><svg width="12" height="12" viewBox="-46 -46 92 92"><use href="#daisy" fill="#b0824f"/></svg><div><b>Concept to shelf</b> — packaging design, product photography and launch assets included</div></li>
+        </ul>
+        <p class="svc-best"><b>BEST FOR</b> — brands creating signature, high-end collections from scratch.</p>
+        <a class="btn" href="#contact">Co-Create With Our Lab</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ HERO PRODUCT / STARTER ============ -->
+<section class="product" id="starter">
+  <div class="wrap prod-grid">
+    <div class="prod-visual">
+      <div class="prod-img">
+        <svg viewBox="0 0 300 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="40" y="50" width="220" height="130" rx="14" fill="#f3ece2"/>
+          <rect x="40" y="50" width="220" height="34" rx="14" fill="#e9d5c3"/>
+          <text x="150" y="73" text-anchor="middle" font-family="Georgia" font-style="italic" font-size="17" fill="#8f6534">Your Brand Here</text>
+          <g stroke="#231c15" stroke-width="2.4" stroke-linecap="round">
+            <path d="M70 150 Q95 128 120 150"/><path d="M78 146 Q76 136 71 130"/><path d="M90 139 Q90 128 87 121"/><path d="M103 137 Q105 126 104 119"/><path d="M114 143 Q119 133 123 128"/>
+            <path d="M140 150 Q165 128 190 150"/><path d="M148 146 Q146 136 141 130"/><path d="M160 139 Q160 128 157 121"/><path d="M173 137 Q175 126 174 119"/><path d="M184 143 Q189 133 193 128"/>
+            <path d="M210 150 Q235 128 260 150" opacity=".35"/><path d="M218 146 Q216 136 211 130" opacity=".35"/><path d="M230 139 Q230 128 227 121" opacity=".35"/><path d="M243 137 Q245 126 244 119" opacity=".35"/>
+          </g>
+        </svg>
+        <div class="img-tag">Product photo placeholder</div>
+      </div>
+      <div class="price-badge">
+        <svg width="15" height="15" viewBox="-46 -46 92 92" style="margin-bottom:2px"><use href="#daisy" fill="#fffdf9"/></svg>
+        <span class="from">From</span>
+        <span class="price">$500</span>
+        <span class="unit">full launch kit</span>
+      </div>
+    </div>
+    <div class="prod-copy">
+      <span class="pill"><svg width="12" height="12" viewBox="-46 -46 92 92" style="vertical-align:-1px; margin-right:7px"><use href="#daisy" fill="#e9d5c3"/></svg>Best-Selling Program</span>
+      <h2>The <em>$500 Brand Launch</em> Starter Kit</h2>
+      <p>Everything a new lash brand needs to start selling — without the 5,000-piece minimums. Test the market, learn your customer, scale when ready.</p>
+      <ul class="prod-list">
+        <li><span class="check">✓</span><div><b>300 pairs of best-selling lashes</b> — <span class="sub">choose any 6 styles from our top-50 chart</span></div></li>
+        <li><span class="check">✓</span><div><b>Custom private-label packaging</b> — <span class="sub">your logo, your colors, retail-ready boxes</span></div></li>
+        <li><span class="check">✓</span><div><b>Free design service</b> — <span class="sub">our team designs your box artwork at no charge</span></div></li>
+        <li><span class="check">✓</span><div><b>Marketing asset pack</b> — <span class="sub">product photos &amp; videos shot for your social channels</span></div></li>
+        <li><span class="check">✓</span><div><b>Door-to-door shipping included</b> — <span class="sub">DHL/FedEx to US, EU, AU &amp; more</span></div></li>
+      </ul>
+      <div class="hero-ctas">
+        <a class="btn" href="#contact">Start With $500 →</a>
+        <a class="btn outline" href="#contact">Request Free Samples</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COLLECTIONS ============ -->
+<section id="collections">
+  <div class="wrap">
+    <div class="sec-head center">
+      <div class="eyebrow"><svg width="14" height="14" viewBox="-46 -46 92 92"><use href="#daisy" fill="#b0824f"/></svg>Our Collections</div>
+      <h2>Four lines. <em>Every look.</em></h2>
+      <p>Placeholder categories — swap with real collection photography.</p>
+    </div>
+    <div class="col-grid">
+      <a class="col-card c1" href="#">
+        <div class="bg"></div>
+        <svg class="lash-mark" viewBox="0 0 200 90" fill="none"><path d="M20 70 Q100 20 180 70" stroke="#231c15" stroke-width="5" stroke-linecap="round"/><g stroke="#231c15" stroke-width="3" stroke-linecap="round"><path d="M45 58 Q42 40 34 28"/><path d="M80 48 Q80 28 76 14"/><path d="M120 46 Q124 26 128 12"/><path d="M155 56 Q164 38 172 26"/></g></svg>
+        <div class="info"><h3>Faux Mink</h3><p>Fluffy · 3D · 25 styles</p></div>
+      </a>
+      <a class="col-card c2" href="#">
+        <div class="bg"></div>
+        <svg class="lash-mark" viewBox="0 0 200 90" fill="none"><path d="M20 70 Q100 30 180 70" stroke="#231c15" stroke-width="5" stroke-linecap="round"/><g stroke="#231c15" stroke-width="2.4" stroke-linecap="round"><path d="M40 62 Q38 48 32 38"/><path d="M70 52 Q70 38 66 28"/><path d="M100 50 Q100 34 100 24"/><path d="M130 52 Q134 38 138 28"/><path d="M160 60 Q166 48 172 40"/></g></svg>
+        <div class="info"><h3>Natural Silk</h3><p>Everyday · Wispy · 40 styles</p></div>
+      </a>
+      <a class="col-card c3" href="#">
+        <div class="bg"></div>
+        <svg class="lash-mark" viewBox="0 0 200 90" fill="none"><path d="M20 72 Q100 14 180 72" stroke="#231c15" stroke-width="5" stroke-linecap="round"/><g stroke="#231c15" stroke-width="3.4" stroke-linecap="round"><path d="M48 56 Q44 34 34 18"/><path d="M85 44 Q85 20 80 4"/><path d="M122 44 Q128 20 134 6"/><path d="M158 56 Q168 36 178 22"/></g></svg>
+        <div class="info"><h3>Dramatic 25mm</h3><p>Bold · Stage · 30 styles</p></div>
+      </a>
+      <a class="col-card c4" href="#">
+        <div class="bg"></div>
+        <svg class="lash-mark" viewBox="0 0 200 90" fill="none"><path d="M20 70 Q100 26 180 70" stroke="#e9d5c3" stroke-width="5" stroke-linecap="round"/><g stroke="#e9d5c3" stroke-width="2.6" stroke-linecap="round"><path d="M44 60 Q41 44 34 32"/><path d="M76 50 Q76 32 72 20"/><path d="M108 48 Q110 30 112 18"/><path d="M142 54 Q148 38 154 28"/></g></svg>
+        <div class="info"><h3>Cluster &amp; DIY</h3><p>Segment · Bond &amp; Seal · 20 kits</p></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="process" id="process">
+  <div class="wrap">
+    <div class="sec-head center">
+      <div class="eyebrow"><svg width="14" height="14" viewBox="-46 -46 92 92"><use href="#daisy" fill="#b0824f"/></svg>How It Works</div>
+      <h2>From inquiry to <em>launch in 20 days</em></h2>
+    </div>
+    <div class="step-grid">
+      <div class="step">
+        <div class="no">01</div>
+        <h3>Tell Us Your Vision</h3>
+        <p>Share your market, budget and style direction. We reply within 12 hours with a tailored proposal.</p>
+      </div>
+      <div class="step">
+        <div class="no">02</div>
+        <h3>Sample &amp; Approve</h3>
+        <p>Receive lash samples and packaging mockups in 48 hours. Iterate until it's perfect.</p>
+      </div>
+      <div class="step">
+        <div class="no">03</div>
+        <h3>We Produce</h3>
+        <p>Handcrafted production with pair-by-pair QC. Track progress with weekly photo updates.</p>
+      </div>
+      <div class="step">
+        <div class="no">04</div>
+        <h3>Delivered to Your Door</h3>
+        <p>DDP shipping worldwide. Retail-ready stock lands in 15–20 days from approval.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BRANDS ============ -->
+<section class="brands" id="brands">
+  <div class="wrap">
+    <div class="sec-head center" style="margin-bottom:0;">
+      <div class="eyebrow"><svg width="14" height="14" viewBox="-46 -46 92 92"><use href="#daisy" fill="#b0824f"/></svg>Trusted By</div>
+      <h2>Behind <em>800+ beauty brands</em></h2>
+      <p>Logo wall placeholder — replace with real partner logos.</p>
+    </div>
+    <div class="brand-row">
+      <span class="brand-logo">LUXE LASH CO.</span>
+      <span class="brand-logo">Belle Époque</span>
+      <span class="brand-logo">MIRA Beauty</span>
+      <span class="brand-logo">Fleur &amp; Co</span>
+      <span class="brand-logo">VIVID Cosmetics</span>
+      <span class="brand-logo">Amara Paris</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ QUOTE ============ -->
+<section class="quote">
+  <div class="wrap">
+    <svg width="26" height="26" viewBox="-46 -46 92 92" style="margin-bottom:20px"><use href="#daisy" fill="#b0824f"/></svg>
+    <blockquote>Daisy Source took us from a $500 starter order to 40,000 boxes a year. They operate like our own factory, not a supplier.</blockquote>
+    <cite><b>Placeholder Name</b>Founder, US Lash Brand</cite>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<div class="cta-band" id="contact">
+  <div class="wrap">
+    <div class="cta-inner">
+      <svg class="wm" style="right:-60px; bottom:-80px; width:300px; opacity:.12; transform:rotate(20deg)" viewBox="-50 -50 100 100"><use href="#daisy" fill="none" stroke="#e9d5c3" stroke-width="1"/></svg>
+      <div>
+        <div class="eyebrow" style="color:var(--blush)">Start Today</div>
+        <h2>Your lash brand, <em style="color:var(--blush)">live in 20 days.</em></h2>
+        <p>Tell us where you sell and what you love — we'll send a tailored proposal, a free sample pack, and a quote within 12 hours.</p>
+      </div>
+      <form class="cta-form" onsubmit="return false;">
+        <input type="text" placeholder="Your name">
+        <input type="email" placeholder="Business email">
+        <input type="text" placeholder="Instagram / website (optional)">
+        <button class="btn" type="submit">Get My Free Proposal</button>
+        <small>No spam. One tailored email, that's it.</small>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="logo"><svg class="logo-mark" width="28" height="28" viewBox="-46 -46 92 92"><use href="#daisy" fill="currentColor"/><circle r="8" fill="#b0824f"/></svg><span>Daisy <em>Source</em></span></div>
+        <p>Premium eyelash supply chain partner. Factory-direct OEM/ODM for beauty brands worldwide since 2014.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Company</h4>
+        <a href="#why">Why Us</a>
+        <a href="#services">OEM / ODM Services</a>
+        <a href="#process">How It Works</a>
+        <a href="#brands">Partners</a>
+        <a href="#">About (placeholder)</a>
+      </div>
+      <div class="foot-col">
+        <h4>Products</h4>
+        <a href="#collections">Faux Mink</a>
+        <a href="#collections">Natural Silk</a>
+        <a href="#collections">Dramatic 25mm</a>
+        <a href="#collections">Cluster &amp; DIY</a>
+      </div>
+      <div class="foot-col">
+        <h4>Contact</h4>
+        <a href="#">hello@daisysource.com</a>
+        <a href="#">WhatsApp (placeholder)</a>
+        <a href="#">Instagram (placeholder)</a>
+        <a href="#">Qingdao, China · Factory tours welcome</a>
+      </div>
+    </div>
+    <div class="mega">DAISY <em>SOURCE</em></div>
+    <div class="foot-bottom">
+      <span>© 2026 Daisy Source. All rights reserved.</span>
+      <span>Privacy · Terms (placeholders)</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
