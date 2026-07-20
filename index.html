@@ -849,7 +849,6 @@
       </div>
       <div class="foot-col">
         <h4>Contact</h4>
-        <a href="#">hello@daisysource.com</a>
         <a href="#">WhatsApp (placeholder)</a>
         <a href="#">Instagram (placeholder)</a>
         <a href="#">Qingdao, China · Factory tours welcome</a>
@@ -883,7 +882,7 @@ document.getElementById('lead-form').addEventListener('submit', async function (
     this.reset();
     btn.textContent = 'Sent ✓';
   } catch (err) {
-    note.textContent = 'Something went wrong — please email us at hello@daisysource.com';
+    note.textContent = 'Something went wrong — please try again in a moment.';
     btn.disabled = false;
     btn.textContent = 'Get My Free Proposal';
   }
