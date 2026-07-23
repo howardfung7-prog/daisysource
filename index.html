@@ -402,20 +402,42 @@
 
   /* ---------- process ---------- */
   .process { background: var(--white); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-  .step-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; }
-  .step { position: relative; padding-top: 26px; }
-  .step .no {
-    font-family: var(--serif); font-style: italic;
-    font-size: 52px; color: var(--blush);
-    position: absolute; top: -14px; left: 0; line-height: 1;
+  .timeline { list-style: none; max-width: 760px; margin: 8px auto 0; }
+  .tl-step {
+    display: grid; grid-template-columns: 56px 1fr; gap: 22px;
+    align-items: start; position: relative; margin-bottom: 20px;
   }
-  .step h3 { font-family: var(--serif); font-size: 19px; font-weight: 600; margin-bottom: 8px; position: relative; }
-  .step p { font-size: 14px; color: var(--ink-soft); position: relative; }
-  .step::after {
-    content: "→"; position: absolute; right: -22px; top: 34px;
-    color: var(--bronze); font-size: 18px;
+  .tl-step:last-child { margin-bottom: 0; }
+  .tl-step:not(:last-child)::before {
+    content: ""; position: absolute;
+    left: 27px; top: 56px; bottom: -20px; width: 2px;
+    background: repeating-linear-gradient(var(--bronze) 0 5px, transparent 5px 11px);
+    opacity: .5;
   }
-  .step:last-child::after { display: none; }
+  .tl-no {
+    width: 56px; height: 56px; border-radius: 50%;
+    background: var(--ink); color: var(--cream);
+    display: flex; align-items: center; justify-content: center;
+    font-family: var(--serif); font-weight: 600; font-size: 20px;
+    position: relative; z-index: 1;
+  }
+  .tl-card {
+    background: var(--cream); border: 1px solid var(--line);
+    border-radius: 16px; padding: 18px 24px;
+    display: flex; align-items: center; gap: 20px;
+    box-shadow: 0 14px 30px -26px rgba(80,55,25,.45);
+  }
+  .tl-ic { flex: none; width: 34px; height: 34px; color: var(--bronze-deep); display: flex; align-items: center; justify-content: center; }
+  .tl-body h3 {
+    font-family: var(--serif); font-weight: 600; font-size: 18px;
+    letter-spacing: .01em; margin-bottom: 3px;
+  }
+  .tl-body p { font-size: 14px; color: var(--ink-soft); line-height: 1.5; }
+  .tl-step.is-final .tl-card { background: var(--ink); border-color: var(--ink); }
+  .tl-step.is-final .tl-body h3 { color: var(--cream); }
+  .tl-step.is-final .tl-body p { color: var(--blush); }
+  .tl-step.is-final .tl-ic { color: var(--blush); }
+  .tl-step.is-final .tl-no { background: var(--bronze); color: var(--white); }
 
   /* ---------- brands ---------- */
   .brands { text-align: center; }
@@ -503,11 +525,10 @@
   /* ---------- responsive ---------- */
   @media (max-width: 960px) {
     .hero-grid, .prod-grid, .cta-inner { grid-template-columns: 1fr; }
-    .stats-grid, .step-grid, .col-grid { grid-template-columns: repeat(2, 1fr); }
+    .stats-grid, .col-grid { grid-template-columns: repeat(2, 1fr); }
     .svc-grid { grid-template-columns: 1fr; }
     .adv-grid { grid-template-columns: 1fr; }
     .stat + .stat::before { display: none; }
-    .step::after { display: none; }
     .fc1 { left: 8px; } .fc2 { right: 8px; }
     .nav-links { display: none; }
     .foot-grid { grid-template-columns: 1fr 1fr; }
@@ -844,30 +865,52 @@
   <div class="wrap">
     <div class="sec-head center">
       <div class="eyebrow"><svg width="14" height="14" viewBox="-46 -46 92 92"><use href="#daisy" fill="#b0824f"/></svg>How It Works</div>
-      <h2>From inquiry to <em>launch in 20 days</em></h2>
+      <h2>Custom lash process, <em>from idea to delivery</em></h2>
     </div>
-    <div class="step-grid">
-      <div class="step">
-        <div class="no">01</div>
-        <h3>Tell Us Your Vision</h3>
-        <p>Share your market, budget and style direction. We reply within 12 hours with a tailored proposal.</p>
-      </div>
-      <div class="step">
-        <div class="no">02</div>
-        <h3>Sample &amp; Approve</h3>
-        <p>Receive lash samples and packaging mockups in 48 hours. Iterate until it's perfect.</p>
-      </div>
-      <div class="step">
-        <div class="no">03</div>
-        <h3>We Produce</h3>
-        <p>Handcrafted production with pair-by-pair QC. Track progress with weekly photo updates.</p>
-      </div>
-      <div class="step">
-        <div class="no">04</div>
-        <h3>Delivered to Your Door</h3>
-        <p>DDP shipping worldwide. Retail-ready stock lands in 15–20 days from approval.</p>
-      </div>
-    </div>
+    <ol class="timeline">
+      <li class="tl-step">
+        <div class="tl-no">01</div>
+        <div class="tl-card">
+          <div class="tl-ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></div>
+          <div class="tl-body"><h3>Inquiry</h3><p>Confirm lash style, material, quantity and your market needs.</p></div>
+        </div>
+      </li>
+      <li class="tl-step">
+        <div class="tl-no">02</div>
+        <div class="tl-card">
+          <div class="tl-ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8Z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h4"/></svg></div>
+          <div class="tl-body"><h3>Design Confirmation</h3><p>Finalize lash design, packaging, logo and box artwork.</p></div>
+        </div>
+      </li>
+      <li class="tl-step">
+        <div class="tl-no">03</div>
+        <div class="tl-card">
+          <div class="tl-ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8.3 12 2.5 2.5 4.9-5.4"/></svg></div>
+          <div class="tl-body"><h3>Sample Approval</h3><p>Review the physical sample and approve it before production.</p></div>
+        </div>
+      </li>
+      <li class="tl-step">
+        <div class="tl-no">04</div>
+        <div class="tl-card">
+          <div class="tl-ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 3 7.5v9L12 21l9-4.5v-9L12 3Z"/><path d="M3 7.5 12 12l9-4.5"/><path d="M12 12v9"/></svg></div>
+          <div class="tl-body"><h3>Bulk Production</h3><p>Manufacture, tray-pack, label and box your full lash order.</p></div>
+        </div>
+      </li>
+      <li class="tl-step">
+        <div class="tl-no">05</div>
+        <div class="tl-card">
+          <div class="tl-ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2.5"/><path d="m8.5 12 2.3 2.3 4.7-5"/></svg></div>
+          <div class="tl-body"><h3>Quality Inspection</h3><p>Check style consistency, quantity and packaging quality.</p></div>
+        </div>
+      </li>
+      <li class="tl-step is-final">
+        <div class="tl-no">06</div>
+        <div class="tl-card">
+          <div class="tl-ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h11v9H3z"/><path d="M14 9h4l3 3v3h-7z"/><circle cx="7.5" cy="18" r="1.6"/><circle cx="17" cy="18" r="1.6"/></svg></div>
+          <div class="tl-body"><h3>Shipping</h3><p>Arrange delivery by express, air freight or sea freight.</p></div>
+        </div>
+      </li>
+    </ol>
   </div>
 </section>
 
