@@ -69,7 +69,7 @@
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
     --cream: #faf6f0;
@@ -160,14 +160,15 @@
     display: flex; align-items: center; gap: 12px;
   }
   .eyebrow::before { content: ""; width: 36px; height: 1px; background: var(--bronze); }
+  .eyebrow b { color: var(--ink); font-weight: 800; font-size: 13px; }
   h1 {
-    font-family: var(--serif);
-    font-size: clamp(44px, 5.2vw, 68px);
-    font-weight: 330; line-height: 1.06;
-    letter-spacing: -.01em;
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: clamp(42px, 5vw, 62px);
+    font-weight: 600; line-height: 1.14;
+    letter-spacing: -.005em;
     margin-bottom: 26px;
   }
-  h1 em { font-style: italic; color: var(--bronze-deep); }
+  h1 em { font-style: italic; color: var(--bronze-deep); font-weight: 600; }
   .hero p.lede {
     font-size: 17px; color: var(--ink-soft);
     max-width: 480px; margin-bottom: 36px;
@@ -622,7 +623,7 @@
   <svg class="wm" style="top:-70px; left:-90px; width:340px; opacity:.09" viewBox="-50 -50 100 100"><use href="#daisy" fill="none" stroke="#8f6534" stroke-width="1"/></svg>
   <div class="wrap hero-grid">
     <div>
-      <div class="eyebrow">OEM • ODM • Private Label • Wholesale</div>
+      <div class="eyebrow"><span><b>OEM</b> • <b>ODM</b> • Private Label • Wholesale</span></div>
       <h1>Your Trusted <em>Eyelash Manufacturing</em> Partner</h1>
       <p class="lede">From daily new-style R&amp;D to global fulfillment, Daisy Source powers beauty brands with factory-direct pricing, boutique-level quality and speed no trading company can match.</p>
       <div class="hero-ctas">
