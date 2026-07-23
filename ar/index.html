@@ -632,7 +632,8 @@
   .svc-list li, .case-wins li { text-align: right; }
   .case-wins li { padding-left: 0; padding-right: 28px; }
   .case-wins li::before { left: auto; right: 0; }
-  .tl-step { grid-template-columns: 1fr 56px; }
+  /* timeline: direction:rtl already mirrors the 56px/1fr grid (circle right, card left);
+     only the connector line needs its side flipped. */
   .tl-step:not(:last-child)::before { left: auto; right: 27px; }
   .metric { direction: rtl; }
   .cta-form input, .cta-form small { text-align: right; }
