@@ -378,28 +378,12 @@
   .col-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
   .col-card {
     border-radius: var(--radius); overflow: hidden;
-    position: relative; aspect-ratio: 3/3.8;
-    display: flex; align-items: flex-end;
-    transition: transform .25s;
+    position: relative; aspect-ratio: 1/1;
+    background: var(--cream-2); border: 1px solid var(--line);
+    transition: transform .25s, box-shadow .25s;
   }
-  .col-card:hover { transform: translateY(-6px); }
-  .col-card .bg { position: absolute; inset: 0; }
-  .c1 .bg { background: linear-gradient(160deg, #e9d5c3, #c9a071); }
-  .c2 .bg { background: linear-gradient(160deg, #ded6ce, #9a8d80); }
-  .c3 .bg { background: linear-gradient(160deg, #d9c6bb, #8f6f61); }
-  .c4 .bg { background: linear-gradient(160deg, #4a4038, #231c15); }
-  .col-card .info {
-    position: relative; width: 100%;
-    padding: 22px; color: var(--white);
-    background: linear-gradient(transparent, rgba(20,15,10,.55));
-  }
-  .col-card h3 { font-family: var(--serif); font-size: 20px; font-weight: 600; }
-  .col-card p { font-size: 12.5px; opacity: .85; letter-spacing: .06em; text-transform: uppercase; margin-top: 4px; }
-  .col-card .lash-mark {
-    position: absolute; top: 50%; left: 50%;
-    transform: translate(-50%, -70%); width: 62%;
-    opacity: .85;
-  }
+  .col-card:hover { transform: translateY(-6px); box-shadow: 0 24px 44px -28px rgba(80,55,25,.5); }
+  .col-card img { width: 100%; height: 100%; object-fit: cover; display: block; }
 
   /* ---------- process ---------- */
   .process { background: var(--white); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
@@ -836,26 +820,10 @@
       <p>Faux mink, natural silk, dramatic 25mm and cluster DIY — 100+ styles across four signature lines.</p>
     </div>
     <div class="col-grid">
-      <a class="col-card c1" href="#">
-        <div class="bg"></div>
-        <svg class="lash-mark" viewBox="0 0 200 90" fill="none"><path d="M20 70 Q100 20 180 70" stroke="#231c15" stroke-width="5" stroke-linecap="round"/><g stroke="#231c15" stroke-width="3" stroke-linecap="round"><path d="M45 58 Q42 40 34 28"/><path d="M80 48 Q80 28 76 14"/><path d="M120 46 Q124 26 128 12"/><path d="M155 56 Q164 38 172 26"/></g></svg>
-        <div class="info"><h3>Faux Mink</h3><p>Fluffy · 3D · 25 styles</p></div>
-      </a>
-      <a class="col-card c2" href="#">
-        <div class="bg"></div>
-        <svg class="lash-mark" viewBox="0 0 200 90" fill="none"><path d="M20 70 Q100 30 180 70" stroke="#231c15" stroke-width="5" stroke-linecap="round"/><g stroke="#231c15" stroke-width="2.4" stroke-linecap="round"><path d="M40 62 Q38 48 32 38"/><path d="M70 52 Q70 38 66 28"/><path d="M100 50 Q100 34 100 24"/><path d="M130 52 Q134 38 138 28"/><path d="M160 60 Q166 48 172 40"/></g></svg>
-        <div class="info"><h3>Natural Silk</h3><p>Everyday · Wispy · 40 styles</p></div>
-      </a>
-      <a class="col-card c3" href="#">
-        <div class="bg"></div>
-        <svg class="lash-mark" viewBox="0 0 200 90" fill="none"><path d="M20 72 Q100 14 180 72" stroke="#231c15" stroke-width="5" stroke-linecap="round"/><g stroke="#231c15" stroke-width="3.4" stroke-linecap="round"><path d="M48 56 Q44 34 34 18"/><path d="M85 44 Q85 20 80 4"/><path d="M122 44 Q128 20 134 6"/><path d="M158 56 Q168 36 178 22"/></g></svg>
-        <div class="info"><h3>Dramatic 25mm</h3><p>Bold · Stage · 30 styles</p></div>
-      </a>
-      <a class="col-card c4" href="#">
-        <div class="bg"></div>
-        <svg class="lash-mark" viewBox="0 0 200 90" fill="none"><path d="M20 70 Q100 26 180 70" stroke="#e9d5c3" stroke-width="5" stroke-linecap="round"/><g stroke="#e9d5c3" stroke-width="2.6" stroke-linecap="round"><path d="M44 60 Q41 44 34 32"/><path d="M76 50 Q76 32 72 20"/><path d="M108 48 Q110 30 112 18"/><path d="M142 54 Q148 38 154 28"/></g></svg>
-        <div class="info"><h3>Cluster &amp; DIY</h3><p>Segment · Bond &amp; Seal · 20 kits</p></div>
-      </a>
+      <a class="col-card" href="#contact"><img src="assets/products/p1.jpg" alt="Glue-free false eyelash cluster styles catalog — 50+ styles" loading="lazy"></a>
+      <a class="col-card" href="#contact"><img src="assets/products/p2.jpg" alt="Private-label lash cluster set with custom packaging and application result" loading="lazy"></a>
+      <a class="col-card" href="#contact"><img src="assets/products/p3.jpg" alt="Tray of handmade individual lash clusters" loading="lazy"></a>
+      <a class="col-card" href="#contact"><img src="assets/products/p4.jpg" alt="Individual lash cluster segments on a production tray" loading="lazy"></a>
     </div>
   </div>
 </section>
