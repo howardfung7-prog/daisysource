@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://daisysource.vip/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://daisysource.vip/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://daisysource.vip/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://daisysource.vip/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://daisysource.vip/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://daisysource.vip/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://daisysource.vip/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://daisysource.vip/ko/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://daisysource.vip/id/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://daisysource.vip/ar/"/>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+  <url><loc>https://daisysource.vip/es/</loc><lastmod>2026-07-23</lastmod><priority>0.9</priority></url>
+  <url><loc>https://daisysource.vip/pt/</loc><lastmod>2026-07-23</lastmod><priority>0.9</priority></url>
+  <url><loc>https://daisysource.vip/fr/</loc><lastmod>2026-07-23</lastmod><priority>0.9</priority></url>
+  <url><loc>https://daisysource.vip/ja/</loc><lastmod>2026-07-23</lastmod><priority>0.9</priority></url>
+  <url><loc>https://daisysource.vip/ko/</loc><lastmod>2026-07-23</lastmod><priority>0.9</priority></url>
+  <url><loc>https://daisysource.vip/id/</loc><lastmod>2026-07-23</lastmod><priority>0.9</priority></url>
+  <url><loc>https://daisysource.vip/ar/</loc><lastmod>2026-07-23</lastmod><priority>0.9</priority></url>
 </urlset>
