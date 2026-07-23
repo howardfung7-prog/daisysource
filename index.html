@@ -440,6 +440,44 @@
   .tl-step.is-final .tl-ic { color: var(--blush); }
   .tl-step.is-final .tl-no { background: var(--bronze); color: var(--white); }
 
+  /* ---------- case study ---------- */
+  .case { background: var(--cream-2); border-top: 1px solid var(--line); }
+  .case-card {
+    display: grid; grid-template-columns: 1.35fr 1fr;
+    margin-top: 44px; border-radius: 22px; overflow: hidden;
+    border: 1px solid var(--line);
+    box-shadow: 0 34px 64px -44px rgba(80,55,25,.55);
+  }
+  .case-main { background: var(--white); padding: 42px 44px; }
+  .case-tags { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 30px; }
+  .case-tag {
+    font-size: 12px; font-weight: 600; letter-spacing: .03em;
+    padding: 7px 14px; border-radius: 999px;
+    background: var(--cream-2); color: var(--ink-soft); border: 1px solid var(--line);
+  }
+  .case-tag.tag-hero { background: var(--bronze-deep); color: var(--white); border-color: var(--bronze-deep); }
+  .case-block { margin-bottom: 24px; }
+  .case-block:last-child { margin-bottom: 0; }
+  .case-block h4 {
+    font-size: 12.5px; font-weight: 700; letter-spacing: .12em;
+    text-transform: uppercase; color: var(--bronze-deep); margin-bottom: 9px;
+  }
+  .case-block p { font-size: 15px; color: var(--ink-soft); line-height: 1.62; }
+  .case-result { background: var(--ink); color: var(--cream); padding: 42px 38px; display: flex; flex-direction: column; }
+  .case-result h4 {
+    font-size: 12.5px; font-weight: 700; letter-spacing: .12em;
+    text-transform: uppercase; color: var(--blush); margin-bottom: 20px;
+  }
+  .case-wins { list-style: none; display: flex; flex-direction: column; gap: 13px; margin-bottom: 28px; }
+  .case-wins li { position: relative; padding-left: 28px; font-size: 14.5px; line-height: 1.45; }
+  .case-wins li b { color: var(--white); }
+  .case-wins li::before { content: "✓"; position: absolute; left: 0; top: -1px; color: var(--bronze); font-weight: 700; }
+  .case-result blockquote {
+    font-family: var(--serif); font-style: italic; font-size: 18px;
+    line-height: 1.5; color: var(--white); margin-bottom: 14px;
+  }
+  .case-note { font-size: 12px; color: var(--blush); opacity: .65; margin-top: auto; }
+
   /* ---------- brands ---------- */
   .brands { text-align: center; }
   .brand-row {
@@ -529,6 +567,7 @@
     .stats-grid, .col-grid { grid-template-columns: repeat(2, 1fr); }
     .svc-grid { grid-template-columns: 1fr; }
     .adv-grid { grid-template-columns: 1fr; }
+    .case-card { grid-template-columns: 1fr; }
     .stat + .stat::before { display: none; }
     .fc1 { left: 8px; } .fc2 { right: 8px; }
     .nav-links { display: none; }
@@ -912,6 +951,44 @@
         </div>
       </li>
     </ol>
+  </div>
+</section>
+
+<!-- ============ CASE STUDY ============ -->
+<section class="case" id="case-study">
+  <div class="wrap">
+    <div class="sec-head center">
+      <div class="eyebrow"><svg width="14" height="14" viewBox="-46 -46 92 92"><use href="#daisy" fill="#b0824f"/></svg>Case Study</div>
+      <h2>From a small trial order to <em>a growing lash brand</em></h2>
+    </div>
+    <div class="case-card">
+      <div class="case-main">
+        <div class="case-tags">
+          <span class="case-tag tag-hero">TikTok Top Seller</span>
+          <span class="case-tag">Malaysia · Southeast Asia</span>
+          <span class="case-tag">Private-label lash clusters</span>
+        </div>
+        <div class="case-block">
+          <h4>The Challenge</h4>
+          <p>The client wanted to launch a lash collection quickly, but had no final packaging design and needed a low-risk first order.</p>
+        </div>
+        <div class="case-block">
+          <h4>Our Solution</h4>
+          <p>We helped select three best-selling wispy styles, adjusted the cluster lengths for local consumer preferences, created custom paper-card packaging with the client's logo, and supplied product images for their launch content.</p>
+        </div>
+      </div>
+      <aside class="case-result">
+        <h4>The Result</h4>
+        <ul class="case-wins">
+          <li>Sample approved in <b>5 days</b></li>
+          <li>First order completed with <b>custom packaging</b></li>
+          <li><b>Reorder</b> placed after launch</li>
+          <li>Expanded from <b>3 to 27 styles</b></li>
+        </ul>
+        <blockquote>"Fast communication, easy customization, and consistent lash quality."</blockquote>
+        <p class="case-note">Client name withheld for confidentiality.</p>
+      </aside>
+    </div>
   </div>
 </section>
 
