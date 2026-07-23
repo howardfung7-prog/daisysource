@@ -513,6 +513,49 @@
     .foot-grid { grid-template-columns: 1fr 1fr; }
     .cta-inner { padding: 48px 32px; }
   }
+
+  /* ---------- factory ---------- */
+  .factory { padding: 96px 0; background: var(--cream-2); border-top: 1px solid var(--line); }
+  .factory-collage {
+    display: grid; grid-template-columns: 1.6fr 1fr;
+    gap: 16px; margin: 44px 0 56px;
+  }
+  .factory-collage figure {
+    margin: 0; border-radius: var(--radius); overflow: hidden;
+    background: var(--blush);
+    box-shadow: 0 22px 44px -30px rgba(80,55,25,.45);
+  }
+  .factory-collage img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .fc-clean { grid-column: 1; grid-row: 1; aspect-ratio: 1280/439; }
+  .fc-ware  { grid-column: 1; grid-row: 2; aspect-ratio: 16/9; }
+  .fc-hand  { grid-column: 2; grid-row: 1 / span 2; }
+  .f-feats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+  .f-feat {
+    background: var(--white); border: 1px solid var(--line);
+    border-radius: 16px; padding: 26px 22px;
+  }
+  .f-feat .ic {
+    width: 42px; height: 42px; border-radius: 11px;
+    background: var(--cream-2); color: var(--bronze-deep);
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 16px;
+  }
+  .f-feat h3 { font-family: var(--serif); font-weight: 500; font-size: 19px; margin-bottom: 8px; }
+  .f-feat p { font-size: 14px; color: var(--ink-soft); line-height: 1.55; }
+  @media (max-width: 900px) {
+    .factory-collage { grid-template-columns: 1fr 1fr; }
+    .fc-clean { grid-column: 1 / -1; grid-row: 1; }
+    .fc-ware  { grid-column: 1; grid-row: 2; }
+    .fc-hand  { grid-column: 2; grid-row: 2; aspect-ratio: 3/4; }
+    .f-feats { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 560px) {
+    .factory-collage { grid-template-columns: 1fr; }
+    .fc-clean, .fc-ware, .fc-hand { grid-column: 1; }
+    .fc-clean { grid-row: 1; } .fc-ware { grid-row: 2; }
+    .fc-hand { grid-row: 3; aspect-ratio: 4/3; }
+    .f-feats { grid-template-columns: 1fr; }
+  }
 </style>
 </head>
 <body>
@@ -550,6 +593,7 @@
       <a href="#services">OEM / ODM</a>
       <a href="#starter">Starter Kit</a>
       <a href="#collections">Collections</a>
+      <a href="#factory">Factory</a>
       <a href="#process">How It Works</a>
       <a href="#brands">Partners</a>
     </nav>
@@ -798,6 +842,46 @@
         <svg class="lash-mark" viewBox="0 0 200 90" fill="none"><path d="M20 70 Q100 26 180 70" stroke="#e9d5c3" stroke-width="5" stroke-linecap="round"/><g stroke="#e9d5c3" stroke-width="2.6" stroke-linecap="round"><path d="M44 60 Q41 44 34 32"/><path d="M76 50 Q76 32 72 20"/><path d="M108 48 Q110 30 112 18"/><path d="M142 54 Q148 38 154 28"/></g></svg>
         <div class="info"><h3>Cluster &amp; DIY</h3><p>Segment · Bond &amp; Seal · 20 kits</p></div>
       </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FACTORY ============ -->
+<section class="factory" id="factory">
+  <div class="wrap">
+    <div class="sec-head center">
+      <div class="eyebrow"><svg width="14" height="14" viewBox="-46 -46 92 92"><use href="#daisy" fill="#b0824f"/></svg>Our Factory</div>
+      <h2>The factory behind <em>every lash</em></h2>
+      <p>Since 2014 we've handcrafted our lashes in-house — never outsourced. A US FDA-certified facility, dust-free cleanrooms and a dedicated QC team, shipping to destinations worldwide.</p>
+    </div>
+
+    <div class="factory-collage">
+      <figure class="fc-clean"><img src="assets/factory/cleanroom.jpg" alt="Daisy Source dust-free cleanroom with technicians hand-making false eyelashes" loading="lazy"></figure>
+      <figure class="fc-ware"><img src="assets/factory/warehouse.jpg" alt="Organized inventory shelves in the Daisy Source lash warehouse" loading="lazy"></figure>
+      <figure class="fc-hand"><img src="assets/factory/handcraft.jpg" alt="Technician in gloves hand-crafting a strip of false lashes" loading="lazy"></figure>
+    </div>
+
+    <div class="f-feats">
+      <div class="f-feat">
+        <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.4 8.4 8 11 4.6-2.6 8-6 8-11V5l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg></div>
+        <h3>FDA Certified</h3>
+        <p>US FDA-registered facility and materials, cleared for cosmetic export worldwide.</p>
+      </div>
+      <div class="f-feat">
+        <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V8l9-5 9 5v13"/><path d="M3 21h18"/><path d="M9 21v-6h6v6"/><path d="M9 11h.01M15 11h.01"/></svg></div>
+        <h3>Dust-Free Cleanroom</h3>
+        <p>Dust- and temperature-controlled production floors for clean, consistent quality.</p>
+      </div>
+      <div class="f-feat">
+        <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/><path d="m8.5 11 1.8 1.8 3.2-3.4"/></svg></div>
+        <h3>Professional QC Team</h3>
+        <p>Every batch inspected by a dedicated quality-control team before it ships.</p>
+      </div>
+      <div class="f-feat">
+        <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18Z"/></svg></div>
+        <h3>Global Logistics</h3>
+        <p>Door-to-door delivery to destinations worldwide, with export paperwork handled.</p>
+      </div>
     </div>
   </div>
 </section>
