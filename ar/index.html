@@ -598,6 +598,13 @@
   }
   .f-feat h3 { font-family: var(--serif); font-weight: 500; font-size: 19px; margin-bottom: 8px; }
   .f-feat p { font-size: 14px; color: var(--ink-soft); line-height: 1.55; }
+  .factory-more { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 40px; }
+  .factory-more figure {
+    margin: 0; border-radius: var(--radius); overflow: hidden;
+    background: var(--blush); aspect-ratio: 3/2;
+    box-shadow: 0 22px 44px -30px rgba(80,55,25,.45);
+  }
+  .factory-more img { width: 100%; height: 100%; object-fit: cover; display: block; }
   @media (max-width: 900px) {
     .f-feats { grid-template-columns: 1fr 1fr; }
   }
@@ -607,6 +614,7 @@
     .fc-clean { aspect-ratio: 16/9; }
     .fc-ware, .fc-hand { aspect-ratio: 3/2; }
     .f-feats { grid-template-columns: 1fr; }
+    .factory-more { grid-template-columns: 1fr; }
   }
 
   /* ---------- language switcher ---------- */
@@ -916,6 +924,13 @@
         <h3>لوجستيات عالمية</h3>
         <p>توصيل من الباب إلى الباب إلى جميع أنحاء العالم، مع إنجاز مستندات التصدير.</p>
       </div>
+    </div>
+
+    <div class="factory-more">
+      <figure><img src="/assets/factory/more1.jpg" alt="عميل يتصفّح صواني عيّنات الرموش في صالة عرض Daisy Source" loading="lazy"></figure>
+      <figure><img src="/assets/factory/more2.jpg" alt="لقطة مقرّبة لصينية قطع رموش كلستر مصنوعة يدويًا" loading="lazy"></figure>
+      <figure><img src="/assets/factory/more3.jpg" alt="علب تغليف رموش بعلامة خاصة بتسعة تصاميم" loading="lazy"></figure>
+      <figure><img src="/assets/factory/more4.jpg" alt="شاحنة محمّلة بكراتين تصدير الرموش الجاهزة للشحن" loading="lazy"></figure>
     </div>
   </div>
 </section>

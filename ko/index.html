@@ -598,6 +598,13 @@
   }
   .f-feat h3 { font-family: var(--serif); font-weight: 500; font-size: 19px; margin-bottom: 8px; }
   .f-feat p { font-size: 14px; color: var(--ink-soft); line-height: 1.55; }
+  .factory-more { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 40px; }
+  .factory-more figure {
+    margin: 0; border-radius: var(--radius); overflow: hidden;
+    background: var(--blush); aspect-ratio: 3/2;
+    box-shadow: 0 22px 44px -30px rgba(80,55,25,.45);
+  }
+  .factory-more img { width: 100%; height: 100%; object-fit: cover; display: block; }
   @media (max-width: 900px) {
     .f-feats { grid-template-columns: 1fr 1fr; }
   }
@@ -607,6 +614,7 @@
     .fc-clean { aspect-ratio: 16/9; }
     .fc-ware, .fc-hand { aspect-ratio: 3/2; }
     .f-feats { grid-template-columns: 1fr; }
+    .factory-more { grid-template-columns: 1fr; }
   }
 
   /* ---------- language switcher ---------- */
@@ -899,6 +907,13 @@
         <h3>글로벌 물류</h3>
         <p>수출 서류 처리까지 포함해 전 세계로 도어투도어 배송.</p>
       </div>
+    </div>
+
+    <div class="factory-more">
+      <figure><img src="/assets/factory/more1.jpg" alt="Daisy Source 쇼룸에서 인조속눈썹 샘플 트레이를 살펴보는 고객" loading="lazy"></figure>
+      <figure><img src="/assets/factory/more2.jpg" alt="수제 클러스터 속눈썹 세그먼트 트레이 클로즈업" loading="lazy"></figure>
+      <figure><img src="/assets/factory/more3.jpg" alt="아홉 가지 디자인의 자체 브랜드 속눈썹 포장 박스" loading="lazy"></figure>
+      <figure><img src="/assets/factory/more4.jpg" alt="출하 준비를 마친 인조속눈썹 수출용 카톤을 실은 트럭" loading="lazy"></figure>
     </div>
   </div>
 </section>

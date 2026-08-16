@@ -598,6 +598,13 @@
   }
   .f-feat h3 { font-family: var(--serif); font-weight: 500; font-size: 19px; margin-bottom: 8px; }
   .f-feat p { font-size: 14px; color: var(--ink-soft); line-height: 1.55; }
+  .factory-more { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 40px; }
+  .factory-more figure {
+    margin: 0; border-radius: var(--radius); overflow: hidden;
+    background: var(--blush); aspect-ratio: 3/2;
+    box-shadow: 0 22px 44px -30px rgba(80,55,25,.45);
+  }
+  .factory-more img { width: 100%; height: 100%; object-fit: cover; display: block; }
   @media (max-width: 900px) {
     .f-feats { grid-template-columns: 1fr 1fr; }
   }
@@ -607,6 +614,7 @@
     .fc-clean { aspect-ratio: 16/9; }
     .fc-ware, .fc-hand { aspect-ratio: 3/2; }
     .f-feats { grid-template-columns: 1fr; }
+    .factory-more { grid-template-columns: 1fr; }
   }
 
   /* ---------- language switcher ---------- */
@@ -899,6 +907,13 @@
         <h3>Logística global</h3>
         <p>Entrega porta a porta para destinos no mundo todo, com a documentação de exportação resolvida.</p>
       </div>
+    </div>
+
+    <div class="factory-more">
+      <figure><img src="/assets/factory/more1.jpg" alt="Cliente conferindo bandejas de amostras de cílios em um showroom da Daisy Source" loading="lazy"></figure>
+      <figure><img src="/assets/factory/more2.jpg" alt="Close de uma bandeja de segmentos de cílios em cluster feitos à mão" loading="lazy"></figure>
+      <figure><img src="/assets/factory/more3.jpg" alt="Caixas de embalagem de cílios de marca própria em nove designs" loading="lazy"></figure>
+      <figure><img src="/assets/factory/more4.jpg" alt="Caminhão carregado com caixas de exportação de cílios postiços prontos para envio" loading="lazy"></figure>
     </div>
   </div>
 </section>
