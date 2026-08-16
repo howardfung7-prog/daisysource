@@ -559,7 +559,7 @@
   /* ---------- responsive ---------- */
   @media (max-width: 960px) {
     .hero-grid, .prod-grid, .cta-inner { grid-template-columns: 1fr; }
-    .stats-grid, .col-grid { grid-template-columns: repeat(2, 1fr); }
+    .stats-grid, .col-grid, .factory-more { grid-template-columns: repeat(2, 1fr); }
     .svc-grid { grid-template-columns: 1fr; }
     .adv-grid { grid-template-columns: 1fr; }
     .case-card { grid-template-columns: 1fr; }
@@ -598,10 +598,10 @@
   }
   .f-feat h3 { font-family: var(--serif); font-weight: 500; font-size: 19px; margin-bottom: 8px; }
   .f-feat p { font-size: 14px; color: var(--ink-soft); line-height: 1.55; }
-  .factory-more { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 40px; }
+  .factory-more { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-top: 40px; }
   .factory-more figure {
     margin: 0; border-radius: var(--radius); overflow: hidden;
-    background: var(--blush); aspect-ratio: 3/2;
+    background: var(--blush); aspect-ratio: 1/1;
     box-shadow: 0 22px 44px -30px rgba(80,55,25,.45);
   }
   .factory-more img { width: 100%; height: 100%; object-fit: cover; display: block; }
@@ -614,7 +614,6 @@
     .fc-clean { aspect-ratio: 16/9; }
     .fc-ware, .fc-hand { aspect-ratio: 3/2; }
     .f-feats { grid-template-columns: 1fr; }
-    .factory-more { grid-template-columns: 1fr; }
   }
 
   /* ---------- language switcher ---------- */
