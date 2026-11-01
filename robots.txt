@@ -3,5 +3,6 @@ Allow: /
 Disallow: /logo.html
 Disallow: /i18n/
 Disallow: /p/
+Disallow: /tools/build_products.py
 
 Sitemap: https://daisysource.vip/sitemap.xml
