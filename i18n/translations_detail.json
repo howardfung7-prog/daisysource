@@ -1,7 +1,12 @@
 {
   "Factory-direct · wholesale": {
-    "es": "Directo de fábrica · al por mayor", "pt": "Direto da fábrica · atacado", "fr": "En direct d'usine · en gros",
-    "ja": "工場直結 · 卸売", "ko": "공장 직거래 · 도매", "id": "Langsung dari pabrik · grosir", "ar": "مباشرة من المصنع · بالجملة"
+    "es": "Directo de fábrica · al por mayor",
+    "pt": "Direto da fábrica · atacado",
+    "fr": "En direct d'usine · en gros",
+    "ja": "工場直結 · 卸売",
+    "ko": "공장 직거래 · 도매",
+    "id": "Langsung dari pabrik · grosir",
+    "ar": "مباشرة من المصنع · بالجملة"
   },
   "// No online checkout — we quote &amp; ship directly. Reference price; confirmed on inquiry.": {
     "es": "// Sin pago en línea — cotizamos y enviamos directamente. Precio de referencia; se confirma en la consulta.",
@@ -13,20 +18,40 @@
     "ar": "// لا دفع إلكتروني — نُسعّر ونشحن مباشرة. سعر مرجعي؛ يُؤكَّد عند الاستفسار."
   },
   "Product overview": {
-    "es": "Descripción del producto", "pt": "Visão geral do produto", "fr": "Présentation du produit",
-    "ja": "製品概要", "ko": "제품 개요", "id": "Ikhtisar produk", "ar": "نظرة عامة على المنتج"
+    "es": "Descripción del producto",
+    "pt": "Visão geral do produto",
+    "fr": "Présentation du produit",
+    "ja": "製品概要",
+    "ko": "제품 개요",
+    "id": "Ikhtisar produk",
+    "ar": "نظرة عامة على المنتج"
   },
   "Specifications": {
-    "es": "Especificaciones", "pt": "Especificações", "fr": "Spécifications",
-    "ja": "仕様", "ko": "사양", "id": "Spesifikasi", "ar": "المواصفات"
+    "es": "Especificaciones",
+    "pt": "Especificações",
+    "fr": "Spécifications",
+    "ja": "仕様",
+    "ko": "사양",
+    "id": "Spesifikasi",
+    "ar": "المواصفات"
   },
   "Product gallery": {
-    "es": "Galería del producto", "pt": "Galeria do produto", "fr": "Galerie du produit",
-    "ja": "製品ギャラリー", "ko": "제품 갤러리", "id": "Galeri produk", "ar": "معرض المنتج"
+    "es": "Galería del producto",
+    "pt": "Galeria do produto",
+    "fr": "Galerie du produit",
+    "ja": "製品ギャラリー",
+    "ko": "제품 갤러리",
+    "id": "Galeri produk",
+    "ar": "معرض المنتج"
   },
   "Interested in this item?": {
-    "es": "¿Te interesa este producto?", "pt": "Interessado neste item?", "fr": "Cet article vous intéresse ?",
-    "ja": "この商品にご興味がありますか？", "ko": "이 제품에 관심 있으신가요?", "id": "Tertarik dengan produk ini?", "ar": "هل أنت مهتم بهذا المنتج؟"
+    "es": "¿Te interesa este producto?",
+    "pt": "Interessado neste item?",
+    "fr": "Cet article vous intéresse ?",
+    "ja": "この商品にご興味がありますか？",
+    "ko": "이 제품에 관심 있으신가요?",
+    "id": "Tertarik dengan produk ini?",
+    "ar": "هل أنت مهتم بهذا المنتج؟"
   },
   "Ask for a wholesale quote — email or WhatsApp only.": {
     "es": "Pide una cotización al por mayor — solo correo o WhatsApp.",
@@ -38,77 +63,563 @@
     "ar": "اطلب عرض سعر بالجملة — عبر البريد الإلكتروني أو واتساب فقط."
   },
   ">← Back to catalog</a>": {
-    "es": ">← Volver al catálogo</a>", "pt": ">← Voltar ao catálogo</a>", "fr": ">← Retour au catalogue</a>",
-    "ja": ">← カタログに戻る</a>", "ko": ">← 카탈로그로 돌아가기</a>", "id": ">← Kembali ke katalog</a>", "ar": ">→ العودة إلى الكتالوج</a>"
+    "es": ">← Volver al catálogo</a>",
+    "pt": ">← Voltar ao catálogo</a>",
+    "fr": ">← Retour au catalogue</a>",
+    "ja": ">← カタログに戻る</a>",
+    "ko": ">← 카탈로그로 돌아가기</a>",
+    "id": ">← Kembali ke katalog</a>",
+    "ar": ">→ العودة إلى الكتالوج</a>"
   },
   ">← Catalog</a>": {
-    "es": ">← Catálogo</a>", "pt": ">← Catálogo</a>", "fr": ">← Catalogue</a>",
-    "ja": ">← カタログ</a>", "ko": ">← 카탈로그</a>", "id": ">← Katalog</a>", "ar": ">→ الكتالوج</a>"
+    "es": ">← Catálogo</a>",
+    "pt": ">← Catálogo</a>",
+    "fr": ">← Catalogue</a>",
+    "ja": ">← カタログ</a>",
+    "ko": ">← 카탈로그</a>",
+    "id": ">← Katalog</a>",
+    "ar": ">→ الكتالوج</a>"
   },
-
-  "class=\"cat\">Soldering Flux</span>": { "es": "class=\"cat\">Flux de soldadura</span>", "pt": "class=\"cat\">Fluxo de solda</span>", "fr": "class=\"cat\">Flux à souder</span>", "ja": "class=\"cat\">はんだフラックス</span>", "ko": "class=\"cat\">솔더 플럭스</span>", "id": "class=\"cat\">Flux solder</span>", "ar": "class=\"cat\">فلكس لحام</span>" },
-  "#catalog\">Soldering Flux</a>": { "es": "#catalog\">Flux de soldadura</a>", "pt": "#catalog\">Fluxo de solda</a>", "fr": "#catalog\">Flux à souder</a>", "ja": "#catalog\">はんだフラックス</a>", "ko": "#catalog\">솔더 플럭스</a>", "id": "#catalog\">Flux solder</a>", "ar": "#catalog\">فلكس لحام</a>" },
-  "class=\"cat\">Solder Paste</span>": { "es": "class=\"cat\">Pasta de soldadura</span>", "pt": "class=\"cat\">Pasta de solda</span>", "fr": "class=\"cat\">Pâte à souder</span>", "ja": "class=\"cat\">はんだペースト</span>", "ko": "class=\"cat\">솔더 페이스트</span>", "id": "class=\"cat\">Pasta solder</span>", "ar": "class=\"cat\">معجون لحام</span>" },
-  "#catalog\">Solder Paste</a>": { "es": "#catalog\">Pasta de soldadura</a>", "pt": "#catalog\">Pasta de solda</a>", "fr": "#catalog\">Pâte à souder</a>", "ja": "#catalog\">はんだペースト</a>", "ko": "#catalog\">솔더 페이스트</a>", "id": "#catalog\">Pasta solder</a>", "ar": "#catalog\">معجون لحام</a>" },
-  "class=\"cat\">Solder Balls</span>": { "es": "class=\"cat\">Bolas de soldadura</span>", "pt": "class=\"cat\">Esferas de solda</span>", "fr": "class=\"cat\">Billes de soudure</span>", "ja": "class=\"cat\">はんだボール</span>", "ko": "class=\"cat\">솔더볼</span>", "id": "class=\"cat\">Bola solder</span>", "ar": "class=\"cat\">كرات لحام</span>" },
-  "#catalog\">Solder Balls</a>": { "es": "#catalog\">Bolas de soldadura</a>", "pt": "#catalog\">Esferas de solda</a>", "fr": "#catalog\">Billes de soudure</a>", "ja": "#catalog\">はんだボール</a>", "ko": "#catalog\">솔더볼</a>", "id": "#catalog\">Bola solder</a>", "ar": "#catalog\">كرات لحام</a>" },
-  "class=\"cat\">Solder Wire</span>": { "es": "class=\"cat\">Alambre de soldadura</span>", "pt": "class=\"cat\">Fio de solda</span>", "fr": "class=\"cat\">Fil de soudure</span>", "ja": "class=\"cat\">はんだ線</span>", "ko": "class=\"cat\">솔더 와이어</span>", "id": "class=\"cat\">Kawat solder</span>", "ar": "class=\"cat\">سلك لحام</span>" },
-  "#catalog\">Solder Wire</a>": { "es": "#catalog\">Alambre de soldadura</a>", "pt": "#catalog\">Fio de solda</a>", "fr": "#catalog\">Fil de soudure</a>", "ja": "#catalog\">はんだ線</a>", "ko": "#catalog\">솔더 와이어</a>", "id": "#catalog\">Kawat solder</a>", "ar": "#catalog\">سلك لحام</a>" },
-  "class=\"cat\">Adhesive</span>": { "es": "class=\"cat\">Adhesivo</span>", "pt": "class=\"cat\">Adesivo</span>", "fr": "class=\"cat\">Colle</span>", "ja": "class=\"cat\">接着剤</span>", "ko": "class=\"cat\">접착제</span>", "id": "class=\"cat\">Perekat</span>", "ar": "class=\"cat\">لاصق</span>" },
-  "#catalog\">Adhesive</a>": { "es": "#catalog\">Adhesivo</a>", "pt": "#catalog\">Adesivo</a>", "fr": "#catalog\">Colle</a>", "ja": "#catalog\">接着剤</a>", "ko": "#catalog\">접착제</a>", "id": "#catalog\">Perekat</a>", "ar": "#catalog\">لاصق</a>" },
-  "class=\"cat\">Tool</span>": { "es": "class=\"cat\">Herramienta</span>", "pt": "class=\"cat\">Ferramenta</span>", "fr": "class=\"cat\">Outil</span>", "ja": "class=\"cat\">工具</span>", "ko": "class=\"cat\">공구</span>", "id": "class=\"cat\">Alat</span>", "ar": "class=\"cat\">أداة</span>" },
-  "#catalog\">Tool</a>": { "es": "#catalog\">Herramienta</a>", "pt": "#catalog\">Ferramenta</a>", "fr": "#catalog\">Outil</a>", "ja": "#catalog\">工具</a>", "ko": "#catalog\">공구</a>", "id": "#catalog\">Alat</a>", "ar": "#catalog\">أداة</a>" },
-  "class=\"cat\">Optics</span>": { "es": "class=\"cat\">Óptica</span>", "pt": "class=\"cat\">Óptica</span>", "fr": "class=\"cat\">Optique</span>", "ja": "class=\"cat\">光学</span>", "ko": "class=\"cat\">광학</span>", "id": "class=\"cat\">Optik</span>", "ar": "class=\"cat\">بصريات</span>" },
-  "#catalog\">Optics</a>": { "es": "#catalog\">Óptica</a>", "pt": "#catalog\">Óptica</a>", "fr": "#catalog\">Optique</a>", "ja": "#catalog\">光学</a>", "ko": "#catalog\">광학</a>", "id": "#catalog\">Optik</a>", "ar": "#catalog\">بصريات</a>" },
-
-  "<td>Model</td>": { "es": "<td>Modelo</td>", "pt": "<td>Modelo</td>", "fr": "<td>Modèle</td>", "ja": "<td>型番</td>", "ko": "<td>모델</td>", "id": "<td>Model</td>", "ar": "<td>الطراز</td>" },
-  "<td>Net content</td>": { "es": "<td>Contenido neto</td>", "pt": "<td>Conteúdo líquido</td>", "fr": "<td>Contenu net</td>", "ja": "<td>内容量</td>", "ko": "<td>용량</td>", "id": "<td>Isi bersih</td>", "ar": "<td>المحتوى الصافي</td>" },
-  "<td>Form</td>": { "es": "<td>Forma</td>", "pt": "<td>Forma</td>", "fr": "<td>Forme</td>", "ja": "<td>形状</td>", "ko": "<td>형태</td>", "id": "<td>Bentuk</td>", "ar": "<td>الشكل</td>" },
-  "<td>Application</td>": { "es": "<td>Aplicación</td>", "pt": "<td>Aplicação</td>", "fr": "<td>Application</td>", "ja": "<td>用途</td>", "ko": "<td>용도</td>", "id": "<td>Aplikasi</td>", "ar": "<td>الاستخدام</td>" },
-  "<td>Package</td>": { "es": "<td>Contenido</td>", "pt": "<td>Pacote</td>", "fr": "<td>Contenu</td>", "ja": "<td>梱包</td>", "ko": "<td>구성</td>", "id": "<td>Paket</td>", "ar": "<td>المحتويات</td>" },
-  "<td>Alloy</td>": { "es": "<td>Aleación</td>", "pt": "<td>Liga</td>", "fr": "<td>Alliage</td>", "ja": "<td>合金</td>", "ko": "<td>합금</td>", "id": "<td>Paduan</td>", "ar": "<td>السبيكة</td>" },
-  "<td>Diameters</td>": { "es": "<td>Diámetros</td>", "pt": "<td>Diâmetros</td>", "fr": "<td>Diamètres</td>", "ja": "<td>直径</td>", "ko": "<td>직경</td>", "id": "<td>Diameter</td>", "ar": "<td>الأقطار</td>" },
-  "<td>Quantity</td>": { "es": "<td>Cantidad</td>", "pt": "<td>Quantidade</td>", "fr": "<td>Quantité</td>", "ja": "<td>数量</td>", "ko": "<td>수량</td>", "id": "<td>Jumlah</td>", "ar": "<td>الكمية</td>" },
-  "<td>Type</td>": { "es": "<td>Tipo</td>", "pt": "<td>Tipo</td>", "fr": "<td>Type</td>", "ja": "<td>タイプ</td>", "ko": "<td>종류</td>", "id": "<td>Tipe</td>", "ar": "<td>النوع</td>" },
-  "<td>Formulas</td>": { "es": "<td>Fórmulas</td>", "pt": "<td>Fórmulas</td>", "fr": "<td>Formules</td>", "ja": "<td>種類</td>", "ko": "<td>종류</td>", "id": "<td>Formula</td>", "ar": "<td>التركيبات</td>" },
-  "<td>Diameter</td>": { "es": "<td>Diámetro</td>", "pt": "<td>Diâmetro</td>", "fr": "<td>Diamètre</td>", "ja": "<td>直径</td>", "ko": "<td>직경</td>", "id": "<td>Diameter</td>", "ar": "<td>القطر</td>" },
-  "<td>Length</td>": { "es": "<td>Longitud</td>", "pt": "<td>Comprimento</td>", "fr": "<td>Longueur</td>", "ja": "<td>長さ</td>", "ko": "<td>길이</td>", "id": "<td>Panjang</td>", "ar": "<td>الطول</td>" },
-  "<td>Core</td>": { "es": "<td>Núcleo</td>", "pt": "<td>Núcleo</td>", "fr": "<td>Âme</td>", "ja": "<td>芯</td>", "ko": "<td>코어</td>", "id": "<td>Inti</td>", "ar": "<td>القلب</td>" },
-  "<td>Works on</td>": { "es": "<td>Funciona en</td>", "pt": "<td>Funciona em</td>", "fr": "<td>Fonctionne sur</td>", "ja": "<td>対応金属</td>", "ko": "<td>적용 금속</td>", "id": "<td>Untuk logam</td>", "ar": "<td>يعمل على</td>" },
-  "<td>Cure</td>": { "es": "<td>Curado</td>", "pt": "<td>Cura</td>", "fr": "<td>Durcissement</td>", "ja": "<td>硬化</td>", "ko": "<td>경화</td>", "id": "<td>Curing</td>", "ar": "<td>التصلب</td>" },
-  "<td>Use</td>": { "es": "<td>Uso</td>", "pt": "<td>Uso</td>", "fr": "<td>Usage</td>", "ja": "<td>用途</td>", "ko": "<td>용도</td>", "id": "<td>Penggunaan</td>", "ar": "<td>الاستخدام</td>" },
-  "<td>Power source</td>": { "es": "<td>Fuente de energía</td>", "pt": "<td>Fonte de energia</td>", "fr": "<td>Source d'alimentation</td>", "ja": "<td>電源</td>", "ko": "<td>전원</td>", "id": "<td>Sumber daya</td>", "ar": "<td>مصدر الطاقة</td>" },
-  "<td>Battery</td>": { "es": "<td>Batería</td>", "pt": "<td>Bateria</td>", "fr": "<td>Batterie</td>", "ja": "<td>バッテリー</td>", "ko": "<td>배터리</td>", "id": "<td>Baterai</td>", "ar": "<td>البطارية</td>" },
-  "<td>Melting point</td>": { "es": "<td>Punto de fusión</td>", "pt": "<td>Ponto de fusão</td>", "fr": "<td>Point de fusion</td>", "ja": "<td>融点</td>", "ko": "<td>융점</td>", "id": "<td>Titik leleh</td>", "ar": "<td>نقطة الانصهار</td>" },
-  "<td>Magnification</td>": { "es": "<td>Aumento</td>", "pt": "<td>Ampliação</td>", "fr": "<td>Grossissement</td>", "ja": "<td>倍率</td>", "ko": "<td>배율</td>", "id": "<td>Perbesaran</td>", "ar": "<td>التكبير</td>" },
-
-  "<td>Paste (syringe)</td>": { "es": "<td>Pasta (jeringa)</td>", "pt": "<td>Pasta (seringa)</td>", "fr": "<td>Pâte (seringue)</td>", "ja": "<td>ペースト（シリンジ）</td>", "ko": "<td>페이스트(주사기형)</td>", "id": "<td>Pasta (jarum suntik)</td>", "ar": "<td>معجون (محقنة)</td>" },
-  "<td>BGA / PCB / SMD IC repair &amp; rework</td>": { "es": "<td>Reparación y retrabajo de BGA / PCB / SMD IC</td>", "pt": "<td>Reparo e retrabalho de BGA / PCB / SMD IC</td>", "fr": "<td>Réparation et reprise BGA / PCB / SMD IC</td>", "ja": "<td>BGA / PCB / SMD ICの修理・リワーク</td>", "ko": "<td>BGA / PCB / SMD IC 수리·리워크</td>", "id": "<td>Perbaikan &amp; rework BGA / PCB / SMD IC</td>", "ar": "<td>إصلاح وإعادة تشغيل BGA / PCB / SMD IC</td>" },
-  "<td>1 x flux syringe + push rod + needle</td>": { "es": "<td>1 jeringa de flux + émbolo + aguja</td>", "pt": "<td>1 seringa de fluxo + êmbolo + agulha</td>", "fr": "<td>1 seringue de flux + piston + aiguille</td>", "ja": "<td>フラックスシリンジ×1 + 押し棒 + 針</td>", "ko": "<td>플럭스 주사기 1개 + 푸시로드 + 니들</td>", "id": "<td>1 jarum suntik flux + pendorong + jarum</td>", "ar": "<td>محقنة فلكس ×1 + قضيب دفع + إبرة</td>" },
-  "<td>Lead-free</td>": { "es": "<td>Sin plomo</td>", "pt": "<td>Sem chumbo</td>", "fr": "<td>Sans plomb</td>", "ja": "<td>鉛フリー</td>", "ko": "<td>무연</td>", "id": "<td>Bebas timbal</td>", "ar": "<td>خالٍ من الرصاص</td>" },
-  "<td>BGA reballing</td>": { "es": "<td>Reballing de BGA</td>", "pt": "<td>Reballing de BGA</td>", "fr": "<td>Reballing BGA</td>", "ja": "<td>BGAリボール</td>", "ko": "<td>BGA 리볼링</td>", "id": "<td>Reballing BGA</td>", "ar": "<td>إعادة تكوين كرات BGA</td>" },
-  "<td>approx. 2,500 pcs / bottle</td>": { "es": "<td>aprox. 2.500 uds / frasco</td>", "pt": "<td>aprox. 2.500 pçs / frasco</td>", "fr": "<td>env. 2 500 pièces / flacon</td>", "ja": "<td>約2,500個／ボトル</td>", "ko": "<td>약 2,500개/병</td>", "id": "<td>± 2.500 pcs / botol</td>", "ar": "<td>نحو 2500 قطعة / زجاجة</td>" },
-  "<td>BGA / PCB / SMD IC rework</td>": { "es": "<td>Retrabajo de BGA / PCB / SMD IC</td>", "pt": "<td>Retrabalho de BGA / PCB / SMD IC</td>", "fr": "<td>Reprise BGA / PCB / SMD IC</td>", "ja": "<td>BGA / PCB / SMD ICのリワーク</td>", "ko": "<td>BGA / PCB / SMD IC 리워크</td>", "id": "<td>Rework BGA / PCB / SMD IC</td>", "ar": "<td>إعادة تشغيل BGA / PCB / SMD IC</td>" },
-  "<td>1 x syringe + push rod + needles</td>": { "es": "<td>1 jeringa + émbolo + agujas</td>", "pt": "<td>1 seringa + êmbolo + agulhas</td>", "fr": "<td>1 seringue + piston + aiguilles</td>", "ja": "<td>シリンジ×1 + 押し棒 + 針</td>", "ko": "<td>주사기 1개 + 푸시로드 + 니들</td>", "id": "<td>1 jarum suntik + pendorong + jarum</td>", "ar": "<td>محقنة ×1 + قضيب دفع + إبر</td>" },
-  "<td>No-clean paste</td>": { "es": "<td>Pasta sin limpieza</td>", "pt": "<td>Pasta no-clean</td>", "fr": "<td>Pâte sans nettoyage</td>", "ja": "<td>無洗浄ペースト</td>", "ko": "<td>노클린 페이스트</td>", "id": "<td>Pasta no-clean</td>", "ar": "<td>معجون بدون تنظيف</td>" },
-  "<td>Paste (tub)</td>": { "es": "<td>Pasta (bote)</td>", "pt": "<td>Pasta (pote)</td>", "fr": "<td>Pâte (pot)</td>", "ja": "<td>ペースト（容器）</td>", "ko": "<td>페이스트(통)</td>", "id": "<td>Pasta (wadah)</td>", "ar": "<td>معجون (علبة)</td>" },
-  "<td>BGA / PCB / SMD repair &amp; rework</td>": { "es": "<td>Reparación y retrabajo de BGA / PCB / SMD</td>", "pt": "<td>Reparo e retrabalho de BGA / PCB / SMD</td>", "fr": "<td>Réparation et reprise BGA / PCB / SMD</td>", "ja": "<td>BGA / PCB / SMDの修理・リワーク</td>", "ko": "<td>BGA / PCB / SMD 수리·리워크</td>", "id": "<td>Perbaikan &amp; rework BGA / PCB / SMD</td>", "ar": "<td>إصلاح وإعادة تشغيل BGA / PCB / SMD</td>" },
-  "<td>No-clean rosin paste</td>": { "es": "<td>Pasta de colofonia sin limpieza</td>", "pt": "<td>Pasta de breu no-clean</td>", "fr": "<td>Pâte à la colophane sans nettoyage</td>", "ja": "<td>無洗浄ロジンペースト</td>", "ko": "<td>노클린 로진 페이스트</td>", "id": "<td>Pasta rosin no-clean</td>", "ar": "<td>معجون صمغي بدون تنظيف</td>" },
-  "<td>PCB / SMD soldering &amp; tinning</td>": { "es": "<td>Soldadura y estañado de PCB / SMD</td>", "pt": "<td>Solda e estanhagem de PCB / SMD</td>", "fr": "<td>Soudure et étamage PCB / SMD</td>", "ja": "<td>PCB / SMDのはんだ付け・予備はんだ</td>", "ko": "<td>PCB / SMD 납땜·주석 도금</td>", "id": "<td>Penyolderan &amp; pelapisan timah PCB / SMD</td>", "ar": "<td>لحام وتفييض PCB / SMD</td>" },
-  "<td>Rosin paste</td>": { "es": "<td>Pasta de colofonia</td>", "pt": "<td>Pasta de breu</td>", "fr": "<td>Pâte à la colophane</td>", "ja": "<td>ロジンペースト</td>", "ko": "<td>로진 페이스트</td>", "id": "<td>Pasta rosin</td>", "ar": "<td>معجون صمغي</td>" },
-  "<td>General soldering &amp; tinning</td>": { "es": "<td>Soldadura y estañado general</td>", "pt": "<td>Solda e estanhagem geral</td>", "fr": "<td>Soudure et étamage général</td>", "ja": "<td>一般的なはんだ付け・予備はんだ</td>", "ko": "<td>일반 납땜·주석 도금</td>", "id": "<td>Penyolderan &amp; pelapisan timah umum</td>", "ar": "<td>لحام وتفييض عام</td>" },
-  "<td>Special multi-metal core</td>": { "es": "<td>Núcleo especial multimetal</td>", "pt": "<td>Núcleo especial multimetal</td>", "fr": "<td>Âme spéciale multi-métaux</td>", "ja": "<td>特殊マルチメタル芯</td>", "ko": "<td>특수 멀티메탈 코어</td>", "id": "<td>Inti multilogam khusus</td>", "ar": "<td>قلب خاص متعدد المعادن</td>" },
-  "<td>Stainless steel / aluminum / nickel</td>": { "es": "<td>Acero inoxidable / aluminio / níquel</td>", "pt": "<td>Aço inoxidável / alumínio / níquel</td>", "fr": "<td>Acier inoxydable / aluminium / nickel</td>", "ja": "<td>ステンレス / アルミ / ニッケル</td>", "ko": "<td>스테인리스강 / 알루미늄 / 니켈</td>", "id": "<td>Baja nirkarat / aluminium / nikel</td>", "ar": "<td>فولاذ مقاوم للصدأ / ألمنيوم / نيكل</td>" },
-  "<td>SMT / BGA red adhesive</td>": { "es": "<td>Adhesivo rojo SMT / BGA</td>", "pt": "<td>Adesivo vermelho SMT / BGA</td>", "fr": "<td>Colle rouge SMT / BGA</td>", "ja": "<td>SMT / BGA赤色接着剤</td>", "ko": "<td>SMT / BGA 레드 접착제</td>", "id": "<td>Perekat merah SMT / BGA</td>", "ar": "<td>لاصق أحمر SMT / BGA</td>" },
-  "<td>High-temperature</td>": { "es": "<td>Alta temperatura</td>", "pt": "<td>Alta temperatura</td>", "fr": "<td>Haute température</td>", "ja": "<td>高温</td>", "ko": "<td>고온</td>", "id": "<td>Suhu tinggi</td>", "ar": "<td>حرارة عالية</td>" },
-  "<td>Screen / stencil dispensing</td>": { "es": "<td>Dispensado por serigrafía / stencil</td>", "pt": "<td>Dispensação por serigrafia / stencil</td>", "fr": "<td>Dépôt sérigraphie / pochoir</td>", "ja": "<td>スクリーン / ステンシル塗布</td>", "ko": "<td>스크린 / 스텐실 도포</td>", "id": "<td>Dispensing sablon / stensil</td>", "ar": "<td>توزيع عبر الشاشة / الاستنسل</td>" },
-  "<td>18650 battery (removable)</td>": { "es": "<td>Batería 18650 (extraíble)</td>", "pt": "<td>Bateria 18650 (removível)</td>", "fr": "<td>Batterie 18650 (amovible)</td>", "ja": "<td>18650電池（着脱式）</td>", "ko": "<td>18650 배터리(탈착식)</td>", "id": "<td>Baterai 18650 (lepas-pasang)</td>", "ar": "<td>بطارية 18650 (قابلة للإزالة)</td>" },
-  "<td>Cordless / USB-charge portable kit</td>": { "es": "<td>Kit portátil inalámbrico / carga USB</td>", "pt": "<td>Kit portátil sem fio / carga USB</td>", "fr": "<td>Kit portable sans fil / charge USB</td>", "ja": "<td>コードレス / USB充電のポータブルキット</td>", "ko": "<td>무선 / USB 충전 휴대용 키트</td>", "id": "<td>Kit portabel nirkabel / isi daya USB</td>", "ar": "<td>طقم محمول لاسلكي / شحن USB</td>" },
-  "<td>No-clean solder paste</td>": { "es": "<td>Pasta de soldadura sin limpieza</td>", "pt": "<td>Pasta de solda no-clean</td>", "fr": "<td>Pâte à souder sans nettoyage</td>", "ja": "<td>無洗浄はんだペースト</td>", "ko": "<td>노클린 솔더 페이스트</td>", "id": "<td>Pasta solder no-clean</td>", "ar": "<td>معجون لحام بدون تنظيف</td>" },
-  "<td>BGA / PCB / SMD phone repair</td>": { "es": "<td>Reparación de móviles BGA / PCB / SMD</td>", "pt": "<td>Reparo de celulares BGA / PCB / SMD</td>", "fr": "<td>Réparation de téléphones BGA / PCB / SMD</td>", "ja": "<td>BGA / PCB / SMDの携帯電話修理</td>", "ko": "<td>BGA / PCB / SMD 휴대폰 수리</td>", "id": "<td>Perbaikan ponsel BGA / PCB / SMD</td>", "ar": "<td>إصلاح هواتف BGA / PCB / SMD</td>" },
-  "<td>Optical magnifier</td>": { "es": "<td>Lupa óptica</td>", "pt": "<td>Lupa óptica</td>", "fr": "<td>Loupe optique</td>", "ja": "<td>光学ルーペ</td>", "ko": "<td>광학 돋보기</td>", "id": "<td>Kaca pembesar optik</td>", "ar": "<td>عدسة مكبّرة بصرية</td>" },
-  "<td>Reading / close-up repair &amp; inspection</td>": { "es": "<td>Lectura / reparación e inspección de cerca</td>", "pt": "<td>Leitura / reparo e inspeção de perto</td>", "fr": "<td>Lecture / réparation et inspection de près</td>", "ja": "<td>読書 / 近接の修理・検査</td>", "ko": "<td>독서 / 근접 수리·검사</td>", "id": "<td>Membaca / perbaikan &amp; inspeksi jarak dekat</td>", "ar": "<td>القراءة / الإصلاح والفحص عن قرب</td>" },
-
+  "class=\"cat\">Soldering Flux</span>": {
+    "es": "class=\"cat\">Flux de soldadura</span>",
+    "pt": "class=\"cat\">Fluxo de solda</span>",
+    "fr": "class=\"cat\">Flux à souder</span>",
+    "ja": "class=\"cat\">はんだフラックス</span>",
+    "ko": "class=\"cat\">솔더 플럭스</span>",
+    "id": "class=\"cat\">Flux solder</span>",
+    "ar": "class=\"cat\">فلكس لحام</span>"
+  },
+  "#catalog\">Soldering Flux</a>": {
+    "es": "#catalog\">Flux de soldadura</a>",
+    "pt": "#catalog\">Fluxo de solda</a>",
+    "fr": "#catalog\">Flux à souder</a>",
+    "ja": "#catalog\">はんだフラックス</a>",
+    "ko": "#catalog\">솔더 플럭스</a>",
+    "id": "#catalog\">Flux solder</a>",
+    "ar": "#catalog\">فلكس لحام</a>"
+  },
+  "class=\"cat\">Solder Paste</span>": {
+    "es": "class=\"cat\">Pasta de soldadura</span>",
+    "pt": "class=\"cat\">Pasta de solda</span>",
+    "fr": "class=\"cat\">Pâte à souder</span>",
+    "ja": "class=\"cat\">はんだペースト</span>",
+    "ko": "class=\"cat\">솔더 페이스트</span>",
+    "id": "class=\"cat\">Pasta solder</span>",
+    "ar": "class=\"cat\">معجون لحام</span>"
+  },
+  "#catalog\">Solder Paste</a>": {
+    "es": "#catalog\">Pasta de soldadura</a>",
+    "pt": "#catalog\">Pasta de solda</a>",
+    "fr": "#catalog\">Pâte à souder</a>",
+    "ja": "#catalog\">はんだペースト</a>",
+    "ko": "#catalog\">솔더 페이스트</a>",
+    "id": "#catalog\">Pasta solder</a>",
+    "ar": "#catalog\">معجون لحام</a>"
+  },
+  "class=\"cat\">Solder Balls</span>": {
+    "es": "class=\"cat\">Bolas de soldadura</span>",
+    "pt": "class=\"cat\">Esferas de solda</span>",
+    "fr": "class=\"cat\">Billes de soudure</span>",
+    "ja": "class=\"cat\">はんだボール</span>",
+    "ko": "class=\"cat\">솔더볼</span>",
+    "id": "class=\"cat\">Bola solder</span>",
+    "ar": "class=\"cat\">كرات لحام</span>"
+  },
+  "#catalog\">Solder Balls</a>": {
+    "es": "#catalog\">Bolas de soldadura</a>",
+    "pt": "#catalog\">Esferas de solda</a>",
+    "fr": "#catalog\">Billes de soudure</a>",
+    "ja": "#catalog\">はんだボール</a>",
+    "ko": "#catalog\">솔더볼</a>",
+    "id": "#catalog\">Bola solder</a>",
+    "ar": "#catalog\">كرات لحام</a>"
+  },
+  "class=\"cat\">Solder Wire</span>": {
+    "es": "class=\"cat\">Alambre de soldadura</span>",
+    "pt": "class=\"cat\">Fio de solda</span>",
+    "fr": "class=\"cat\">Fil de soudure</span>",
+    "ja": "class=\"cat\">はんだ線</span>",
+    "ko": "class=\"cat\">솔더 와이어</span>",
+    "id": "class=\"cat\">Kawat solder</span>",
+    "ar": "class=\"cat\">سلك لحام</span>"
+  },
+  "#catalog\">Solder Wire</a>": {
+    "es": "#catalog\">Alambre de soldadura</a>",
+    "pt": "#catalog\">Fio de solda</a>",
+    "fr": "#catalog\">Fil de soudure</a>",
+    "ja": "#catalog\">はんだ線</a>",
+    "ko": "#catalog\">솔더 와이어</a>",
+    "id": "#catalog\">Kawat solder</a>",
+    "ar": "#catalog\">سلك لحام</a>"
+  },
+  "class=\"cat\">Adhesive</span>": {
+    "es": "class=\"cat\">Adhesivo</span>",
+    "pt": "class=\"cat\">Adesivo</span>",
+    "fr": "class=\"cat\">Colle</span>",
+    "ja": "class=\"cat\">接着剤</span>",
+    "ko": "class=\"cat\">접착제</span>",
+    "id": "class=\"cat\">Perekat</span>",
+    "ar": "class=\"cat\">لاصق</span>"
+  },
+  "#catalog\">Adhesive</a>": {
+    "es": "#catalog\">Adhesivo</a>",
+    "pt": "#catalog\">Adesivo</a>",
+    "fr": "#catalog\">Colle</a>",
+    "ja": "#catalog\">接着剤</a>",
+    "ko": "#catalog\">접착제</a>",
+    "id": "#catalog\">Perekat</a>",
+    "ar": "#catalog\">لاصق</a>"
+  },
+  "class=\"cat\">Tool</span>": {
+    "es": "class=\"cat\">Herramienta</span>",
+    "pt": "class=\"cat\">Ferramenta</span>",
+    "fr": "class=\"cat\">Outil</span>",
+    "ja": "class=\"cat\">工具</span>",
+    "ko": "class=\"cat\">공구</span>",
+    "id": "class=\"cat\">Alat</span>",
+    "ar": "class=\"cat\">أداة</span>"
+  },
+  "#catalog\">Tool</a>": {
+    "es": "#catalog\">Herramienta</a>",
+    "pt": "#catalog\">Ferramenta</a>",
+    "fr": "#catalog\">Outil</a>",
+    "ja": "#catalog\">工具</a>",
+    "ko": "#catalog\">공구</a>",
+    "id": "#catalog\">Alat</a>",
+    "ar": "#catalog\">أداة</a>"
+  },
+  "class=\"cat\">Optics</span>": {
+    "es": "class=\"cat\">Óptica</span>",
+    "pt": "class=\"cat\">Óptica</span>",
+    "fr": "class=\"cat\">Optique</span>",
+    "ja": "class=\"cat\">光学</span>",
+    "ko": "class=\"cat\">광학</span>",
+    "id": "class=\"cat\">Optik</span>",
+    "ar": "class=\"cat\">بصريات</span>"
+  },
+  "#catalog\">Optics</a>": {
+    "es": "#catalog\">Óptica</a>",
+    "pt": "#catalog\">Óptica</a>",
+    "fr": "#catalog\">Optique</a>",
+    "ja": "#catalog\">光学</a>",
+    "ko": "#catalog\">광학</a>",
+    "id": "#catalog\">Optik</a>",
+    "ar": "#catalog\">بصريات</a>"
+  },
+  "<td>Model</td>": {
+    "es": "<td>Modelo</td>",
+    "pt": "<td>Modelo</td>",
+    "fr": "<td>Modèle</td>",
+    "ja": "<td>型番</td>",
+    "ko": "<td>모델</td>",
+    "id": "<td>Model</td>",
+    "ar": "<td>الطراز</td>"
+  },
+  "<td>Net content</td>": {
+    "es": "<td>Contenido neto</td>",
+    "pt": "<td>Conteúdo líquido</td>",
+    "fr": "<td>Contenu net</td>",
+    "ja": "<td>内容量</td>",
+    "ko": "<td>용량</td>",
+    "id": "<td>Isi bersih</td>",
+    "ar": "<td>المحتوى الصافي</td>"
+  },
+  "<td>Form</td>": {
+    "es": "<td>Forma</td>",
+    "pt": "<td>Forma</td>",
+    "fr": "<td>Forme</td>",
+    "ja": "<td>形状</td>",
+    "ko": "<td>형태</td>",
+    "id": "<td>Bentuk</td>",
+    "ar": "<td>الشكل</td>"
+  },
+  "<td>Application</td>": {
+    "es": "<td>Aplicación</td>",
+    "pt": "<td>Aplicação</td>",
+    "fr": "<td>Application</td>",
+    "ja": "<td>用途</td>",
+    "ko": "<td>용도</td>",
+    "id": "<td>Aplikasi</td>",
+    "ar": "<td>الاستخدام</td>"
+  },
+  "<td>Package</td>": {
+    "es": "<td>Contenido</td>",
+    "pt": "<td>Pacote</td>",
+    "fr": "<td>Contenu</td>",
+    "ja": "<td>梱包</td>",
+    "ko": "<td>구성</td>",
+    "id": "<td>Paket</td>",
+    "ar": "<td>المحتويات</td>"
+  },
+  "<td>Alloy</td>": {
+    "es": "<td>Aleación</td>",
+    "pt": "<td>Liga</td>",
+    "fr": "<td>Alliage</td>",
+    "ja": "<td>合金</td>",
+    "ko": "<td>합금</td>",
+    "id": "<td>Paduan</td>",
+    "ar": "<td>السبيكة</td>"
+  },
+  "<td>Diameters</td>": {
+    "es": "<td>Diámetros</td>",
+    "pt": "<td>Diâmetros</td>",
+    "fr": "<td>Diamètres</td>",
+    "ja": "<td>直径</td>",
+    "ko": "<td>직경</td>",
+    "id": "<td>Diameter</td>",
+    "ar": "<td>الأقطار</td>"
+  },
+  "<td>Quantity</td>": {
+    "es": "<td>Cantidad</td>",
+    "pt": "<td>Quantidade</td>",
+    "fr": "<td>Quantité</td>",
+    "ja": "<td>数量</td>",
+    "ko": "<td>수량</td>",
+    "id": "<td>Jumlah</td>",
+    "ar": "<td>الكمية</td>"
+  },
+  "<td>Type</td>": {
+    "es": "<td>Tipo</td>",
+    "pt": "<td>Tipo</td>",
+    "fr": "<td>Type</td>",
+    "ja": "<td>タイプ</td>",
+    "ko": "<td>종류</td>",
+    "id": "<td>Tipe</td>",
+    "ar": "<td>النوع</td>"
+  },
+  "<td>Formulas</td>": {
+    "es": "<td>Fórmulas</td>",
+    "pt": "<td>Fórmulas</td>",
+    "fr": "<td>Formules</td>",
+    "ja": "<td>種類</td>",
+    "ko": "<td>종류</td>",
+    "id": "<td>Formula</td>",
+    "ar": "<td>التركيبات</td>"
+  },
+  "<td>Diameter</td>": {
+    "es": "<td>Diámetro</td>",
+    "pt": "<td>Diâmetro</td>",
+    "fr": "<td>Diamètre</td>",
+    "ja": "<td>直径</td>",
+    "ko": "<td>직경</td>",
+    "id": "<td>Diameter</td>",
+    "ar": "<td>القطر</td>"
+  },
+  "<td>Length</td>": {
+    "es": "<td>Longitud</td>",
+    "pt": "<td>Comprimento</td>",
+    "fr": "<td>Longueur</td>",
+    "ja": "<td>長さ</td>",
+    "ko": "<td>길이</td>",
+    "id": "<td>Panjang</td>",
+    "ar": "<td>الطول</td>"
+  },
+  "<td>Core</td>": {
+    "es": "<td>Núcleo</td>",
+    "pt": "<td>Núcleo</td>",
+    "fr": "<td>Âme</td>",
+    "ja": "<td>芯</td>",
+    "ko": "<td>코어</td>",
+    "id": "<td>Inti</td>",
+    "ar": "<td>القلب</td>"
+  },
+  "<td>Works on</td>": {
+    "es": "<td>Funciona en</td>",
+    "pt": "<td>Funciona em</td>",
+    "fr": "<td>Fonctionne sur</td>",
+    "ja": "<td>対応金属</td>",
+    "ko": "<td>적용 금속</td>",
+    "id": "<td>Untuk logam</td>",
+    "ar": "<td>يعمل على</td>"
+  },
+  "<td>Cure</td>": {
+    "es": "<td>Curado</td>",
+    "pt": "<td>Cura</td>",
+    "fr": "<td>Durcissement</td>",
+    "ja": "<td>硬化</td>",
+    "ko": "<td>경화</td>",
+    "id": "<td>Curing</td>",
+    "ar": "<td>التصلب</td>"
+  },
+  "<td>Use</td>": {
+    "es": "<td>Uso</td>",
+    "pt": "<td>Uso</td>",
+    "fr": "<td>Usage</td>",
+    "ja": "<td>用途</td>",
+    "ko": "<td>용도</td>",
+    "id": "<td>Penggunaan</td>",
+    "ar": "<td>الاستخدام</td>"
+  },
+  "<td>Power source</td>": {
+    "es": "<td>Fuente de energía</td>",
+    "pt": "<td>Fonte de energia</td>",
+    "fr": "<td>Source d'alimentation</td>",
+    "ja": "<td>電源</td>",
+    "ko": "<td>전원</td>",
+    "id": "<td>Sumber daya</td>",
+    "ar": "<td>مصدر الطاقة</td>"
+  },
+  "<td>Battery</td>": {
+    "es": "<td>Batería</td>",
+    "pt": "<td>Bateria</td>",
+    "fr": "<td>Batterie</td>",
+    "ja": "<td>バッテリー</td>",
+    "ko": "<td>배터리</td>",
+    "id": "<td>Baterai</td>",
+    "ar": "<td>البطارية</td>"
+  },
+  "<td>Melting point</td>": {
+    "es": "<td>Punto de fusión</td>",
+    "pt": "<td>Ponto de fusão</td>",
+    "fr": "<td>Point de fusion</td>",
+    "ja": "<td>融点</td>",
+    "ko": "<td>융점</td>",
+    "id": "<td>Titik leleh</td>",
+    "ar": "<td>نقطة الانصهار</td>"
+  },
+  "<td>Magnification</td>": {
+    "es": "<td>Aumento</td>",
+    "pt": "<td>Ampliação</td>",
+    "fr": "<td>Grossissement</td>",
+    "ja": "<td>倍率</td>",
+    "ko": "<td>배율</td>",
+    "id": "<td>Perbesaran</td>",
+    "ar": "<td>التكبير</td>"
+  },
+  "<td>Paste (syringe)</td>": {
+    "es": "<td>Pasta (jeringa)</td>",
+    "pt": "<td>Pasta (seringa)</td>",
+    "fr": "<td>Pâte (seringue)</td>",
+    "ja": "<td>ペースト（シリンジ）</td>",
+    "ko": "<td>페이스트(주사기형)</td>",
+    "id": "<td>Pasta (jarum suntik)</td>",
+    "ar": "<td>معجون (محقنة)</td>"
+  },
+  "<td>BGA / PCB / SMD IC repair &amp; rework</td>": {
+    "es": "<td>Reparación y retrabajo de BGA / PCB / SMD IC</td>",
+    "pt": "<td>Reparo e retrabalho de BGA / PCB / SMD IC</td>",
+    "fr": "<td>Réparation et reprise BGA / PCB / SMD IC</td>",
+    "ja": "<td>BGA / PCB / SMD ICの修理・リワーク</td>",
+    "ko": "<td>BGA / PCB / SMD IC 수리·리워크</td>",
+    "id": "<td>Perbaikan &amp; rework BGA / PCB / SMD IC</td>",
+    "ar": "<td>إصلاح وإعادة تشغيل BGA / PCB / SMD IC</td>"
+  },
+  "<td>1 x flux syringe + push rod + needle</td>": {
+    "es": "<td>1 jeringa de flux + émbolo + aguja</td>",
+    "pt": "<td>1 seringa de fluxo + êmbolo + agulha</td>",
+    "fr": "<td>1 seringue de flux + piston + aiguille</td>",
+    "ja": "<td>フラックスシリンジ×1 + 押し棒 + 針</td>",
+    "ko": "<td>플럭스 주사기 1개 + 푸시로드 + 니들</td>",
+    "id": "<td>1 jarum suntik flux + pendorong + jarum</td>",
+    "ar": "<td>محقنة فلكس ×1 + قضيب دفع + إبرة</td>"
+  },
+  "<td>Lead-free</td>": {
+    "es": "<td>Sin plomo</td>",
+    "pt": "<td>Sem chumbo</td>",
+    "fr": "<td>Sans plomb</td>",
+    "ja": "<td>鉛フリー</td>",
+    "ko": "<td>무연</td>",
+    "id": "<td>Bebas timbal</td>",
+    "ar": "<td>خالٍ من الرصاص</td>"
+  },
+  "<td>BGA reballing</td>": {
+    "es": "<td>Reballing de BGA</td>",
+    "pt": "<td>Reballing de BGA</td>",
+    "fr": "<td>Reballing BGA</td>",
+    "ja": "<td>BGAリボール</td>",
+    "ko": "<td>BGA 리볼링</td>",
+    "id": "<td>Reballing BGA</td>",
+    "ar": "<td>إعادة تكوين كرات BGA</td>"
+  },
+  "<td>approx. 2,500 pcs / bottle</td>": {
+    "es": "<td>aprox. 2.500 uds / frasco</td>",
+    "pt": "<td>aprox. 2.500 pçs / frasco</td>",
+    "fr": "<td>env. 2 500 pièces / flacon</td>",
+    "ja": "<td>約2,500個／ボトル</td>",
+    "ko": "<td>약 2,500개/병</td>",
+    "id": "<td>± 2.500 pcs / botol</td>",
+    "ar": "<td>نحو 2500 قطعة / زجاجة</td>"
+  },
+  "<td>BGA / PCB / SMD IC rework</td>": {
+    "es": "<td>Retrabajo de BGA / PCB / SMD IC</td>",
+    "pt": "<td>Retrabalho de BGA / PCB / SMD IC</td>",
+    "fr": "<td>Reprise BGA / PCB / SMD IC</td>",
+    "ja": "<td>BGA / PCB / SMD ICのリワーク</td>",
+    "ko": "<td>BGA / PCB / SMD IC 리워크</td>",
+    "id": "<td>Rework BGA / PCB / SMD IC</td>",
+    "ar": "<td>إعادة تشغيل BGA / PCB / SMD IC</td>"
+  },
+  "<td>1 x syringe + push rod + needles</td>": {
+    "es": "<td>1 jeringa + émbolo + agujas</td>",
+    "pt": "<td>1 seringa + êmbolo + agulhas</td>",
+    "fr": "<td>1 seringue + piston + aiguilles</td>",
+    "ja": "<td>シリンジ×1 + 押し棒 + 針</td>",
+    "ko": "<td>주사기 1개 + 푸시로드 + 니들</td>",
+    "id": "<td>1 jarum suntik + pendorong + jarum</td>",
+    "ar": "<td>محقنة ×1 + قضيب دفع + إبر</td>"
+  },
+  "<td>No-clean paste</td>": {
+    "es": "<td>Pasta sin limpieza</td>",
+    "pt": "<td>Pasta no-clean</td>",
+    "fr": "<td>Pâte sans nettoyage</td>",
+    "ja": "<td>無洗浄ペースト</td>",
+    "ko": "<td>노클린 페이스트</td>",
+    "id": "<td>Pasta no-clean</td>",
+    "ar": "<td>معجون بدون تنظيف</td>"
+  },
+  "<td>Paste (tub)</td>": {
+    "es": "<td>Pasta (bote)</td>",
+    "pt": "<td>Pasta (pote)</td>",
+    "fr": "<td>Pâte (pot)</td>",
+    "ja": "<td>ペースト（容器）</td>",
+    "ko": "<td>페이스트(통)</td>",
+    "id": "<td>Pasta (wadah)</td>",
+    "ar": "<td>معجون (علبة)</td>"
+  },
+  "<td>BGA / PCB / SMD repair &amp; rework</td>": {
+    "es": "<td>Reparación y retrabajo de BGA / PCB / SMD</td>",
+    "pt": "<td>Reparo e retrabalho de BGA / PCB / SMD</td>",
+    "fr": "<td>Réparation et reprise BGA / PCB / SMD</td>",
+    "ja": "<td>BGA / PCB / SMDの修理・リワーク</td>",
+    "ko": "<td>BGA / PCB / SMD 수리·리워크</td>",
+    "id": "<td>Perbaikan &amp; rework BGA / PCB / SMD</td>",
+    "ar": "<td>إصلاح وإعادة تشغيل BGA / PCB / SMD</td>"
+  },
+  "<td>No-clean rosin paste</td>": {
+    "es": "<td>Pasta de colofonia sin limpieza</td>",
+    "pt": "<td>Pasta de breu no-clean</td>",
+    "fr": "<td>Pâte à la colophane sans nettoyage</td>",
+    "ja": "<td>無洗浄ロジンペースト</td>",
+    "ko": "<td>노클린 로진 페이스트</td>",
+    "id": "<td>Pasta rosin no-clean</td>",
+    "ar": "<td>معجون صمغي بدون تنظيف</td>"
+  },
+  "<td>PCB / SMD soldering &amp; tinning</td>": {
+    "es": "<td>Soldadura y estañado de PCB / SMD</td>",
+    "pt": "<td>Solda e estanhagem de PCB / SMD</td>",
+    "fr": "<td>Soudure et étamage PCB / SMD</td>",
+    "ja": "<td>PCB / SMDのはんだ付け・予備はんだ</td>",
+    "ko": "<td>PCB / SMD 납땜·주석 도금</td>",
+    "id": "<td>Penyolderan &amp; pelapisan timah PCB / SMD</td>",
+    "ar": "<td>لحام وتفييض PCB / SMD</td>"
+  },
+  "<td>Rosin paste</td>": {
+    "es": "<td>Pasta de colofonia</td>",
+    "pt": "<td>Pasta de breu</td>",
+    "fr": "<td>Pâte à la colophane</td>",
+    "ja": "<td>ロジンペースト</td>",
+    "ko": "<td>로진 페이스트</td>",
+    "id": "<td>Pasta rosin</td>",
+    "ar": "<td>معجون صمغي</td>"
+  },
+  "<td>General soldering &amp; tinning</td>": {
+    "es": "<td>Soldadura y estañado general</td>",
+    "pt": "<td>Solda e estanhagem geral</td>",
+    "fr": "<td>Soudure et étamage général</td>",
+    "ja": "<td>一般的なはんだ付け・予備はんだ</td>",
+    "ko": "<td>일반 납땜·주석 도금</td>",
+    "id": "<td>Penyolderan &amp; pelapisan timah umum</td>",
+    "ar": "<td>لحام وتفييض عام</td>"
+  },
+  "<td>Special multi-metal core</td>": {
+    "es": "<td>Núcleo especial multimetal</td>",
+    "pt": "<td>Núcleo especial multimetal</td>",
+    "fr": "<td>Âme spéciale multi-métaux</td>",
+    "ja": "<td>特殊マルチメタル芯</td>",
+    "ko": "<td>특수 멀티메탈 코어</td>",
+    "id": "<td>Inti multilogam khusus</td>",
+    "ar": "<td>قلب خاص متعدد المعادن</td>"
+  },
+  "<td>Stainless steel / aluminum / nickel</td>": {
+    "es": "<td>Acero inoxidable / aluminio / níquel</td>",
+    "pt": "<td>Aço inoxidável / alumínio / níquel</td>",
+    "fr": "<td>Acier inoxydable / aluminium / nickel</td>",
+    "ja": "<td>ステンレス / アルミ / ニッケル</td>",
+    "ko": "<td>스테인리스강 / 알루미늄 / 니켈</td>",
+    "id": "<td>Baja nirkarat / aluminium / nikel</td>",
+    "ar": "<td>فولاذ مقاوم للصدأ / ألمنيوم / نيكل</td>"
+  },
+  "<td>SMT / BGA red adhesive</td>": {
+    "es": "<td>Adhesivo rojo SMT / BGA</td>",
+    "pt": "<td>Adesivo vermelho SMT / BGA</td>",
+    "fr": "<td>Colle rouge SMT / BGA</td>",
+    "ja": "<td>SMT / BGA赤色接着剤</td>",
+    "ko": "<td>SMT / BGA 레드 접착제</td>",
+    "id": "<td>Perekat merah SMT / BGA</td>",
+    "ar": "<td>لاصق أحمر SMT / BGA</td>"
+  },
+  "<td>High-temperature</td>": {
+    "es": "<td>Alta temperatura</td>",
+    "pt": "<td>Alta temperatura</td>",
+    "fr": "<td>Haute température</td>",
+    "ja": "<td>高温</td>",
+    "ko": "<td>고온</td>",
+    "id": "<td>Suhu tinggi</td>",
+    "ar": "<td>حرارة عالية</td>"
+  },
+  "<td>Screen / stencil dispensing</td>": {
+    "es": "<td>Dispensado por serigrafía / stencil</td>",
+    "pt": "<td>Dispensação por serigrafia / stencil</td>",
+    "fr": "<td>Dépôt sérigraphie / pochoir</td>",
+    "ja": "<td>スクリーン / ステンシル塗布</td>",
+    "ko": "<td>스크린 / 스텐실 도포</td>",
+    "id": "<td>Dispensing sablon / stensil</td>",
+    "ar": "<td>توزيع عبر الشاشة / الاستنسل</td>"
+  },
+  "<td>18650 battery (removable)</td>": {
+    "es": "<td>Batería 18650 (extraíble)</td>",
+    "pt": "<td>Bateria 18650 (removível)</td>",
+    "fr": "<td>Batterie 18650 (amovible)</td>",
+    "ja": "<td>18650電池（着脱式）</td>",
+    "ko": "<td>18650 배터리(탈착식)</td>",
+    "id": "<td>Baterai 18650 (lepas-pasang)</td>",
+    "ar": "<td>بطارية 18650 (قابلة للإزالة)</td>"
+  },
+  "<td>Cordless / USB-charge portable kit</td>": {
+    "es": "<td>Kit portátil inalámbrico / carga USB</td>",
+    "pt": "<td>Kit portátil sem fio / carga USB</td>",
+    "fr": "<td>Kit portable sans fil / charge USB</td>",
+    "ja": "<td>コードレス / USB充電のポータブルキット</td>",
+    "ko": "<td>무선 / USB 충전 휴대용 키트</td>",
+    "id": "<td>Kit portabel nirkabel / isi daya USB</td>",
+    "ar": "<td>طقم محمول لاسلكي / شحن USB</td>"
+  },
+  "<td>No-clean solder paste</td>": {
+    "es": "<td>Pasta de soldadura sin limpieza</td>",
+    "pt": "<td>Pasta de solda no-clean</td>",
+    "fr": "<td>Pâte à souder sans nettoyage</td>",
+    "ja": "<td>無洗浄はんだペースト</td>",
+    "ko": "<td>노클린 솔더 페이스트</td>",
+    "id": "<td>Pasta solder no-clean</td>",
+    "ar": "<td>معجون لحام بدون تنظيف</td>"
+  },
+  "<td>BGA / PCB / SMD phone repair</td>": {
+    "es": "<td>Reparación de móviles BGA / PCB / SMD</td>",
+    "pt": "<td>Reparo de celulares BGA / PCB / SMD</td>",
+    "fr": "<td>Réparation de téléphones BGA / PCB / SMD</td>",
+    "ja": "<td>BGA / PCB / SMDの携帯電話修理</td>",
+    "ko": "<td>BGA / PCB / SMD 휴대폰 수리</td>",
+    "id": "<td>Perbaikan ponsel BGA / PCB / SMD</td>",
+    "ar": "<td>إصلاح هواتف BGA / PCB / SMD</td>"
+  },
+  "<td>Optical magnifier</td>": {
+    "es": "<td>Lupa óptica</td>",
+    "pt": "<td>Lupa óptica</td>",
+    "fr": "<td>Loupe optique</td>",
+    "ja": "<td>光学ルーペ</td>",
+    "ko": "<td>광학 돋보기</td>",
+    "id": "<td>Kaca pembesar optik</td>",
+    "ar": "<td>عدسة مكبّرة بصرية</td>"
+  },
+  "<td>Reading / close-up repair &amp; inspection</td>": {
+    "es": "<td>Lectura / reparación e inspección de cerca</td>",
+    "pt": "<td>Leitura / reparo e inspeção de perto</td>",
+    "fr": "<td>Lecture / réparation et inspection de près</td>",
+    "ja": "<td>読書 / 近接の修理・検査</td>",
+    "ko": "<td>독서 / 근접 수리·검사</td>",
+    "id": "<td>Membaca / perbaikan &amp; inspeksi jarak dekat</td>",
+    "ar": "<td>القراءة / الإصلاح والفحص عن قرب</td>"
+  },
   "S800 is a ready-to-use soldering flux paste in a 10cc syringe with a dispensing needle, made for BGA, PCB and SMD IC repair and rework. It holds components in place and promotes clean, even solder wetting during reballing and chip-level work, on both leaded and lead-free joints.": {
     "es": "S800 es una pasta de flux para soldadura lista para usar, en jeringa de 10cc con aguja dosificadora, pensada para reparación y retrabajo de BGA, PCB y SMD IC. Mantiene los componentes en su sitio y favorece un mojado de soldadura limpio y uniforme durante el reballing y el trabajo a nivel de chip, en uniones con y sin plomo.",
     "pt": "O S800 é uma pasta de fluxo de solda pronta para uso, em seringa de 10cc com agulha dosadora, feita para reparo e retrabalho de BGA, PCB e SMD IC. Mantém os componentes no lugar e favorece uma molhagem de solda limpa e uniforme durante o reballing e o trabalho em nível de chip, em juntas com e sem chumbo.",
@@ -216,5 +727,374 @@
     "ko": "You Qian 광학 돋보기로 1배·2배·3배 배율을 제공하여 독서와 근접 수리·검사 작업에 사용합니다 - 솔더 조인트, 작은 글씨, 소형 부품 확인에 편리합니다.",
     "id": "Kaca pembesar optik You Qian dengan perbesaran 1x, 2x, dan 3x untuk membaca serta pekerjaan perbaikan dan inspeksi jarak dekat - praktis untuk memeriksa sambungan solder, cetakan halus, dan komponen kecil.",
     "ar": "عدسة مكبّرة بصرية You Qian توفّر تكبير 1x و2x و3x للقراءة وأعمال الإصلاح والفحص عن قرب - مفيدة لفحص وصلات اللحام والطباعة الدقيقة والمكوّنات الصغيرة."
+  },
+  "KEK Sn63 solder wire with a rosin flux core, available in 0.8 mm and 1.0 mm diameters, supplied as a 50 g roll for PCB and electronics repair and DIY soldering.": {
+    "es": "Alambre de soldadura KEK Sn63 con núcleo de flux de colofonia, disponible en diámetros de 0,8 mm y 1,0 mm, en rollo de 50 g para reparación de PCB y electrónica y soldadura DIY.",
+    "pt": "Fio de solda KEK Sn63 com núcleo de fluxo de breu, disponível em diâmetros de 0,8 mm e 1,0 mm, em rolo de 50 g para reparo de PCB e eletrônica e solda DIY.",
+    "fr": "Fil à souder KEK Sn63 à âme de flux à la colophane, disponible en diamètres de 0,8 mm et 1,0 mm, en bobine de 50 g pour la réparation de PCB et d'électronique et la soudure DIY.",
+    "ja": "KEK Sn63 はんだ線。ロジンフラックス入りで0.8mmと1.0mmの径があり、50gロール。PCB・電子機器の修理やDIYはんだ付けに適しています。",
+    "ko": "KEK Sn63 땜납 와이어. 로진 플럭스 코어이며 0.8mm 및 1.0mm 직경으로 제공되고 50g 롤입니다. PCB·전자 수리 및 DIY 납땜에 적합합니다.",
+    "id": "Kawat solder KEK Sn63 dengan inti fluks rosin, tersedia dalam diameter 0,8 mm dan 1,0 mm, dalam gulungan 50g untuk perbaikan PCB dan elektronik serta solder DIY.",
+    "ar": "سلك لحام KEK Sn63 بقلب من تدفق الراتنج، متوفر بقطر 0.8 مم و1.0 مم، في لفة 50g لإصلاح لوحات PCB والإلكترونيات واللحام اليدوي."
+  },
+  "KEK Sn63 solder wire with a rosin flux core, available in 0.8 mm and 1.0 mm diameters, supplied as a 3 m tube for PCB and electronics repair and DIY soldering.": {
+    "es": "Alambre de soldadura KEK Sn63 con núcleo de flux de colofonia, disponible en diámetros de 0,8 mm y 1,0 mm, en tubo de 3 m para reparación de PCB y electrónica y soldadura DIY.",
+    "pt": "Fio de solda KEK Sn63 com núcleo de fluxo de breu, disponível em diâmetros de 0,8 mm e 1,0 mm, em tubo de 3 m para reparo de PCB e eletrônica e solda DIY.",
+    "fr": "Fil à souder KEK Sn63 à âme de flux à la colophane, disponible en diamètres de 0,8 mm et 1,0 mm, en tube de 3 m pour la réparation de PCB et d'électronique et la soudure DIY.",
+    "ja": "KEK Sn63 はんだ線。ロジンフラックス入りで0.8mmと1.0mmの径があり、3mチューブ。PCB・電子機器の修理やDIYはんだ付けに適しています。",
+    "ko": "KEK Sn63 땜납 와이어. 로진 플럭스 코어이며 0.8mm 및 1.0mm 직경으로 제공되고 3m 튜브입니다. PCB·전자 수리 및 DIY 납땜에 적합합니다.",
+    "id": "Kawat solder KEK Sn63 dengan inti fluks rosin, tersedia dalam diameter 0,8 mm dan 1,0 mm, dalam tabung 3m untuk perbaikan PCB dan elektronik serta solder DIY.",
+    "ar": "سلك لحام KEK Sn63 بقلب من تدفق الراتنج، متوفر بقطر 0.8 مم و1.0 مم، في أنبوب 3m لإصلاح لوحات PCB والإلكترونيات واللحام اليدوي."
+  },
+  "KEK Sn99.3Cu0.7 lead-free solder wire with a rosin flux core, available in 0.8 mm and 1.0 mm diameters, supplied as a 3 m tube for PCB and electronics repair and DIY soldering.": {
+    "es": "Alambre de soldadura KEK Sn99.3Cu0.7 sin plomo con núcleo de flux de colofonia, disponible en diámetros de 0,8 mm y 1,0 mm, en tubo de 3 m para reparación de PCB y electrónica y soldadura DIY.",
+    "pt": "Fio de solda KEK Sn99.3Cu0.7 sem chumbo com núcleo de fluxo de breu, disponível em diâmetros de 0,8 mm e 1,0 mm, em tubo de 3 m para reparo de PCB e eletrônica e solda DIY.",
+    "fr": "Fil à souder KEK Sn99.3Cu0.7 sans plomb à âme de flux à la colophane, disponible en diamètres de 0,8 mm et 1,0 mm, en tube de 3 m pour la réparation de PCB et d'électronique et la soudure DIY.",
+    "ja": "KEK Sn99.3Cu0.7 無鉛 はんだ線。ロジンフラックス入りで0.8mmと1.0mmの径があり、3mチューブ。PCB・電子機器の修理やDIYはんだ付けに適しています。",
+    "ko": "KEK Sn99.3Cu0.7 무연 땜납 와이어. 로진 플럭스 코어이며 0.8mm 및 1.0mm 직경으로 제공되고 3m 튜브입니다. PCB·전자 수리 및 DIY 납땜에 적합합니다.",
+    "id": "Kawat solder KEK Sn99.3Cu0.7 bebas timbal dengan inti fluks rosin, tersedia dalam diameter 0,8 mm dan 1,0 mm, dalam tabung 3m untuk perbaikan PCB dan elektronik serta solder DIY.",
+    "ar": "سلك لحام KEK Sn99.3Cu0.7 خالٍ من الرصاص بقلب من تدفق الراتنج، متوفر بقطر 0.8 مم و1.0 مم، في أنبوب 3m لإصلاح لوحات PCB والإلكترونيات واللحام اليدوي."
+  },
+  "KEK Sn99.3Cu0.7 lead-free solder wire with a rosin flux core, available in 0.8 mm and 1.0 mm diameters, supplied as a 100 g roll for PCB and electronics repair and DIY soldering.": {
+    "es": "Alambre de soldadura KEK Sn99.3Cu0.7 sin plomo con núcleo de flux de colofonia, disponible en diámetros de 0,8 mm y 1,0 mm, en rollo de 100 g para reparación de PCB y electrónica y soldadura DIY.",
+    "pt": "Fio de solda KEK Sn99.3Cu0.7 sem chumbo com núcleo de fluxo de breu, disponível em diâmetros de 0,8 mm e 1,0 mm, em rolo de 100 g para reparo de PCB e eletrônica e solda DIY.",
+    "fr": "Fil à souder KEK Sn99.3Cu0.7 sans plomb à âme de flux à la colophane, disponible en diamètres de 0,8 mm et 1,0 mm, en bobine de 100 g pour la réparation de PCB et d'électronique et la soudure DIY.",
+    "ja": "KEK Sn99.3Cu0.7 無鉛 はんだ線。ロジンフラックス入りで0.8mmと1.0mmの径があり、100gロール。PCB・電子機器の修理やDIYはんだ付けに適しています。",
+    "ko": "KEK Sn99.3Cu0.7 무연 땜납 와이어. 로진 플럭스 코어이며 0.8mm 및 1.0mm 직경으로 제공되고 100g 롤입니다. PCB·전자 수리 및 DIY 납땜에 적합합니다.",
+    "id": "Kawat solder KEK Sn99.3Cu0.7 bebas timbal dengan inti fluks rosin, tersedia dalam diameter 0,8 mm dan 1,0 mm, dalam gulungan 100g untuk perbaikan PCB dan elektronik serta solder DIY.",
+    "ar": "سلك لحام KEK Sn99.3Cu0.7 خالٍ من الرصاص بقلب من تدفق الراتنج، متوفر بقطر 0.8 مم و1.0 مم، في لفة 100g لإصلاح لوحات PCB والإلكترونيات واللحام اليدوي."
+  },
+  "KEK Sn99Ag0.3Cu0.7 lead-free solder wire with a rosin flux core, available in 0.8 mm and 1.0 mm diameters, supplied as a 100 g roll for PCB and electronics repair and DIY soldering.": {
+    "es": "Alambre de soldadura KEK Sn99Ag0.3Cu0.7 sin plomo con núcleo de flux de colofonia, disponible en diámetros de 0,8 mm y 1,0 mm, en rollo de 100 g para reparación de PCB y electrónica y soldadura DIY.",
+    "pt": "Fio de solda KEK Sn99Ag0.3Cu0.7 sem chumbo com núcleo de fluxo de breu, disponível em diâmetros de 0,8 mm e 1,0 mm, em rolo de 100 g para reparo de PCB e eletrônica e solda DIY.",
+    "fr": "Fil à souder KEK Sn99Ag0.3Cu0.7 sans plomb à âme de flux à la colophane, disponible en diamètres de 0,8 mm et 1,0 mm, en bobine de 100 g pour la réparation de PCB et d'électronique et la soudure DIY.",
+    "ja": "KEK Sn99Ag0.3Cu0.7 無鉛 はんだ線。ロジンフラックス入りで0.8mmと1.0mmの径があり、100gロール。PCB・電子機器の修理やDIYはんだ付けに適しています。",
+    "ko": "KEK Sn99Ag0.3Cu0.7 무연 땜납 와이어. 로진 플럭스 코어이며 0.8mm 및 1.0mm 직경으로 제공되고 100g 롤입니다. PCB·전자 수리 및 DIY 납땜에 적합합니다.",
+    "id": "Kawat solder KEK Sn99Ag0.3Cu0.7 bebas timbal dengan inti fluks rosin, tersedia dalam diameter 0,8 mm dan 1,0 mm, dalam gulungan 100g untuk perbaikan PCB dan elektronik serta solder DIY.",
+    "ar": "سلك لحام KEK Sn99Ag0.3Cu0.7 خالٍ من الرصاص بقلب من تدفق الراتنج، متوفر بقطر 0.8 مم و1.0 مم، في لفة 100g لإصلاح لوحات PCB والإلكترونيات واللحام اليدوي."
+  },
+  "KEK 63% tin solder wire with a rosin flux core, available in 0.8 mm and 1.0 mm diameters, supplied as a 100 g roll for PCB and electronics repair and DIY soldering.": {
+    "es": "Alambre de soldadura KEK 63% estaño con núcleo de flux de colofonia, disponible en diámetros de 0,8 mm y 1,0 mm, en rollo de 100 g para reparación de PCB y electrónica y soldadura DIY.",
+    "pt": "Fio de solda KEK 63% estanho com núcleo de fluxo de breu, disponível em diâmetros de 0,8 mm e 1,0 mm, em rolo de 100 g para reparo de PCB e eletrônica e solda DIY.",
+    "fr": "Fil à souder KEK 63% étain à âme de flux à la colophane, disponible en diamètres de 0,8 mm et 1,0 mm, en bobine de 100 g pour la réparation de PCB et d'électronique et la soudure DIY.",
+    "ja": "KEK 63%スズ はんだ線。ロジンフラックス入りで0.8mmと1.0mmの径があり、100gロール。PCB・電子機器の修理やDIYはんだ付けに適しています。",
+    "ko": "KEK 63% 주석 땜납 와이어. 로진 플럭스 코어이며 0.8mm 및 1.0mm 직경으로 제공되고 100g 롤입니다. PCB·전자 수리 및 DIY 납땜에 적합합니다.",
+    "id": "Kawat solder KEK timah 63% dengan inti fluks rosin, tersedia dalam diameter 0,8 mm dan 1,0 mm, dalam gulungan 100g untuk perbaikan PCB dan elektronik serta solder DIY.",
+    "ar": "سلك لحام KEK قصدير 63% بقلب من تدفق الراتنج، متوفر بقطر 0.8 مم و1.0 مم، في لفة 100g لإصلاح لوحات PCB والإلكترونيات واللحام اليدوي."
+  },
+  "KEK 60/40 tin-lead solder wire with a rosin flux core, available in 0.8 mm and 1.0 mm diameters, supplied as a 50 g roll for PCB and electronics repair and DIY soldering.": {
+    "es": "Alambre de soldadura KEK 60/40 estaño-plomo con núcleo de flux de colofonia, disponible en diámetros de 0,8 mm y 1,0 mm, en rollo de 50 g para reparación de PCB y electrónica y soldadura DIY.",
+    "pt": "Fio de solda KEK 60/40 estanho-chumbo com núcleo de fluxo de breu, disponível em diâmetros de 0,8 mm e 1,0 mm, em rolo de 50 g para reparo de PCB e eletrônica e solda DIY.",
+    "fr": "Fil à souder KEK 60/40 étain-plomb à âme de flux à la colophane, disponible en diamètres de 0,8 mm et 1,0 mm, en bobine de 50 g pour la réparation de PCB et d'électronique et la soudure DIY.",
+    "ja": "KEK 60/40 スズ鉛 はんだ線。ロジンフラックス入りで0.8mmと1.0mmの径があり、50gロール。PCB・電子機器の修理やDIYはんだ付けに適しています。",
+    "ko": "KEK 60/40 주석-납 땜납 와이어. 로진 플럭스 코어이며 0.8mm 및 1.0mm 직경으로 제공되고 50g 롤입니다. PCB·전자 수리 및 DIY 납땜에 적합합니다.",
+    "id": "Kawat solder KEK 60/40 timah-timbal dengan inti fluks rosin, tersedia dalam diameter 0,8 mm dan 1,0 mm, dalam gulungan 50g untuk perbaikan PCB dan elektronik serta solder DIY.",
+    "ar": "سلك لحام KEK 60/40 قصدير-رصاص بقلب من تدفق الراتنج، متوفر بقطر 0.8 مم و1.0 مم، في لفة 50g لإصلاح لوحات PCB والإلكترونيات واللحام اليدوي."
+  },
+  "SAC0307 lead-free solder paste (Sn99.0 / Ag0.3 / Cu0.7) with a reflow range around 227 °C, in a 50 g syringe supplied with two needles and a push rod for PCB and SMD rework.": {
+    "es": "Pasta de soldadura sin plomo SAC0307 (Sn99.0 / Ag0.3 / Cu0.7) con un rango de reflujo en torno a 227 °C, en una jeringa de 50 g con dos agujas y un émbolo para retrabajo de PCB y SMD.",
+    "pt": "Pasta de solda sem chumbo SAC0307 (Sn99.0 / Ag0.3 / Cu0.7) com faixa de refluxo em torno de 227 °C, em uma seringa de 50 g com duas agulhas e um êmbolo para retrabalho de PCB e SMD.",
+    "fr": "Pâte à souder sans plomb SAC0307 (Sn99.0 / Ag0.3 / Cu0.7) avec une plage de refusion autour de 227 °C, en seringue de 50 g avec deux aiguilles et un piston pour la reprise PCB et SMD.",
+    "ja": "SAC0307 無鉛ソルダーペースト（Sn99.0 / Ag0.3 / Cu0.7）。リフロー温度は約227°Cで、50gシリンジに針2本とプッシュロッドが付属し、PCB・SMDのやり直しに使えます。",
+    "ko": "SAC0307 무연 솔더 페이스트(Sn99.0 / Ag0.3 / Cu0.7). 리플로우 온도는 약 227°C이며, 바늘 2개와 푸시로드가 포함된 50g 주사기로 PCB·SMD 리워크에 사용합니다.",
+    "id": "Pasta solder bebas timbal SAC0307 (Sn99.0 / Ag0.3 / Cu0.7) dengan rentang reflow sekitar 227 °C, dalam jarum suntik 50 g dengan dua jarum dan push rod untuk rework PCB dan SMD.",
+    "ar": "معجون لحام SAC0307 خالٍ من الرصاص (Sn99.0 / Ag0.3 / Cu0.7) بنطاق إعادة انصهار حوالي 227 °C، في حقنة 50g مع إبرتين وقضيب دفع لإعادة عمل PCB وSMD."
+  },
+  "SAC0307 lead-free solder paste (Sn99.0 / Ag0.3 / Cu0.7) with a reflow range around 227 °C, in a 35 g syringe supplied with two needles and a push rod for PCB and SMD rework.": {
+    "es": "Pasta de soldadura sin plomo SAC0307 (Sn99.0 / Ag0.3 / Cu0.7) con un rango de reflujo en torno a 227 °C, en una jeringa de 35 g con dos agujas y un émbolo para retrabajo de PCB y SMD.",
+    "pt": "Pasta de solda sem chumbo SAC0307 (Sn99.0 / Ag0.3 / Cu0.7) com faixa de refluxo em torno de 227 °C, em uma seringa de 35 g com duas agulhas e um êmbolo para retrabalho de PCB e SMD.",
+    "fr": "Pâte à souder sans plomb SAC0307 (Sn99.0 / Ag0.3 / Cu0.7) avec une plage de refusion autour de 227 °C, en seringue de 35 g avec deux aiguilles et un piston pour la reprise PCB et SMD.",
+    "ja": "SAC0307 無鉛ソルダーペースト（Sn99.0 / Ag0.3 / Cu0.7）。リフロー温度は約227°Cで、35gシリンジに針2本とプッシュロッドが付属し、PCB・SMDのやり直しに使えます。",
+    "ko": "SAC0307 무연 솔더 페이스트(Sn99.0 / Ag0.3 / Cu0.7). 리플로우 온도는 약 227°C이며, 바늘 2개와 푸시로드가 포함된 35g 주사기로 PCB·SMD 리워크에 사용합니다.",
+    "id": "Pasta solder bebas timbal SAC0307 (Sn99.0 / Ag0.3 / Cu0.7) dengan rentang reflow sekitar 227 °C, dalam jarum suntik 35 g dengan dua jarum dan push rod untuk rework PCB dan SMD.",
+    "ar": "معجون لحام SAC0307 خالٍ من الرصاص (Sn99.0 / Ag0.3 / Cu0.7) بنطاق إعادة انصهار حوالي 227 °C، في حقنة 35g مع إبرتين وقضيب دفع لإعادة عمل PCB وSMD."
+  },
+  "SAC0307 lead-free solder paste (Sn99.0 / Ag0.3 / Cu0.7) with a reflow range around 227 °C, in a 20 g syringe supplied with two needles and a push rod for PCB and SMD rework.": {
+    "es": "Pasta de soldadura sin plomo SAC0307 (Sn99.0 / Ag0.3 / Cu0.7) con un rango de reflujo en torno a 227 °C, en una jeringa de 20 g con dos agujas y un émbolo para retrabajo de PCB y SMD.",
+    "pt": "Pasta de solda sem chumbo SAC0307 (Sn99.0 / Ag0.3 / Cu0.7) com faixa de refluxo em torno de 227 °C, em uma seringa de 20 g com duas agulhas e um êmbolo para retrabalho de PCB e SMD.",
+    "fr": "Pâte à souder sans plomb SAC0307 (Sn99.0 / Ag0.3 / Cu0.7) avec une plage de refusion autour de 227 °C, en seringue de 20 g avec deux aiguilles et un piston pour la reprise PCB et SMD.",
+    "ja": "SAC0307 無鉛ソルダーペースト（Sn99.0 / Ag0.3 / Cu0.7）。リフロー温度は約227°Cで、20gシリンジに針2本とプッシュロッドが付属し、PCB・SMDのやり直しに使えます。",
+    "ko": "SAC0307 무연 솔더 페이스트(Sn99.0 / Ag0.3 / Cu0.7). 리플로우 온도는 약 227°C이며, 바늘 2개와 푸시로드가 포함된 20g 주사기로 PCB·SMD 리워크에 사용합니다.",
+    "id": "Pasta solder bebas timbal SAC0307 (Sn99.0 / Ag0.3 / Cu0.7) dengan rentang reflow sekitar 227 °C, dalam jarum suntik 20 g dengan dua jarum dan push rod untuk rework PCB dan SMD.",
+    "ar": "معجون لحام SAC0307 خالٍ من الرصاص (Sn99.0 / Ag0.3 / Cu0.7) بنطاق إعادة انصهار حوالي 227 °C، في حقنة 20g مع إبرتين وقضيب دفع لإعادة عمل PCB وSMD."
+  },
+  "NC-559-ASM in a larger 10ml applicator, a no-clean soldering flux for BGA, PCB and SMD IC rework and general electronics repair. It wets quickly and leaves low residue, so boards can usually be used without a cleaning step.": {
+    "es": "NC-559-ASM en un aplicador más grande de 10 ml, un flux de soldadura sin limpieza para retrabajo de BGA, PCB y SMD y reparación electrónica general. Humecta rápido y deja poco residuo, por lo que las placas suelen poder usarse sin un paso de limpieza.",
+    "pt": "NC-559-ASM em um aplicador maior de 10 ml, um fluxo de solda sem limpeza para retrabalho de BGA, PCB e SMD e reparo eletrônico geral. Molha rápido e deixa pouco resíduo, então as placas geralmente podem ser usadas sem uma etapa de limpeza.",
+    "fr": "NC-559-ASM dans un applicateur plus grand de 10 ml, un flux à souder sans nettoyage pour la reprise BGA, PCB et SMD et la réparation électronique générale. Il mouille vite et laisse peu de résidu, si bien que les cartes peuvent souvent être utilisées sans nettoyage.",
+    "ja": "NC-559-ASM をより大きな10mlアプリケーターに収めた無洗浄フラックス。BGA・PCB・SMD ICのやり直しや一般的な電子機器修理向けで、素早く濡れ広がり残渣が少ないため、多くの場合洗浄せずに基板を使えます。",
+    "ko": "NC-559-ASM을 더 큰 10ml 어플리케이터에 담은 무세척 플럭스입니다. BGA·PCB·SMD IC 리워크와 일반 전자 수리에 적합하며, 빠르게 젖고 잔류물이 적어 대개 세척 없이 기판을 사용할 수 있습니다.",
+    "id": "NC-559-ASM dalam aplikator 10ml yang lebih besar, fluks solder no-clean untuk rework BGA, PCB, dan SMD serta perbaikan elektronik umum. Membasahi dengan cepat dan meninggalkan sedikit residu, sehingga papan biasanya bisa dipakai tanpa langkah pembersihan.",
+    "ar": "NC-559-ASM في مِحقن أكبر سعة 10 مل، معجون لحام بدون تنظيف لإعادة عمل BGA وPCB وSMD وإصلاح الإلكترونيات عمومًا. يبلّل بسرعة ويترك أثرًا قليلًا، لذا يمكن عادةً استخدام اللوحات دون خطوة تنظيف."
+  },
+  "A 30mL KEK soldering flux paste available in the popular NC-559-ASM, NC-558-ASM, RMA-223-ASM and NC-218-ASM formulas, supplied with a plunger and two tips for BGA and PCB repair. The larger volume suits busy repair benches.": {
+    "es": "Una pasta de flux de soldadura KEK de 30 ml disponible en las populares fórmulas NC-559-ASM, NC-558-ASM, RMA-223-ASM y NC-218-ASM, con émbolo y dos puntas para reparación de BGA y PCB. El mayor volumen conviene a bancos de reparación con mucho trabajo.",
+    "pt": "Uma pasta de fluxo de solda KEK de 30 ml disponível nas populares fórmulas NC-559-ASM, NC-558-ASM, RMA-223-ASM e NC-218-ASM, com êmbolo e duas pontas para reparo de BGA e PCB. O maior volume é ideal para bancadas de reparo movimentadas.",
+    "fr": "Une pâte de flux à souder KEK de 30 ml disponible dans les formules populaires NC-559-ASM, NC-558-ASM, RMA-223-ASM et NC-218-ASM, livrée avec un piston et deux embouts pour la réparation BGA et PCB. Le volume plus grand convient aux ateliers chargés.",
+    "ja": "人気のNC-559-ASM・NC-558-ASM・RMA-223-ASM・NC-218-ASM処方から選べる30mlのKEKフラックスペースト。プランジャーとチップ2個が付属し、BGAやPCBの修理に使えます。容量が大きく、作業量の多い修理現場に向いています。",
+    "ko": "인기 있는 NC-559-ASM, NC-558-ASM, RMA-223-ASM, NC-218-ASM 포뮬러로 제공되는 30ml KEK 플럭스 페이스트입니다. 플런저와 팁 2개가 포함되어 BGA 및 PCB 수리에 사용하며, 용량이 커 작업량이 많은 수리 현장에 적합합니다.",
+    "id": "Pasta fluks solder KEK 30ml yang tersedia dalam formula populer NC-559-ASM, NC-558-ASM, RMA-223-ASM, dan NC-218-ASM, dilengkapi plunger dan dua tip untuk perbaikan BGA dan PCB. Volume lebih besar cocok untuk meja reparasi yang sibuk.",
+    "ar": "معجون لحام KEK سعة 30 مل متوفر بتركيبات شائعة NC-559-ASM وNC-558-ASM وRMA-223-ASM وNC-218-ASM، مع مكبس وطرفين لإصلاح BGA وPCB. الحجم الأكبر مناسب لطاولات الإصلاح المزدحمة."
+  },
+  "HB-18 is a 30g rosin soldering flux paste for PCB repair, wire tinning and electronic-component soldering. The rosin base gives dependable wetting for everyday bench work while leaving minimal residue.": {
+    "es": "HB-18 es una pasta de flux de colofonia de 30 g para reparación de PCB, estañado de cables y soldadura de componentes electrónicos. La base de colofonia ofrece una humectación fiable para el trabajo diario dejando un residuo mínimo.",
+    "pt": "HB-18 é uma pasta de fluxo de breu de 30 g para reparo de PCB, estanhagem de fios e solda de componentes eletrônicos. A base de breu oferece molhagem confiável para o trabalho diário deixando resíduo mínimo.",
+    "fr": "HB-18 est une pâte de flux à la colophane de 30 g pour la réparation de PCB, l'étamage de fils et la soudure de composants électroniques. La base de colophane assure un bon mouillage au quotidien tout en laissant un résidu minimal.",
+    "ja": "HB-18 は、PCB修理・線材のすず引き・電子部品のはんだ付け向けの30gロジンフラックスペースト。ロジンベースで日常作業に安定した濡れ性を与えつつ、残渣は最小限です。",
+    "ko": "HB-18은 PCB 수리, 와이어 주석 도금, 전자 부품 납땜용 30g 로진 플럭스 페이스트입니다. 로진 베이스로 일상 작업에 안정적인 젖음성을 주면서 잔류물은 최소화합니다.",
+    "id": "HB-18 adalah pasta fluks rosin 30g untuk perbaikan PCB, pelapisan timah kawat, dan penyolderan komponen elektronik. Basis rosin memberi pembasahan andal untuk pekerjaan sehari-hari dengan residu minimal.",
+    "ar": "HB-18 هو معجون لحام بالراتنج سعة 30g لإصلاح PCB وتقصدير الأسلاك ولحام المكونات الإلكترونية. يمنح أساس الراتنج ترطيبًا موثوقًا للعمل اليومي مع أثر ضئيل."
+  },
+  "A box of traditional solid rosin soldering flux for PCB electronics repair, wire tinning and DIY soldering projects. Draw hot, tinned wire across the block for clean, low-cost fluxing.": {
+    "es": "Una caja de colofonia sólida tradicional para reparación electrónica de PCB, estañado de cables y proyectos de soldadura DIY. Pase el alambre caliente y estañado por el bloque para un fundente limpio y económico.",
+    "pt": "Uma caixa de breu sólido tradicional para reparo eletrônico de PCB, estanhagem de fios e projetos de solda DIY. Passe o fio quente e estanhado pelo bloco para um fluxo limpo e econômico.",
+    "fr": "Une boîte de colophane solide traditionnelle pour la réparation électronique de PCB, l'étamage de fils et les projets de soudure DIY. Passez le fil chaud et étamé sur le bloc pour un flux propre et économique.",
+    "ja": "PCBの電子機器修理・線材のすず引き・DIYはんだ付け向けの、伝統的な固形ロジン（箱入り）。熱く錫めっきした線をブロックに擦り付ければ、清潔で低コストにフラックスを塗布できます。",
+    "ko": "PCB 전자 수리, 와이어 주석 도금, DIY 납땜용 전통 고형 로진(박스)입니다. 뜨겁게 주석 도금한 선을 블록에 문지르면 깨끗하고 저렴하게 플럭스를 바를 수 있습니다.",
+    "id": "Kotak rosin padat tradisional untuk perbaikan elektronik PCB, pelapisan timah kawat, dan proyek solder DIY. Gesekkan kawat panas berlapis timah pada balok untuk fluks yang bersih dan hemat.",
+    "ar": "علبة راتنج صلب تقليدي لإصلاح إلكترونيات PCB وتقصدير الأسلاك ومشاريع اللحام اليدوي. مرّر السلك الساخن المقصدر على الكتلة للحصول على تدفّق نظيف ومنخفض التكلفة."
+  },
+  "KEK SAC305 solder paste (Sn96.5 / Ag3.0 / Cu0.5) with a 20-38µm powder, in a 50g jar for SMT, SMD and PCB assembly and rework. A mainstream lead-free alloy for stencil printing and reflow.": {
+    "es": "Pasta de soldadura KEK SAC305 (Sn96.5 / Ag3.0 / Cu0.5) con polvo de 20-38 µm, en bote de 50 g para montaje y retrabajo de SMT, SMD y PCB. Una aleación sin plomo de uso generalizado para impresión por estarcido y reflujo.",
+    "pt": "Pasta de solda KEK SAC305 (Sn96.5 / Ag3.0 / Cu0.5) com pó de 20-38 µm, em pote de 50 g para montagem e retrabalho de SMT, SMD e PCB. Uma liga sem chumbo amplamente usada para impressão por estêncil e refluxo.",
+    "fr": "Pâte à souder KEK SAC305 (Sn96.5 / Ag3.0 / Cu0.5) avec poudre de 20-38 µm, en pot de 50 g pour l'assemblage et la reprise SMT, SMD et PCB. Un alliage sans plomb courant pour l'impression au pochoir et la refusion.",
+    "ja": "KEK SAC305 ソルダーペースト（Sn96.5 / Ag3.0 / Cu0.5）。20-38µmの粉末で、SMT・SMD・PCBの実装とやり直し向けの50gジャー入り。ステンシル印刷やリフローに使われる主流の無鉛合金です。",
+    "ko": "KEK SAC305 솔더 페이스트(Sn96.5 / Ag3.0 / Cu0.5). 20-38µm 분말이며 SMT·SMD·PCB 조립 및 리워크용 50g 용기에 담겨 있습니다. 스텐실 인쇄와 리플로우에 쓰이는 대표적인 무연 합금입니다.",
+    "id": "Pasta solder KEK SAC305 (Sn96.5 / Ag3.0 / Cu0.5) dengan bubuk 20-38 µm, dalam toples 50g untuk perakitan dan rework SMT, SMD, dan PCB. Paduan bebas timbal arus utama untuk pencetakan stensil dan reflow.",
+    "ar": "معجون لحام KEK SAC305 (Sn96.5 / Ag3.0 / Cu0.5) بمسحوق 20-38 ميكرون، في علبة 50g لتجميع وإعادة عمل SMT وSMD وPCB. سبيكة خالية من الرصاص شائعة لطباعة الاستنسل وإعادة الانصهار."
+  },
+  "DP305-8010 is a 500g lead-free SAC305 solder paste (Sn96.5 / Ag3.0 / Cu0.5) with a 217-220°C reflow range, for SMT stencil printing and reflow assembly. RoHS-compliant and sized for production lines.": {
+    "es": "DP305-8010 es una pasta de soldadura SAC305 sin plomo de 500 g (Sn96.5 / Ag3.0 / Cu0.5) con rango de reflujo de 217-220 °C, para impresión por estarcido SMT y montaje por reflujo. Conforme a RoHS y dimensionada para líneas de producción.",
+    "pt": "DP305-8010 é uma pasta de solda SAC305 sem chumbo de 500 g (Sn96.5 / Ag3.0 / Cu0.5) com faixa de refluxo de 217-220 °C, para impressão por estêncil SMT e montagem por refluxo. Conforme RoHS e dimensionada para linhas de produção.",
+    "fr": "DP305-8010 est une pâte à souder SAC305 sans plomb de 500 g (Sn96.5 / Ag3.0 / Cu0.5) avec une plage de refusion de 217-220 °C, pour l'impression au pochoir SMT et l'assemblage par refusion. Conforme RoHS et dimensionnée pour les lignes de production.",
+    "ja": "DP305-8010 は、217-220°Cのリフロー範囲を持つ500gの無鉛SAC305ソルダーペースト（Sn96.5 / Ag3.0 / Cu0.5）。SMTステンシル印刷とリフロー実装向けで、RoHS準拠、生産ライン向けの容量です。",
+    "ko": "DP305-8010은 217-220°C 리플로우 범위를 가진 500g 무연 SAC305 솔더 페이스트(Sn96.5 / Ag3.0 / Cu0.5)입니다. SMT 스텐실 인쇄와 리플로우 조립용이며 RoHS를 준수하고 생산 라인에 맞는 용량입니다.",
+    "id": "DP305-8010 adalah pasta solder SAC305 bebas timbal 500g (Sn96.5 / Ag3.0 / Cu0.5) dengan rentang reflow 217-220 °C, untuk pencetakan stensil SMT dan perakitan reflow. Memenuhi RoHS dan berukuran untuk lini produksi.",
+    "ar": "DP305-8010 هو معجون لحام SAC305 خالٍ من الرصاص بوزن 500g (Sn96.5 / Ag3.0 / Cu0.5) بنطاق إعادة انصهار 217-220 °C، لطباعة استنسل SMT والتجميع بإعادة الانصهار. متوافق مع RoHS وبحجم مناسب لخطوط الإنتاج."
+  },
+  "A 500g tub of Sn63/Pb37 (6337) leaded solder paste for PCB, SMT, BGA and IC electronics repair and rework. The classic eutectic alloy offers a low, forgiving melting point and reliable joints; bulk size for production use.": {
+    "es": "Un bote de 500 g de pasta de soldadura con plomo Sn63/Pb37 (6337) para reparación y retrabajo de PCB, SMT, BGA e IC. La clásica aleación eutéctica ofrece un punto de fusión bajo y tolerante y uniones fiables; tamaño a granel para producción.",
+    "pt": "Um pote de 500 g de pasta de solda com chumbo Sn63/Pb37 (6337) para reparo e retrabalho de PCB, SMT, BGA e IC. A clássica liga eutética oferece ponto de fusão baixo e tolerante e juntas confiáveis; tamanho a granel para produção.",
+    "fr": "Un pot de 500 g de pâte à souder au plomb Sn63/Pb37 (6337) pour la réparation et la reprise PCB, SMT, BGA et IC. L'alliage eutectique classique offre un point de fusion bas et tolérant et des joints fiables ; format en vrac pour la production.",
+    "ja": "PCB・SMT・BGA・ICの修理ややり直し向けの、有鉛Sn63/Pb37（6337）ソルダーペースト500gボトル。古典的な共晶合金で融点が低く扱いやすく、接合も安定。量産向けの大容量です。",
+    "ko": "PCB·SMT·BGA·IC 수리 및 리워크용 유연 Sn63/Pb37(6337) 솔더 페이스트 500g 통입니다. 고전적인 공정 합금으로 융점이 낮아 다루기 쉽고 접합이 안정적이며, 양산용 대용량입니다.",
+    "id": "Wadah 500g pasta solder bertimbal Sn63/Pb37 (6337) untuk perbaikan dan rework PCB, SMT, BGA, dan IC. Paduan eutektik klasik menawarkan titik leleh rendah yang mudah diatur dan sambungan andal; ukuran besar untuk produksi.",
+    "ar": "علبة 500g من معجون لحام بالرصاص Sn63/Pb37 (6337) لإصلاح وإعادة عمل PCB وSMT وBGA وIC. تقدّم السبيكة اليوتكتيكية الكلاسيكية نقطة انصهار منخفضة ومتسامحة ووصلات موثوقة؛ حجم كبير للإنتاج."
+  },
+  "<td>Brand</td>": {
+    "es": "<td>Marca</td>",
+    "pt": "<td>Marca</td>",
+    "fr": "<td>Marque</td>",
+    "ja": "<td>ブランド</td>",
+    "ko": "<td>브랜드</td>",
+    "id": "<td>Merek</td>",
+    "ar": "<td>العلامة التجارية</td>"
+  },
+  "<td>Powder</td>": {
+    "es": "<td>Polvo</td>",
+    "pt": "<td>Pó</td>",
+    "fr": "<td>Poudre</td>",
+    "ja": "<td>粉末</td>",
+    "ko": "<td>분말</td>",
+    "id": "<td>Bubuk</td>",
+    "ar": "<td>المسحوق</td>"
+  },
+  "<td>No-clean flux</td>": {
+    "es": "<td>Flux sin limpieza</td>",
+    "pt": "<td>Fluxo sem limpeza</td>",
+    "fr": "<td>Flux sans nettoyage</td>",
+    "ja": "<td>無洗浄フラックス</td>",
+    "ko": "<td>무세척 플럭스</td>",
+    "id": "<td>Fluks no-clean</td>",
+    "ar": "<td>معجون بدون تنظيف</td>"
+  },
+  "<td>Lead-free solder paste</td>": {
+    "es": "<td>Pasta de soldadura sin plomo</td>",
+    "pt": "<td>Pasta de solda sem chumbo</td>",
+    "fr": "<td>Pâte à souder sans plomb</td>",
+    "ja": "<td>無鉛ソルダーペースト</td>",
+    "ko": "<td>무연 솔더 페이스트</td>",
+    "id": "<td>Pasta solder bebas timbal</td>",
+    "ar": "<td>معجون لحام خالٍ من الرصاص</td>"
+  },
+  "<td>Leaded solder paste</td>": {
+    "es": "<td>Pasta de soldadura con plomo</td>",
+    "pt": "<td>Pasta de solda com chumbo</td>",
+    "fr": "<td>Pâte à souder au plomb</td>",
+    "ja": "<td>有鉛ソルダーペースト</td>",
+    "ko": "<td>유연 솔더 페이스트</td>",
+    "id": "<td>Pasta solder bertimbal</td>",
+    "ar": "<td>معجون لحام بالرصاص</td>"
+  },
+  "<td>Solid rosin</td>": {
+    "es": "<td>Colofonia sólida</td>",
+    "pt": "<td>Breu sólido</td>",
+    "fr": "<td>Colophane solide</td>",
+    "ja": "<td>固形ロジン</td>",
+    "ko": "<td>고형 로진</td>",
+    "id": "<td>Rosin padat</td>",
+    "ar": "<td>راتنج صلب</td>"
+  },
+  "<td>Block (boxed)</td>": {
+    "es": "<td>Bloque (en caja)</td>",
+    "pt": "<td>Bloco (em caixa)</td>",
+    "fr": "<td>Bloc (en boîte)</td>",
+    "ja": "<td>ブロック（箱入り）</td>",
+    "ko": "<td>블록 (박스)</td>",
+    "id": "<td>Balok (dalam kotak)</td>",
+    "ar": "<td>كتلة (معلبة)</td>"
+  },
+  "<td>Jar</td>": {
+    "es": "<td>Bote</td>",
+    "pt": "<td>Pote</td>",
+    "fr": "<td>Pot</td>",
+    "ja": "<td>ジャー</td>",
+    "ko": "<td>용기</td>",
+    "id": "<td>Toples</td>",
+    "ar": "<td>علبة</td>"
+  },
+  "<td>1 x flux + plunger + tips</td>": {
+    "es": "<td>1 × flux + émbolo + puntas</td>",
+    "pt": "<td>1 × fluxo + êmbolo + pontas</td>",
+    "fr": "<td>1 × flux + piston + embouts</td>",
+    "ja": "<td>フラックス1本＋プランジャー＋チップ</td>",
+    "ko": "<td>플럭스 1개 + 플런저 + 팁</td>",
+    "id": "<td>1 × fluks + plunger + tip</td>",
+    "ar": "<td>1 × معجون + مكبس + أطراف</td>"
+  },
+  "<td>Flux + plunger + 2 tips</td>": {
+    "es": "<td>Flux + émbolo + 2 puntas</td>",
+    "pt": "<td>Fluxo + êmbolo + 2 pontas</td>",
+    "fr": "<td>Flux + piston + 2 embouts</td>",
+    "ja": "<td>フラックス＋プランジャー＋チップ2個</td>",
+    "ko": "<td>플럭스 + 플런저 + 팁 2개</td>",
+    "id": "<td>Fluks + plunger + 2 tip</td>",
+    "ar": "<td>معجون + مكبس + طرفان</td>"
+  },
+  "<td>Syringe + 2 needles + push rod</td>": {
+    "es": "<td>Jeringa + 2 agujas + émbolo</td>",
+    "pt": "<td>Seringa + 2 agulhas + êmbolo</td>",
+    "fr": "<td>Seringue + 2 aiguilles + piston</td>",
+    "ja": "<td>シリンジ＋針2本＋プッシュロッド</td>",
+    "ko": "<td>주사기 + 바늘 2개 + 푸시로드</td>",
+    "id": "<td>Jarum suntik + 2 jarum + push rod</td>",
+    "ar": "<td>حقنة + إبرتان + قضيب دفع</td>"
+  },
+  "<td>BGA / PCB repair</td>": {
+    "es": "<td>Reparación de BGA / PCB</td>",
+    "pt": "<td>Reparo de BGA / PCB</td>",
+    "fr": "<td>Réparation BGA / PCB</td>",
+    "ja": "<td>BGA・PCB修理</td>",
+    "ko": "<td>BGA·PCB 수리</td>",
+    "id": "<td>Perbaikan BGA / PCB</td>",
+    "ar": "<td>إصلاح BGA / PCB</td>"
+  },
+  "<td>PCB repair / tinning / soldering</td>": {
+    "es": "<td>Reparación de PCB / estañado / soldadura</td>",
+    "pt": "<td>Reparo de PCB / estanhagem / solda</td>",
+    "fr": "<td>Réparation PCB / étamage / soudure</td>",
+    "ja": "<td>PCB修理・すず引き・はんだ付け</td>",
+    "ko": "<td>PCB 수리 / 주석 도금 / 납땜</td>",
+    "id": "<td>Perbaikan PCB / pelapisan timah / solder</td>",
+    "ar": "<td>إصلاح PCB / تقصدير / لحام</td>"
+  },
+  "<td>Wire tinning / general soldering</td>": {
+    "es": "<td>Estañado de cables / soldadura general</td>",
+    "pt": "<td>Estanhagem de fios / solda geral</td>",
+    "fr": "<td>Étamage de fils / soudure générale</td>",
+    "ja": "<td>線材のすず引き・一般はんだ付け</td>",
+    "ko": "<td>와이어 주석 도금 / 일반 납땜</td>",
+    "id": "<td>Pelapisan timah kawat / solder umum</td>",
+    "ar": "<td>تقصدير الأسلاك / لحام عام</td>"
+  },
+  "<td>SMT / PCB assembly &amp; rework</td>": {
+    "es": "<td>Montaje SMT / PCB y retrabajo</td>",
+    "pt": "<td>Montagem SMT / PCB e retrabalho</td>",
+    "fr": "<td>Assemblage SMT / PCB et reprise</td>",
+    "ja": "<td>SMT・PCB実装とやり直し</td>",
+    "ko": "<td>SMT / PCB 조립 및 리워크</td>",
+    "id": "<td>Perakitan SMT / PCB &amp; rework</td>",
+    "ar": "<td>تجميع SMT / PCB وإعادة العمل</td>"
+  },
+  "<td>SMT stencil printing / reflow</td>": {
+    "es": "<td>Impresión por estarcido SMT / reflujo</td>",
+    "pt": "<td>Impressão por estêncil SMT / refluxo</td>",
+    "fr": "<td>Impression au pochoir SMT / refusion</td>",
+    "ja": "<td>SMTステンシル印刷・リフロー</td>",
+    "ko": "<td>SMT 스텐실 인쇄 / 리플로우</td>",
+    "id": "<td>Pencetakan stensil SMT / reflow</td>",
+    "ar": "<td>طباعة استنسل SMT / إعادة الانصهار</td>"
+  },
+  "<td>PCB / SMT / BGA / IC rework</td>": {
+    "es": "<td>Retrabajo de PCB / SMT / BGA / IC</td>",
+    "pt": "<td>Retrabalho de PCB / SMT / BGA / IC</td>",
+    "fr": "<td>Reprise PCB / SMT / BGA / IC</td>",
+    "ja": "<td>PCB・SMT・BGA・ICのやり直し</td>",
+    "ko": "<td>PCB / SMT / BGA / IC 리워크</td>",
+    "id": "<td>Rework PCB / SMT / BGA / IC</td>",
+    "ar": "<td>إعادة عمل PCB / SMT / BGA / IC</td>"
+  },
+  "<td>PCB / electronics soldering</td>": {
+    "es": "<td>Soldadura de PCB / electrónica</td>",
+    "pt": "<td>Solda de PCB / eletrônica</td>",
+    "fr": "<td>Soudure PCB / électronique</td>",
+    "ja": "<td>PCB・電子機器のはんだ付け</td>",
+    "ko": "<td>PCB / 전자 납땜</td>",
+    "id": "<td>Solder PCB / elektronik</td>",
+    "ar": "<td>لحام PCB / الإلكترونيات</td>"
+  },
+  "<td>Rosin flux (2.2%)</td>": {
+    "es": "<td>Flux de colofonia (2,2%)</td>",
+    "pt": "<td>Fluxo de breu (2,2%)</td>",
+    "fr": "<td>Flux colophane (2,2%)</td>",
+    "ja": "<td>ロジンフラックス（2.2%）</td>",
+    "ko": "<td>로진 플럭스 (2.2%)</td>",
+    "id": "<td>Fluks rosin (2,2%)</td>",
+    "ar": "<td>تدفق راتنجي (2.2%)</td>"
+  },
+  "<td>Rosin flux (2.0%)</td>": {
+    "es": "<td>Flux de colofonia (2,0%)</td>",
+    "pt": "<td>Fluxo de breu (2,0%)</td>",
+    "fr": "<td>Flux colophane (2,0%)</td>",
+    "ja": "<td>ロジンフラックス（2.0%）</td>",
+    "ko": "<td>로진 플럭스 (2.0%)</td>",
+    "id": "<td>Fluks rosin (2,0%)</td>",
+    "ar": "<td>تدفق راتنجي (2.0%)</td>"
+  },
+  "<td>3 m (tube)</td>": {
+    "es": "<td>3 m (tubo)</td>",
+    "pt": "<td>3 m (tubo)</td>",
+    "fr": "<td>3 m (tube)</td>",
+    "ja": "<td>3m（チューブ）</td>",
+    "ko": "<td>3m (튜브)</td>",
+    "id": "<td>3 m (tabung)</td>",
+    "ar": "<td>3m (أنبوب)</td>"
+  },
+  "<td>Sn99.3Cu0.7 (lead-free)</td>": {
+    "es": "<td>Sn99.3Cu0.7 (sin plomo)</td>",
+    "pt": "<td>Sn99.3Cu0.7 (sem chumbo)</td>",
+    "fr": "<td>Sn99.3Cu0.7 (sans plomb)</td>",
+    "ja": "<td>Sn99.3Cu0.7（無鉛）</td>",
+    "ko": "<td>Sn99.3Cu0.7 (무연)</td>",
+    "id": "<td>Sn99.3Cu0.7 (bebas timbal)</td>",
+    "ar": "<td>Sn99.3Cu0.7 (خالٍ من الرصاص)</td>"
+  },
+  "<td>Sn99Ag0.3Cu0.7 (lead-free)</td>": {
+    "es": "<td>Sn99Ag0.3Cu0.7 (sin plomo)</td>",
+    "pt": "<td>Sn99Ag0.3Cu0.7 (sem chumbo)</td>",
+    "fr": "<td>Sn99Ag0.3Cu0.7 (sans plomb)</td>",
+    "ja": "<td>Sn99Ag0.3Cu0.7（無鉛）</td>",
+    "ko": "<td>Sn99Ag0.3Cu0.7 (무연)</td>",
+    "id": "<td>Sn99Ag0.3Cu0.7 (bebas timbal)</td>",
+    "ar": "<td>Sn99Ag0.3Cu0.7 (خالٍ من الرصاص)</td>"
+  },
+  "<td>63% tin</td>": {
+    "es": "<td>63% estaño</td>",
+    "pt": "<td>63% estanho</td>",
+    "fr": "<td>63% étain</td>",
+    "ja": "<td>63%スズ</td>",
+    "ko": "<td>63% 주석</td>",
+    "id": "<td>Timah 63%</td>",
+    "ar": "<td>قصدير 63%</td>"
   }
 }
