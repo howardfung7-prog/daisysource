@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate the Tools & Materials catalog grid and individual product detail pages.
+Generate the Electronics Soldering Materials catalog grid and individual product detail pages.
 
 - Rewrites the filter bar + card grid inside tools/index.html from PRODUCTS.
 - Writes tools/p/<slug>/index.html (English) + /<lang>/tools/p/<slug>/ (7 langs).
@@ -228,7 +228,7 @@ PAGE = r"""<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>@@TITLE@@ — Daisysource Tools &amp; Materials</title>
+<title>@@TITLE@@ — Daisysource Electronics Soldering Materials</title>
 <meta name="description" content="@@SHORT@@">
 <link rel="canonical" href="https://daisysource.vip/tools/p/@@SLUG@@/">
 <meta name="theme-color" content="#14161a">
@@ -306,13 +306,13 @@ PAGE = r"""<!DOCTYPE html>
 </defs></svg>
 <div class="hazard"></div>
 <header><div class="wrap nav">
-  <a class="brand" href="/"><span class="mark"><svg width="18" height="18" viewBox="-46 -46 92 92"><use href="#daisy" fill="currentColor"/><circle r="8" fill="#ef6a24"/></svg></span><span><b>Daisysource</b><small>Tools &amp; Materials</small></span></a>
-  <nav class="nav-links"><a href="/tools/">Tools &amp; Materials</a><a href="/lashes/">Beauty &amp; Lashes</a><a href="#contact">Contact</a></nav>
+  <a class="brand" href="/"><span class="mark"><svg width="18" height="18" viewBox="-46 -46 92 92"><use href="#daisy" fill="currentColor"/><circle r="8" fill="#ef6a24"/></svg></span><span><b>Daisysource</b><small>Electronics Soldering Materials</small></span></a>
+  <nav class="nav-links"><a href="/tools/">Electronics Soldering Materials</a><a href="/lashes/">Beauty &amp; Lashes</a><a href="#contact">Contact</a></nav>
   <a class="nav-back" href="/tools/">← Catalog</a>
 </div></header>
 
 <div class="wrap">
-  <div class="crumb"><a href="/tools/">Tools &amp; Materials</a> / <a href="/tools/#catalog">@@CAT@@</a> / @@TITLE@@</div>
+  <div class="crumb"><a href="/tools/">Electronics Soldering Materials</a> / <a href="/tools/#catalog">@@CAT@@</a> / @@TITLE@@</div>
   <div class="top">
     <div class="gal">
       <div class="main"><img id="mainimg" src="@@G1@@" alt="@@TITLE@@"></div>
@@ -348,7 +348,7 @@ PAGE = r"""<!DOCTYPE html>
 </div></section>
 
 <footer><div class="wrap">
-  <div class="foot"><span>© 2026 Daisysource · Tools &amp; Materials</span><span><a href="/tools/">← Back to catalog</a> &nbsp;·&nbsp; <a href="/">Daisysource</a></span></div>
+  <div class="foot"><span>© 2026 Daisysource · Electronics Soldering Materials</span><span><a href="/tools/">← Back to catalog</a> &nbsp;·&nbsp; <a href="/">Daisysource</a></span></div>
   <p class="disc">// Product specs and reference pricing are indicative and subject to confirmation on inquiry. Images for reference.</p>
 </div></footer>
 <script>

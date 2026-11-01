@@ -45,32 +45,67 @@
     "ar": "Daisysource شركة للتجارة العالمية وسلاسل الإمداد تربط المشترين من الخارج مباشرة بمصانع صينية موثوقة. أسعار مباشرة من المصنع، ومراقبة جودة داخلية، وخدمات لوجستية عالمية، دون هامش الشركات التجارية."
   },
   "Sourcing since": {
-    "es": "Abasteciendo desde", "pt": "Fornecendo desde", "fr": "Sourcing depuis",
-    "ja": "調達開始", "ko": "소싱 시작", "id": "Menyuplai sejak", "ar": "نورّد منذ"
+    "es": "Abasteciendo desde",
+    "pt": "Fornecendo desde",
+    "fr": "Sourcing depuis",
+    "ja": "調達開始",
+    "ko": "소싱 시작",
+    "id": "Menyuplai sejak",
+    "ar": "نورّد منذ"
   },
   "<div class=\"n\">China</div>": {
-    "es": "<div class=\"n\">China</div>", "pt": "<div class=\"n\">China</div>", "fr": "<div class=\"n\">Chine</div>",
-    "ja": "<div class=\"n\">中国</div>", "ko": "<div class=\"n\">중국</div>", "id": "<div class=\"n\">Tiongkok</div>", "ar": "<div class=\"n\">الصين</div>"
+    "es": "<div class=\"n\">China</div>",
+    "pt": "<div class=\"n\">China</div>",
+    "fr": "<div class=\"n\">Chine</div>",
+    "ja": "<div class=\"n\">中国</div>",
+    "ko": "<div class=\"n\">중국</div>",
+    "id": "<div class=\"n\">Tiongkok</div>",
+    "ar": "<div class=\"n\">الصين</div>"
   },
   "Direct from factories": {
-    "es": "Directo de fábrica", "pt": "Direto da fábrica", "fr": "En direct d'usine",
-    "ja": "工場から直接", "ko": "공장 직송", "id": "Langsung dari pabrik", "ar": "مباشرة من المصانع"
+    "es": "Directo de fábrica",
+    "pt": "Direto da fábrica",
+    "fr": "En direct d'usine",
+    "ja": "工場から直接",
+    "ko": "공장 직송",
+    "id": "Langsung dari pabrik",
+    "ar": "مباشرة من المصانع"
   },
   "Brands &amp; buyers served": {
-    "es": "Marcas y compradores atendidos", "pt": "Marcas e compradores atendidos", "fr": "Marques &amp; acheteurs servis",
-    "ja": "取引ブランド・バイヤー", "ko": "거래 브랜드 & 바이어", "id": "Merek &amp; pembeli dilayani", "ar": "علامات ومشترون خدمناهم"
+    "es": "Marcas y compradores atendidos",
+    "pt": "Marcas e compradores atendidos",
+    "fr": "Marques &amp; acheteurs servis",
+    "ja": "取引ブランド・バイヤー",
+    "ko": "거래 브랜드 & 바이어",
+    "id": "Merek &amp; pembeli dilayani",
+    "ar": "علامات ومشترون خدمناهم"
   },
   "Countries shipped": {
-    "es": "Países de envío", "pt": "Países atendidos", "fr": "Pays livrés",
-    "ja": "発送国", "ko": "배송 국가", "id": "Negara tujuan kirim", "ar": "دول الشحن"
+    "es": "Países de envío",
+    "pt": "Países atendidos",
+    "fr": "Pays livrés",
+    "ja": "発送国",
+    "ko": "배송 국가",
+    "id": "Negara tujuan kirim",
+    "ar": "دول الشحن"
   },
   "Our Divisions": {
-    "es": "Nuestras divisiones", "pt": "Nossas divisões", "fr": "Nos divisions",
-    "ja": "事業部門", "ko": "사업 부문", "id": "Divisi kami", "ar": "أقسامنا"
+    "es": "Nuestras divisiones",
+    "pt": "Nossas divisões",
+    "fr": "Nos divisions",
+    "ja": "事業部門",
+    "ko": "사업 부문",
+    "id": "Divisi kami",
+    "ar": "أقسامنا"
   },
   "Choose your category": {
-    "es": "Elige tu categoría", "pt": "Escolha sua categoria", "fr": "Choisissez votre catégorie",
-    "ja": "カテゴリーを選ぶ", "ko": "카테고리를 선택하세요", "id": "Pilih kategori Anda", "ar": "اختر فئتك"
+    "es": "Elige tu categoría",
+    "pt": "Escolha sua categoria",
+    "fr": "Choisissez votre catégorie",
+    "ja": "カテゴリーを選ぶ",
+    "ko": "카테고리를 선택하세요",
+    "id": "Pilih kategori Anda",
+    "ar": "اختر فئتك"
   },
   "Each division runs its own factory network, catalog and specialists — pick the one that fits what you source.": {
     "es": "Cada división cuenta con su propia red de fábricas, catálogo y especialistas; elige la que se ajuste a lo que buscas.",
@@ -82,20 +117,40 @@
     "ar": "لكل قسم شبكة مصانعه وكتالوجه وخبراؤه الخاصون — اختر ما يناسب ما تبحث عنه."
   },
   "Beauty Division": {
-    "es": "División de Belleza", "pt": "Divisão de Beleza", "fr": "Division Beauté",
-    "ja": "ビューティー部門", "ko": "뷰티 부문", "id": "Divisi Kecantikan", "ar": "قسم الجمال"
+    "es": "División de Belleza",
+    "pt": "Divisão de Beleza",
+    "fr": "Division Beauté",
+    "ja": "ビューティー部門",
+    "ko": "뷰티 부문",
+    "id": "Divisi Kecantikan",
+    "ar": "قسم الجمال"
   },
   "Industrial Division": {
-    "es": "División Industrial", "pt": "Divisão Industrial", "fr": "Division Industrielle",
-    "ja": "産業部門", "ko": "산업 부문", "id": "Divisi Industri", "ar": "القسم الصناعي"
+    "es": "División Industrial",
+    "pt": "Divisão Industrial",
+    "fr": "Division Industrielle",
+    "ja": "産業部門",
+    "ko": "산업 부문",
+    "id": "Divisi Industri",
+    "ar": "القسم الصناعي"
   },
   "<h3>Beauty &amp; Lashes</h3>": {
-    "es": "<h3>Belleza y Pestañas</h3>", "pt": "<h3>Beleza e Cílios</h3>", "fr": "<h3>Beauté &amp; Cils</h3>",
-    "ja": "<h3>ビューティー＆まつげ</h3>", "ko": "<h3>뷰티 & 속눈썹</h3>", "id": "<h3>Kecantikan &amp; Bulu Mata</h3>", "ar": "<h3>الجمال والرموش</h3>"
+    "es": "<h3>Belleza y Pestañas</h3>",
+    "pt": "<h3>Beleza e Cílios</h3>",
+    "fr": "<h3>Beauté &amp; Cils</h3>",
+    "ja": "<h3>ビューティー＆まつげ</h3>",
+    "ko": "<h3>뷰티 & 속눈썹</h3>",
+    "id": "<h3>Kecantikan &amp; Bulu Mata</h3>",
+    "ar": "<h3>الجمال والرموش</h3>"
   },
-  "<h3>Tools &amp; Materials</h3>": {
-    "es": "<h3>Herramientas y Materiales</h3>", "pt": "<h3>Ferramentas e Materiais</h3>", "fr": "<h3>Outils &amp; Matériaux</h3>",
-    "ja": "<h3>工具＆材料</h3>", "ko": "<h3>공구 & 재료</h3>", "id": "<h3>Alat &amp; Bahan</h3>", "ar": "<h3>الأدوات والمواد</h3>"
+  "<h3>Electronics Soldering Materials</h3>": {
+    "es": "<h3>Materiales de Soldadura Electrónica</h3>",
+    "pt": "<h3>Materiais de Solda Eletrônica</h3>",
+    "fr": "<h3>Matériaux de Soudure Électronique</h3>",
+    "ja": "<h3>電子はんだ付け材料</h3>",
+    "ko": "<h3>전자 납땜 재료</h3>",
+    "id": "<h3>Material Solder Elektronik</h3>",
+    "ar": "<h3>مواد لحام الإلكترونيات</h3>"
   },
   "Factory-direct OEM/ODM private-label eyelashes for beauty brands — faux mink, silk, 25mm dramatic and cluster DIY kits. Low MOQ, custom packaging, launch in 20 days.": {
     "es": "Pestañas de marca propia OEM/ODM directas de fábrica para marcas de belleza: visón sintético, seda, 25mm dramáticas y kits DIY en grupos. MOQ bajo, empaque personalizado, lanzamiento en 20 días.",
@@ -116,48 +171,103 @@
     "ar": "مستلزمات اللحام وإعادة تشغيل BGA وإصلاح الإلكترونيات مباشرة من الورشة — معاجين فلكس، كرات وأسلاك لحام خالية من الرصاص، معجون لحام منخفض الحرارة، غراء PCB، كاويات، وعدسات."
   },
   ">Private label</span>": {
-    "es": ">Marca propia</span>", "pt": ">Marca própria</span>", "fr": ">Marque blanche</span>",
-    "ja": ">プライベートブランド</span>", "ko": ">자체 브랜드</span>", "id": ">Label pribadi</span>", "ar": ">علامة خاصة</span>"
+    "es": ">Marca propia</span>",
+    "pt": ">Marca própria</span>",
+    "fr": ">Marque blanche</span>",
+    "ja": ">プライベートブランド</span>",
+    "ko": ">자체 브랜드</span>",
+    "id": ">Label pribadi</span>",
+    "ar": ">علامة خاصة</span>"
   },
   ">Low MOQ</span>": {
-    "es": ">MOQ bajo</span>", "pt": ">MOQ baixo</span>", "fr": ">MOQ faible</span>",
-    "ja": ">低MOQ</span>", "ko": ">낮은 MOQ</span>", "id": ">MOQ rendah</span>", "ar": ">حد أدنى منخفض</span>"
+    "es": ">MOQ bajo</span>",
+    "pt": ">MOQ baixo</span>",
+    "fr": ">MOQ faible</span>",
+    "ja": ">低MOQ</span>",
+    "ko": ">낮은 MOQ</span>",
+    "id": ">MOQ rendah</span>",
+    "ar": ">حد أدنى منخفض</span>"
   },
   ">Custom packaging</span>": {
-    "es": ">Empaque personalizado</span>", "pt": ">Embalagem personalizada</span>", "fr": ">Emballage personnalisé</span>",
-    "ja": ">カスタムパッケージ</span>", "ko": ">맞춤 패키지</span>", "id": ">Kemasan khusus</span>", "ar": ">تغليف مخصص</span>"
+    "es": ">Empaque personalizado</span>",
+    "pt": ">Embalagem personalizada</span>",
+    "fr": ">Emballage personnalisé</span>",
+    "ja": ">カスタムパッケージ</span>",
+    "ko": ">맞춤 패키지</span>",
+    "id": ">Kemasan khusus</span>",
+    "ar": ">تغليف مخصص</span>"
   },
   ">Soldering flux</span>": {
-    "es": ">Flux de soldadura</span>", "pt": ">Fluxo de solda</span>", "fr": ">Flux à souder</span>",
-    "ja": ">フラックス</span>", "ko": ">솔더 플럭스</span>", "id": ">Flux solder</span>", "ar": ">فلكس لحام</span>"
+    "es": ">Flux de soldadura</span>",
+    "pt": ">Fluxo de solda</span>",
+    "fr": ">Flux à souder</span>",
+    "ja": ">フラックス</span>",
+    "ko": ">솔더 플럭스</span>",
+    "id": ">Flux solder</span>",
+    "ar": ">فلكس لحام</span>"
   },
   ">Solder balls</span>": {
-    "es": ">Bolas de soldadura</span>", "pt": ">Esferas de solda</span>", "fr": ">Billes de soudure</span>",
-    "ja": ">はんだボール</span>", "ko": ">솔더볼</span>", "id": ">Bola solder</span>", "ar": ">كرات لحام</span>"
+    "es": ">Bolas de soldadura</span>",
+    "pt": ">Esferas de solda</span>",
+    "fr": ">Billes de soudure</span>",
+    "ja": ">はんだボール</span>",
+    "ko": ">솔더볼</span>",
+    "id": ">Bola solder</span>",
+    "ar": ">كرات لحام</span>"
   },
   ">Solder wire</span>": {
-    "es": ">Alambre de soldadura</span>", "pt": ">Fio de solda</span>", "fr": ">Fil de soudure</span>",
-    "ja": ">はんだ線</span>", "ko": ">솔더 와이어</span>", "id": ">Kawat solder</span>", "ar": ">سلك لحام</span>"
+    "es": ">Alambre de soldadura</span>",
+    "pt": ">Fio de solda</span>",
+    "fr": ">Fil de soudure</span>",
+    "ja": ">はんだ線</span>",
+    "ko": ">솔더 와이어</span>",
+    "id": ">Kawat solder</span>",
+    "ar": ">سلك لحام</span>"
   },
   ">Rework tools</span>": {
-    "es": ">Herramientas de retrabajo</span>", "pt": ">Ferramentas de retrabalho</span>", "fr": ">Outils de reprise</span>",
-    "ja": ">リワーク工具</span>", "ko": ">리워크 공구</span>", "id": ">Alat rework</span>", "ar": ">أدوات إعادة التشغيل</span>"
+    "es": ">Herramientas de retrabajo</span>",
+    "pt": ">Ferramentas de retrabalho</span>",
+    "fr": ">Outils de reprise</span>",
+    "ja": ">リワーク工具</span>",
+    "ko": ">리워크 공구</span>",
+    "id": ">Alat rework</span>",
+    "ar": ">أدوات إعادة التشغيل</span>"
   },
   "Enter the lash catalog": {
-    "es": "Entrar al catálogo de pestañas", "pt": "Entrar no catálogo de cílios", "fr": "Accéder au catalogue de cils",
-    "ja": "まつげカタログへ", "ko": "속눈썹 카탈로그 보기", "id": "Buka katalog bulu mata", "ar": "ادخل كتالوج الرموش"
+    "es": "Entrar al catálogo de pestañas",
+    "pt": "Entrar no catálogo de cílios",
+    "fr": "Accéder au catalogue de cils",
+    "ja": "まつげカタログへ",
+    "ko": "속눈썹 카탈로그 보기",
+    "id": "Buka katalog bulu mata",
+    "ar": "ادخل كتالوج الرموش"
   },
   "Enter the tools catalog": {
-    "es": "Entrar al catálogo de herramientas", "pt": "Entrar no catálogo de ferramentas", "fr": "Accéder au catalogue d'outils",
-    "ja": "工具カタログへ", "ko": "공구 카탈로그 보기", "id": "Buka katalog alat", "ar": "ادخل كتالوج الأدوات"
+    "es": "Entrar al catálogo de herramientas",
+    "pt": "Entrar no catálogo de ferramentas",
+    "fr": "Accéder au catalogue d'outils",
+    "ja": "工具カタログへ",
+    "ko": "공구 카탈로그 보기",
+    "id": "Buka katalog alat",
+    "ar": "ادخل كتالوج الأدوات"
   },
   "Why Daisysource": {
-    "es": "Por qué Daisysource", "pt": "Por que a Daisysource", "fr": "Pourquoi Daisysource",
-    "ja": "Daisysourceが選ばれる理由", "ko": "Daisysource를 선택하는 이유", "id": "Mengapa Daisysource", "ar": "لماذا Daisysource"
+    "es": "Por qué Daisysource",
+    "pt": "Por que a Daisysource",
+    "fr": "Pourquoi Daisysource",
+    "ja": "Daisysourceが選ばれる理由",
+    "ko": "Daisysource를 선택하는 이유",
+    "id": "Mengapa Daisysource",
+    "ar": "لماذا Daisysource"
   },
   "A sourcing partner, not a middleman": {
-    "es": "Un socio de abastecimiento, no un intermediario", "pt": "Um parceiro de fornecimento, não um intermediário", "fr": "Un partenaire de sourcing, pas un intermédiaire",
-    "ja": "仲介業者ではなく、調達パートナー", "ko": "중간상이 아닌 소싱 파트너", "id": "Mitra pengadaan, bukan perantara", "ar": "شريك توريد، لا وسيط"
+    "es": "Un socio de abastecimiento, no un intermediario",
+    "pt": "Um parceiro de fornecimento, não um intermediário",
+    "fr": "Un partenaire de sourcing, pas un intermédiaire",
+    "ja": "仲介業者ではなく、調達パートナー",
+    "ko": "중간상이 아닌 소싱 파트너",
+    "id": "Mitra pengadaan, bukan perantara",
+    "ar": "شريك توريد، لا وسيط"
   },
   "The same operating standard runs across both divisions — that is what keeps quality high and pricing factory-direct.": {
     "es": "El mismo estándar operativo rige en ambas divisiones: así mantenemos la calidad alta y los precios directos de fábrica.",
@@ -169,8 +279,13 @@
     "ar": "المعيار التشغيلي نفسه مطبّق في القسمين — وهذا ما يحافظ على جودة عالية وأسعار مباشرة من المصنع."
   },
   "<h4>Factory-direct</h4>": {
-    "es": "<h4>Directo de fábrica</h4>", "pt": "<h4>Direto da fábrica</h4>", "fr": "<h4>En direct d'usine</h4>",
-    "ja": "<h4>工場直結</h4>", "ko": "<h4>공장 직거래</h4>", "id": "<h4>Langsung dari pabrik</h4>", "ar": "<h4>مباشرة من المصنع</h4>"
+    "es": "<h4>Directo de fábrica</h4>",
+    "pt": "<h4>Direto da fábrica</h4>",
+    "fr": "<h4>En direct d'usine</h4>",
+    "ja": "<h4>工場直結</h4>",
+    "ko": "<h4>공장 직거래</h4>",
+    "id": "<h4>Langsung dari pabrik</h4>",
+    "ar": "<h4>مباشرة من المصنع</h4>"
   },
   "We source from the makers we work with daily — no layers, no trading-company markup.": {
     "es": "Compramos a los fabricantes con los que trabajamos a diario: sin intermediarios, sin margen de empresas comerciales.",
@@ -182,8 +297,13 @@
     "ar": "نورّد من المصنّعين الذين نتعامل معهم يوميًا — دون وسطاء ودون هامش الشركات التجارية."
   },
   "<h4>Quality control</h4>": {
-    "es": "<h4>Control de calidad</h4>", "pt": "<h4>Controle de qualidade</h4>", "fr": "<h4>Contrôle qualité</h4>",
-    "ja": "<h4>品質管理</h4>", "ko": "<h4>품질 관리</h4>", "id": "<h4>Kontrol kualitas</h4>", "ar": "<h4>مراقبة الجودة</h4>"
+    "es": "<h4>Control de calidad</h4>",
+    "pt": "<h4>Controle de qualidade</h4>",
+    "fr": "<h4>Contrôle qualité</h4>",
+    "ja": "<h4>品質管理</h4>",
+    "ko": "<h4>품질 관리</h4>",
+    "id": "<h4>Kontrol kualitas</h4>",
+    "ar": "<h4>مراقبة الجودة</h4>"
   },
   "In-house inspection on every batch before it ships, across beauty and industrial lines.": {
     "es": "Inspección propia de cada lote antes del envío, en las líneas de belleza e industriales.",
@@ -195,8 +315,13 @@
     "ar": "فحص داخلي لكل دفعة قبل الشحن، في خطوط الجمال والصناعة."
   },
   "<h4>Worldwide logistics</h4>": {
-    "es": "<h4>Logística mundial</h4>", "pt": "<h4>Logística mundial</h4>", "fr": "<h4>Logistique mondiale</h4>",
-    "ja": "<h4>グローバル物流</h4>", "ko": "<h4>전 세계 물류</h4>", "id": "<h4>Logistik mendunia</h4>", "ar": "<h4>لوجستيات عالمية</h4>"
+    "es": "<h4>Logística mundial</h4>",
+    "pt": "<h4>Logística mundial</h4>",
+    "fr": "<h4>Logistique mondiale</h4>",
+    "ja": "<h4>グローバル物流</h4>",
+    "ko": "<h4>전 세계 물류</h4>",
+    "id": "<h4>Logistik mendunia</h4>",
+    "ar": "<h4>لوجستيات عالمية</h4>"
   },
   "Consolidated shipping to 40+ countries with tracking, from samples to bulk orders.": {
     "es": "Envío consolidado a más de 40 países con seguimiento, desde muestras hasta pedidos al por mayor.",
@@ -208,8 +333,13 @@
     "ar": "شحن مجمّع إلى أكثر من 40 دولة مع التتبع، من العينات إلى الطلبات بالجملة."
   },
   "<h4>Custom &amp; OEM</h4>": {
-    "es": "<h4>Personalizado &amp; OEM</h4>", "pt": "<h4>Personalizado &amp; OEM</h4>", "fr": "<h4>Sur mesure &amp; OEM</h4>",
-    "ja": "<h4>カスタム＆OEM</h4>", "ko": "<h4>맞춤 & OEM</h4>", "id": "<h4>Kustom &amp; OEM</h4>", "ar": "<h4>تخصيص &amp; OEM</h4>"
+    "es": "<h4>Personalizado &amp; OEM</h4>",
+    "pt": "<h4>Personalizado &amp; OEM</h4>",
+    "fr": "<h4>Sur mesure &amp; OEM</h4>",
+    "ja": "<h4>カスタム＆OEM</h4>",
+    "ko": "<h4>맞춤 & OEM</h4>",
+    "id": "<h4>Kustom &amp; OEM</h4>",
+    "ar": "<h4>تخصيص &amp; OEM</h4>"
   },
   "Private-label packaging, custom specs and small-batch runs — tell us what you need.": {
     "es": "Empaque de marca propia, especificaciones a medida y lotes pequeños: dinos qué necesitas.",
@@ -221,8 +351,13 @@
     "ar": "تغليف بعلامة خاصة، ومواصفات مخصصة، ودفعات صغيرة — أخبرنا بما تحتاجه."
   },
   "Tell us what you're sourcing.": {
-    "es": "Cuéntanos qué estás buscando.", "pt": "Conte o que você está buscando.", "fr": "Dites-nous ce que vous recherchez.",
-    "ja": "お探しのものをお聞かせください。", "ko": "무엇을 소싱하시는지 알려주세요.", "id": "Beri tahu kami apa yang Anda cari.", "ar": "أخبرنا بما تبحث عن توريده."
+    "es": "Cuéntanos qué estás buscando.",
+    "pt": "Conte o que você está buscando.",
+    "fr": "Dites-nous ce que vous recherchez.",
+    "ja": "お探しのものをお聞かせください。",
+    "ko": "무엇을 소싱하시는지 알려주세요.",
+    "id": "Beri tahu kami apa yang Anda cari.",
+    "ar": "أخبرنا بما تبحث عن توريده."
   },
   "Reach either division directly by email or WhatsApp — we usually reply within 12 hours.": {
     "es": "Contacta directamente con cualquiera de las divisiones por correo o WhatsApp; solemos responder en 12 horas.",
@@ -234,8 +369,13 @@
     "ar": "تواصل مع أيٍّ من القسمين مباشرة عبر البريد الإلكتروني أو واتساب — نردّ عادة خلال 12 ساعة."
   },
   ">Email us</a>": {
-    "es": ">Escríbenos</a>", "pt": ">Envie um e-mail</a>", "fr": ">Écrivez-nous</a>",
-    "ja": ">メールで問い合わせ</a>", "ko": ">이메일 보내기</a>", "id": ">Email kami</a>", "ar": ">راسلنا</a>"
+    "es": ">Escríbenos</a>",
+    "pt": ">Envie um e-mail</a>",
+    "fr": ">Écrivez-nous</a>",
+    "ja": ">メールで問い合わせ</a>",
+    "ko": ">이메일 보내기</a>",
+    "id": ">Email kami</a>",
+    "ar": ">راسلنا</a>"
   },
   "A multi-category sourcing &amp; supply-chain partner connecting global buyers to factory-direct beauty and industrial products since 2005.": {
     "es": "Un socio de abastecimiento multicategoría y cadena de suministro que conecta a compradores de todo el mundo con productos de belleza e industriales directos de fábrica desde 2005.",
@@ -247,24 +387,49 @@
     "ar": "شريك متعدد الفئات للتوريد وسلاسل الإمداد يربط المشترين حول العالم بمنتجات التجميل والصناعة المباشرة من المصنع منذ 2005."
   },
   "<h5>Divisions</h5>": {
-    "es": "<h5>Divisiones</h5>", "pt": "<h5>Divisões</h5>", "fr": "<h5>Divisions</h5>",
-    "ja": "<h5>事業部門</h5>", "ko": "<h5>사업 부문</h5>", "id": "<h5>Divisi</h5>", "ar": "<h5>الأقسام</h5>"
+    "es": "<h5>Divisiones</h5>",
+    "pt": "<h5>Divisões</h5>",
+    "fr": "<h5>Divisions</h5>",
+    "ja": "<h5>事業部門</h5>",
+    "ko": "<h5>사업 부문</h5>",
+    "id": "<h5>Divisi</h5>",
+    "ar": "<h5>الأقسام</h5>"
   },
   "<h5>Company</h5>": {
-    "es": "<h5>Empresa</h5>", "pt": "<h5>Empresa</h5>", "fr": "<h5>Entreprise</h5>",
-    "ja": "<h5>会社情報</h5>", "ko": "<h5>회사</h5>", "id": "<h5>Perusahaan</h5>", "ar": "<h5>الشركة</h5>"
+    "es": "<h5>Empresa</h5>",
+    "pt": "<h5>Empresa</h5>",
+    "fr": "<h5>Entreprise</h5>",
+    "ja": "<h5>会社情報</h5>",
+    "ko": "<h5>회사</h5>",
+    "id": "<h5>Perusahaan</h5>",
+    "ar": "<h5>الشركة</h5>"
   },
   "<h5>Contact</h5>": {
-    "es": "<h5>Contacto</h5>", "pt": "<h5>Contato</h5>", "fr": "<h5>Contact</h5>",
-    "ja": "<h5>お問い合わせ</h5>", "ko": "<h5>문의</h5>", "id": "<h5>Kontak</h5>", "ar": "<h5>اتصل بنا</h5>"
+    "es": "<h5>Contacto</h5>",
+    "pt": "<h5>Contato</h5>",
+    "fr": "<h5>Contact</h5>",
+    "ja": "<h5>お問い合わせ</h5>",
+    "ko": "<h5>문의</h5>",
+    "id": "<h5>Kontak</h5>",
+    "ar": "<h5>اتصل بنا</h5>"
   },
   ">About</a>": {
-    "es": ">Acerca de</a>", "pt": ">Sobre</a>", "fr": ">À propos</a>",
-    "ja": ">会社について</a>", "ko": ">소개</a>", "id": ">Tentang</a>", "ar": ">من نحن</a>"
+    "es": ">Acerca de</a>",
+    "pt": ">Sobre</a>",
+    "fr": ">À propos</a>",
+    "ja": ">会社について</a>",
+    "ko": ">소개</a>",
+    "id": ">Tentang</a>",
+    "ar": ">من نحن</a>"
   },
   ">Divisions</a>": {
-    "es": ">Divisiones</a>", "pt": ">Divisões</a>", "fr": ">Divisions</a>",
-    "ja": ">事業部門</a>", "ko": ">사업 부문</a>", "id": ">Divisi</a>", "ar": ">الأقسام</a>"
+    "es": ">Divisiones</a>",
+    "pt": ">Divisões</a>",
+    "fr": ">Divisions</a>",
+    "ja": ">事業部門</a>",
+    "ko": ">사업 부문</a>",
+    "id": ">Divisi</a>",
+    "ar": ">الأقسام</a>"
   },
   "© 2026 Daisysource. All rights reserved.": {
     "es": "© 2026 Daisysource. Todos los derechos reservados.",

@@ -1,12 +1,12 @@
 {
-  "Daisysource Tools &amp; Materials — Soldering Flux, Solder Balls, BGA Rework Supplies": {
-    "es": "Daisysource Herramientas y Materiales — Flux de soldadura, bolas de soldadura, suministros de retrabajo BGA",
-    "pt": "Daisysource Ferramentas e Materiais — Fluxo de solda, esferas de solda, suprimentos de retrabalho BGA",
+  "Daisysource Electronics Soldering Materials — Soldering Flux, Solder Balls, BGA Rework Supplies": {
+    "es": "Daisysource Materiales de Soldadura Electrónica — Flux de soldadura, bolas de soldadura, suministros de retrabajo BGA",
+    "pt": "Daisysource Materiais de Solda Eletrônica — Fluxo de solda, esferas de solda, suprimentos de retrabalho BGA",
     "fr": "Daisysource Outils & Matériaux — Flux à souder, billes de soudure, fournitures de reprise BGA",
-    "ja": "Daisysource 工具＆材料 — はんだフラックス、はんだボール、BGAリワーク用品",
-    "ko": "Daisysource 공구 & 재료 — 솔더 플럭스, 솔더볼, BGA 리워크 용품",
+    "ja": "Daisysource 電子はんだ付け材料 — はんだフラックス、はんだボール、BGAリワーク用品",
+    "ko": "Daisysource 전자 납땜 재료 — 솔더 플럭스, 솔더볼, BGA 리워크 용품",
     "id": "Daisysource Alat & Bahan — Flux solder, bola solder, perlengkapan rework BGA",
-    "ar": "Daisysource الأدوات والمواد — فلكس لحام، كرات لحام، مستلزمات إعادة تشغيل BGA"
+    "ar": "Daisysource مواد لحام الإلكترونيات — فلكس لحام، كرات لحام، مستلزمات إعادة تشغيل BGA"
   },
   "Factory-direct soldering and electronics-repair supplies: BGA flux paste, lead-free solder balls (SAC305), solder wire, low-temp solder paste, PCB red glue, wireless soldering irons and magnifiers. Wholesale inquiry by email or WhatsApp.": {
     "es": "Suministros de soldadura y reparación electrónica directos de fábrica: pasta de flux BGA, bolas de soldadura sin plomo (SAC305), alambre de soldadura, pasta de soldadura de baja temperatura, pegamento rojo para PCB, cautines inalámbricos y lupas. Consulta al por mayor por correo o WhatsApp.",
@@ -17,14 +17,14 @@
     "id": "Perlengkapan penyolderan dan perbaikan elektronik langsung dari pabrik: pasta flux BGA, bola solder bebas timbal (SAC305), kawat solder, pasta solder suhu rendah, lem merah PCB, solder nirkabel, dan kaca pembesar. Pertanyaan grosir via email atau WhatsApp.",
     "ar": "مستلزمات لحام وإصلاح إلكترونيات مباشرة من المصنع: معجون فلكس BGA، كرات لحام خالية من الرصاص (SAC305)، سلك لحام، معجون لحام منخفض الحرارة، غراء أحمر لـ PCB، كاويات لاسلكية، وعدسات مكبّرة. استفسارات الجملة عبر البريد الإلكتروني أو واتساب."
   },
-  "<small>Tools &amp; Materials</small>": {
-    "es": "<small>Herramientas y Materiales</small>",
-    "pt": "<small>Ferramentas e Materiais</small>",
-    "fr": "<small>Outils &amp; Matériaux</small>",
-    "ja": "<small>工具＆材料</small>",
-    "ko": "<small>공구 & 재료</small>",
-    "id": "<small>Alat &amp; Bahan</small>",
-    "ar": "<small>الأدوات والمواد</small>"
+  "<small>Electronics Soldering Materials</small>": {
+    "es": "<small>Materiales de Soldadura Electrónica</small>",
+    "pt": "<small>Materiais de Solda Eletrônica</small>",
+    "fr": "<small>Matériaux de Soudure Électronique</small>",
+    "ja": "<small>電子はんだ付け材料</small>",
+    "ko": "<small>전자 납땜 재료</small>",
+    "id": "<small>Material Solder Elektronik</small>",
+    "ar": "<small>مواد لحام الإلكترونيات</small>"
   },
   "Industrial Division · Electronics Repair Supplies": {
     "es": "División Industrial · Suministros de reparación electrónica",
@@ -656,23 +656,23 @@
     "id": "Butuh penawaran grosir?",
     "ar": "هل تحتاج عرض سعر بالجملة؟"
   },
-  "Reach the Tools &amp; Materials desk directly — email or WhatsApp only.": {
-    "es": "Contacta directamente con el área de Herramientas y Materiales: solo correo o WhatsApp.",
-    "pt": "Fale diretamente com a área de Ferramentas e Materiais — apenas e-mail ou WhatsApp.",
+  "Reach the Electronics Soldering Materials desk directly — email or WhatsApp only.": {
+    "es": "Contacta directamente con el área de Materiales de Soldadura Electrónica: solo correo o WhatsApp.",
+    "pt": "Fale diretamente com a área de Materiais de Solda Eletrônica — apenas e-mail ou WhatsApp.",
     "fr": "Contactez directement le service Outils & Matériaux — e-mail ou WhatsApp uniquement.",
-    "ja": "工具＆材料の窓口へ直接ご連絡ください。メールまたはWhatsAppのみ。",
-    "ko": "공구 & 재료 데스크로 직접 연락하세요 — 이메일 또는 WhatsApp만.",
+    "ja": "電子はんだ付け材料の窓口へ直接ご連絡ください。メールまたはWhatsAppのみ。",
+    "ko": "전자 납땜 재료 데스크로 직접 연락하세요 — 이메일 또는 WhatsApp만.",
     "id": "Hubungi langsung meja Alat & Bahan — hanya email atau WhatsApp.",
-    "ar": "تواصل مباشرة مع قسم الأدوات والمواد — عبر البريد الإلكتروني أو واتساب فقط."
+    "ar": "تواصل مباشرة مع قسم مواد لحام الإلكترونيات — عبر البريد الإلكتروني أو واتساب فقط."
   },
-  "© 2026 Daisysource · Tools &amp; Materials": {
-    "es": "© 2026 Daisysource · Herramientas y Materiales",
-    "pt": "© 2026 Daisysource · Ferramentas e Materiais",
-    "fr": "© 2026 Daisysource · Outils &amp; Matériaux",
-    "ja": "© 2026 Daisysource · 工具＆材料",
-    "ko": "© 2026 Daisysource · 공구 & 재료",
-    "id": "© 2026 Daisysource · Alat &amp; Bahan",
-    "ar": "© 2026 Daisysource · الأدوات والمواد"
+  "© 2026 Daisysource · Electronics Soldering Materials": {
+    "es": "© 2026 Daisysource · Materiales de Soldadura Electrónica",
+    "pt": "© 2026 Daisysource · Materiais de Solda Eletrônica",
+    "fr": "© 2026 Daisysource · Matériaux de Soudure Électronique",
+    "ja": "© 2026 Daisysource · 電子はんだ付け材料",
+    "ko": "© 2026 Daisysource · 전자 납땜 재료",
+    "id": "© 2026 Daisysource · Material Solder Elektronik",
+    "ar": "© 2026 Daisysource · مواد لحام الإلكترونيات"
   },
   ">← Back to Daisysource</a>": {
     "es": ">← Volver a Daisysource</a>",
