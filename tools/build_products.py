@@ -307,7 +307,7 @@ PAGE = r"""<!DOCTYPE html>
 <div class="hazard"></div>
 <header><div class="wrap nav">
   <a class="brand" href="/"><span class="mark"><svg width="18" height="18" viewBox="-46 -46 92 92"><use href="#daisy" fill="currentColor"/><circle r="8" fill="#ef6a24"/></svg></span><span><b>Daisysource</b><small>Tools &amp; Materials</small></span></a>
-  <nav class="nav-links"><a href="/lashes/">Beauty &amp; Lashes</a><a href="/tools/">Tools &amp; Materials</a><a href="#contact">Contact</a></nav>
+  <nav class="nav-links"><a href="/tools/">Tools &amp; Materials</a><a href="/lashes/">Beauty &amp; Lashes</a><a href="#contact">Contact</a></nav>
   <a class="nav-back" href="/tools/">← Catalog</a>
 </div></header>
 

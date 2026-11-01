@@ -190,8 +190,8 @@
   .card-lash .div-go { color: var(--bronze-deep); }
   .card-lash .div-media::after { content:""; position:absolute; inset:0; background: linear-gradient(180deg, transparent 55%, rgba(143,101,52,.28)); }
   /* tools accent */
-  .card-tools .div-media { background: #fff; }
-  .card-tools .div-media img { object-fit: contain; background: #fff; }
+  .card-tools .div-media { background: #14161a; }
+  .card-tools .div-media img { object-fit: cover; background: #14161a; }
   .card-tools .div-media .tag { background: rgba(232,98,42,.92); color: #fff; }
   .card-tools .div-go { color: var(--amber-deep); }
 
@@ -249,8 +249,8 @@
       <span>Daisy<em>source</em></span>
     </a>
     <nav class="nav-links">
-      <a href="/lashes/">Beauty &amp; Lashes</a>
       <a href="/tools/">Tools &amp; Materials</a>
+      <a href="/lashes/">Beauty &amp; Lashes</a>
       <a href="#contact">Contact</a>
     </nav>
     <div class="right">
@@ -295,6 +295,21 @@
     </div>
     <div class="div-grid">
 
+      <!-- Tools -->
+      <article class="div-card card-tools">
+        <a class="stretched" href="/tools/" aria-label="Enter Tools &amp; Materials division"></a>
+        <div class="div-media">
+          <span class="tag">Industrial Division</span>
+          <img src="/assets/tools/kek-hero.webp" alt="KEK soldering supplies — flux, solder paste and solder wire on an electronics repair bench" onerror="this.closest('.div-media').style.background='repeating-linear-gradient(45deg,#1b1d22 0 14px,#202329 14px 28px)'">
+        </div>
+        <div class="div-body">
+          <h3>Tools &amp; Materials</h3>
+          <p>Soldering, BGA rework and electronics-repair supplies straight from the workshop — flux pastes, lead-free solder balls &amp; wire, low-temp solder paste, PCB glue, irons and optics.</p>
+          <div class="div-tags"><span>Soldering flux</span><span>Solder balls</span><span>Solder wire</span><span>Rework tools</span></div>
+          <span class="div-go">Enter the tools catalog <span class="arrow">→</span></span>
+        </div>
+      </article>
+
       <!-- Lashes -->
       <article class="div-card card-lash">
         <a class="stretched" href="/lashes/" aria-label="Enter Beauty &amp; Lashes division"></a>
@@ -307,21 +322,6 @@
           <p>Factory-direct OEM/ODM private-label eyelashes for beauty brands — faux mink, silk, 25mm dramatic and cluster DIY kits. Low MOQ, custom packaging, launch in 20 days.</p>
           <div class="div-tags"><span>OEM / ODM</span><span>Private label</span><span>Low MOQ</span><span>Custom packaging</span></div>
           <span class="div-go">Enter the lash catalog <span class="arrow">→</span></span>
-        </div>
-      </article>
-
-      <!-- Tools -->
-      <article class="div-card card-tools">
-        <a class="stretched" href="/tools/" aria-label="Enter Tools &amp; Materials division"></a>
-        <div class="div-media">
-          <span class="tag">Industrial Division</span>
-          <img src="/assets/tools/tool-banner.webp" alt="Soldering flux, lead-free solder balls, solder wire, USB iron and rework optics for electronics repair" onerror="this.closest('.div-media').style.background='repeating-linear-gradient(45deg,#1b1d22 0 14px,#202329 14px 28px)'">
-        </div>
-        <div class="div-body">
-          <h3>Tools &amp; Materials</h3>
-          <p>Soldering, BGA rework and electronics-repair supplies straight from the workshop — flux pastes, lead-free solder balls &amp; wire, low-temp solder paste, PCB glue, irons and optics.</p>
-          <div class="div-tags"><span>Soldering flux</span><span>Solder balls</span><span>Solder wire</span><span>Rework tools</span></div>
-          <span class="div-go">Enter the tools catalog <span class="arrow">→</span></span>
         </div>
       </article>
 
@@ -393,8 +393,8 @@
       <div class="foot-cols">
         <div class="foot-col">
           <h5>Divisions</h5>
-          <a href="/lashes/">Beauty &amp; Lashes</a>
           <a href="/tools/">Tools &amp; Materials</a>
+          <a href="/lashes/">Beauty &amp; Lashes</a>
         </div>
         <div class="foot-col">
           <h5>Company</h5>

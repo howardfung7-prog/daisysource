@@ -190,8 +190,8 @@
   .card-lash .div-go { color: var(--bronze-deep); }
   .card-lash .div-media::after { content:""; position:absolute; inset:0; background: linear-gradient(180deg, transparent 55%, rgba(143,101,52,.28)); }
   /* tools accent */
-  .card-tools .div-media { background: #fff; }
-  .card-tools .div-media img { object-fit: contain; background: #fff; }
+  .card-tools .div-media { background: #14161a; }
+  .card-tools .div-media img { object-fit: cover; background: #14161a; }
   .card-tools .div-media .tag { background: rgba(232,98,42,.92); color: #fff; }
   .card-tools .div-go { color: var(--amber-deep); }
 
@@ -264,8 +264,8 @@
       <span>Daisy<em>source</em></span>
     </a>
     <nav class="nav-links">
-      <a href="/ar/lashes/">الجمال والرموش</a>
       <a href="/ar/tools/">الأدوات والمواد</a>
+      <a href="/ar/lashes/">الجمال والرموش</a>
       <a href="#contact">اتصل بنا</a>
     </nav>
     <div class="right">
@@ -310,6 +310,21 @@
     </div>
     <div class="div-grid">
 
+      <!-- Tools -->
+      <article class="div-card card-tools">
+        <a class="stretched" href="/ar/tools/" aria-label="Enter Tools &amp; Materials division"></a>
+        <div class="div-media">
+          <span class="tag">القسم الصناعي</span>
+          <img src="/assets/tools/kek-hero.webp" alt="KEK soldering supplies — flux, solder paste and solder wire on an electronics repair bench" onerror="this.closest('.div-media').style.background='repeating-linear-gradient(45deg,#1b1d22 0 14px,#202329 14px 28px)'">
+        </div>
+        <div class="div-body">
+          <h3>الأدوات والمواد</h3>
+          <p>مستلزمات اللحام وإعادة تشغيل BGA وإصلاح الإلكترونيات مباشرة من الورشة — معاجين فلكس، كرات وأسلاك لحام خالية من الرصاص، معجون لحام منخفض الحرارة، غراء PCB، كاويات، وعدسات.</p>
+          <div class="div-tags"><span>فلكس لحام</span><span>كرات لحام</span><span>سلك لحام</span><span>أدوات إعادة التشغيل</span></div>
+          <span class="div-go">ادخل كتالوج الأدوات <span class="arrow">→</span></span>
+        </div>
+      </article>
+
       <!-- Lashes -->
       <article class="div-card card-lash">
         <a class="stretched" href="/ar/lashes/" aria-label="Enter Beauty &amp; Lashes division"></a>
@@ -322,21 +337,6 @@
           <p>رموش بعلامة خاصة OEM/ODM مباشرة من المصنع لعلامات التجميل — فرو صناعي، حرير، 25مم درامية، وأطقم DIY عنقودية. حد أدنى منخفض للطلب، تغليف مخصص، وإطلاق خلال 20 يومًا.</p>
           <div class="div-tags"><span>OEM / ODM</span><span>علامة خاصة</span><span>حد أدنى منخفض</span><span>تغليف مخصص</span></div>
           <span class="div-go">ادخل كتالوج الرموش <span class="arrow">→</span></span>
-        </div>
-      </article>
-
-      <!-- Tools -->
-      <article class="div-card card-tools">
-        <a class="stretched" href="/ar/tools/" aria-label="Enter Tools &amp; Materials division"></a>
-        <div class="div-media">
-          <span class="tag">القسم الصناعي</span>
-          <img src="/assets/tools/tool-banner.webp" alt="Soldering flux, lead-free solder balls, solder wire, USB iron and rework optics for electronics repair" onerror="this.closest('.div-media').style.background='repeating-linear-gradient(45deg,#1b1d22 0 14px,#202329 14px 28px)'">
-        </div>
-        <div class="div-body">
-          <h3>الأدوات والمواد</h3>
-          <p>مستلزمات اللحام وإعادة تشغيل BGA وإصلاح الإلكترونيات مباشرة من الورشة — معاجين فلكس، كرات وأسلاك لحام خالية من الرصاص، معجون لحام منخفض الحرارة، غراء PCB، كاويات، وعدسات.</p>
-          <div class="div-tags"><span>فلكس لحام</span><span>كرات لحام</span><span>سلك لحام</span><span>أدوات إعادة التشغيل</span></div>
-          <span class="div-go">ادخل كتالوج الأدوات <span class="arrow">→</span></span>
         </div>
       </article>
 
@@ -408,8 +408,8 @@
       <div class="foot-cols">
         <div class="foot-col">
           <h5>الأقسام</h5>
-          <a href="/ar/lashes/">الجمال والرموش</a>
           <a href="/ar/tools/">الأدوات والمواد</a>
+          <a href="/ar/lashes/">الجمال والرموش</a>
         </div>
         <div class="foot-col">
           <h5>الشركة</h5>

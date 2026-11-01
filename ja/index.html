@@ -190,8 +190,8 @@
   .card-lash .div-go { color: var(--bronze-deep); }
   .card-lash .div-media::after { content:""; position:absolute; inset:0; background: linear-gradient(180deg, transparent 55%, rgba(143,101,52,.28)); }
   /* tools accent */
-  .card-tools .div-media { background: #fff; }
-  .card-tools .div-media img { object-fit: contain; background: #fff; }
+  .card-tools .div-media { background: #14161a; }
+  .card-tools .div-media img { object-fit: cover; background: #14161a; }
   .card-tools .div-media .tag { background: rgba(232,98,42,.92); color: #fff; }
   .card-tools .div-go { color: var(--amber-deep); }
 
@@ -249,8 +249,8 @@
       <span>Daisy<em>source</em></span>
     </a>
     <nav class="nav-links">
-      <a href="/ja/lashes/">ビューティー＆まつげ</a>
       <a href="/ja/tools/">工具＆材料</a>
+      <a href="/ja/lashes/">ビューティー＆まつげ</a>
       <a href="#contact">お問い合わせ</a>
     </nav>
     <div class="right">
@@ -295,6 +295,21 @@
     </div>
     <div class="div-grid">
 
+      <!-- Tools -->
+      <article class="div-card card-tools">
+        <a class="stretched" href="/ja/tools/" aria-label="Enter Tools &amp; Materials division"></a>
+        <div class="div-media">
+          <span class="tag">産業部門</span>
+          <img src="/assets/tools/kek-hero.webp" alt="KEK soldering supplies — flux, solder paste and solder wire on an electronics repair bench" onerror="this.closest('.div-media').style.background='repeating-linear-gradient(45deg,#1b1d22 0 14px,#202329 14px 28px)'">
+        </div>
+        <div class="div-body">
+          <h3>工具＆材料</h3>
+          <p>工房直送のはんだ付け・BGAリワーク・電子機器修理用品。フラックスペースト、鉛フリーのはんだボール＆はんだ線、低温はんだペースト、PCB接着剤、こて、ルーペまで。</p>
+          <div class="div-tags"><span>フラックス</span><span>はんだボール</span><span>はんだ線</span><span>リワーク工具</span></div>
+          <span class="div-go">工具カタログへ <span class="arrow">→</span></span>
+        </div>
+      </article>
+
       <!-- Lashes -->
       <article class="div-card card-lash">
         <a class="stretched" href="/ja/lashes/" aria-label="Enter Beauty &amp; Lashes division"></a>
@@ -307,21 +322,6 @@
           <p>美容ブランド向けの工場直結OEM/ODMプライベートブランドまつげ。フェイクミンク、シルク、25mmのボリュームタイプ、束状のDIYキットまで。低MOQ、カスタムパッケージ、20日で発売。</p>
           <div class="div-tags"><span>OEM / ODM</span><span>プライベートブランド</span><span>低MOQ</span><span>カスタムパッケージ</span></div>
           <span class="div-go">まつげカタログへ <span class="arrow">→</span></span>
-        </div>
-      </article>
-
-      <!-- Tools -->
-      <article class="div-card card-tools">
-        <a class="stretched" href="/ja/tools/" aria-label="Enter Tools &amp; Materials division"></a>
-        <div class="div-media">
-          <span class="tag">産業部門</span>
-          <img src="/assets/tools/tool-banner.webp" alt="Soldering flux, lead-free solder balls, solder wire, USB iron and rework optics for electronics repair" onerror="this.closest('.div-media').style.background='repeating-linear-gradient(45deg,#1b1d22 0 14px,#202329 14px 28px)'">
-        </div>
-        <div class="div-body">
-          <h3>工具＆材料</h3>
-          <p>工房直送のはんだ付け・BGAリワーク・電子機器修理用品。フラックスペースト、鉛フリーのはんだボール＆はんだ線、低温はんだペースト、PCB接着剤、こて、ルーペまで。</p>
-          <div class="div-tags"><span>フラックス</span><span>はんだボール</span><span>はんだ線</span><span>リワーク工具</span></div>
-          <span class="div-go">工具カタログへ <span class="arrow">→</span></span>
         </div>
       </article>
 
@@ -393,8 +393,8 @@
       <div class="foot-cols">
         <div class="foot-col">
           <h5>事業部門</h5>
-          <a href="/ja/lashes/">ビューティー＆まつげ</a>
           <a href="/ja/tools/">工具＆材料</a>
+          <a href="/ja/lashes/">ビューティー＆まつげ</a>
         </div>
         <div class="foot-col">
           <h5>会社情報</h5>
